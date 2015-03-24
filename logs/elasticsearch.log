@@ -1,0 +1,12 @@
+[2015-03-02 15:46:19,915][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-03-02 15:46:20,152][INFO ][node                     ] [Bloodaxe] version[1.4.3], pid[4728], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-03-02 15:46:20,152][INFO ][node                     ] [Bloodaxe] initializing ...
+[2015-03-02 15:46:20,177][INFO ][plugins                  ] [Bloodaxe] loaded [], sites []
+[2015-03-02 15:46:23,875][INFO ][node                     ] [Bloodaxe] initialized
+[2015-03-02 15:46:23,876][INFO ][node                     ] [Bloodaxe] starting ...
+[2015-03-02 15:46:24,074][INFO ][transport                ] [Bloodaxe] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-03-02 15:46:24,188][INFO ][discovery                ] [Bloodaxe] elasticsearch/D5gZFpRKTjunyyBvAHkRkQ
+[2015-03-02 15:46:27,960][INFO ][cluster.service          ] [Bloodaxe] new_master [Bloodaxe][D5gZFpRKTjunyyBvAHkRkQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-02 15:46:28,023][INFO ][http                     ] [Bloodaxe] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-03-02 15:46:28,023][INFO ][node                     ] [Bloodaxe] started
+[2015-03-02 15:46:28,416][INFO ][gateway                  ] [Bloodaxe] recovered [1] indices into cluster_state

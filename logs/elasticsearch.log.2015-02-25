@@ -1,0 +1,12 @@
+[2015-02-25 17:17:49,133][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-02-25 17:17:49,433][INFO ][node                     ] [Bloke] version[1.4.3], pid[3448], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-02-25 17:17:49,433][INFO ][node                     ] [Bloke] initializing ...
+[2015-02-25 17:17:49,437][INFO ][plugins                  ] [Bloke] loaded [], sites []
+[2015-02-25 17:17:53,443][INFO ][node                     ] [Bloke] initialized
+[2015-02-25 17:17:53,444][INFO ][node                     ] [Bloke] starting ...
+[2015-02-25 17:17:53,585][INFO ][transport                ] [Bloke] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-02-25 17:17:53,689][INFO ][discovery                ] [Bloke] elasticsearch/SXgpUDi7QuK_bO6LCnd4tQ
+[2015-02-25 17:17:57,457][INFO ][cluster.service          ] [Bloke] new_master [Bloke][SXgpUDi7QuK_bO6LCnd4tQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-25 17:17:57,573][INFO ][http                     ] [Bloke] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-02-25 17:17:57,573][INFO ][node                     ] [Bloke] started
+[2015-02-25 17:17:57,964][INFO ][gateway                  ] [Bloke] recovered [1] indices into cluster_state

@@ -1,0 +1,73 @@
+[2015-02-23 16:48:13,967][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-02-23 16:48:14,075][INFO ][node                     ] [Phineas T. Horton] version[1.4.3], pid[5008], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-02-23 16:48:14,076][INFO ][node                     ] [Phineas T. Horton] initializing ...
+[2015-02-23 16:48:14,081][INFO ][plugins                  ] [Phineas T. Horton] loaded [], sites []
+[2015-02-23 16:48:17,825][INFO ][node                     ] [Phineas T. Horton] initialized
+[2015-02-23 16:48:17,825][INFO ][node                     ] [Phineas T. Horton] starting ...
+[2015-02-23 16:48:17,992][INFO ][transport                ] [Phineas T. Horton] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-02-23 16:48:18,103][INFO ][discovery                ] [Phineas T. Horton] elasticsearch/vZVVXjLqSEiGUBDunJ3nHQ
+[2015-02-23 16:48:21,902][INFO ][cluster.service          ] [Phineas T. Horton] new_master [Phineas T. Horton][vZVVXjLqSEiGUBDunJ3nHQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-23 16:48:21,962][INFO ][http                     ] [Phineas T. Horton] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-02-23 16:48:21,963][INFO ][node                     ] [Phineas T. Horton] started
+[2015-02-23 16:48:22,395][INFO ][gateway                  ] [Phineas T. Horton] recovered [3] indices into cluster_state
+[2015-02-23 18:41:28,123][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-02-23 18:41:28,202][INFO ][node                     ] [Bantam] version[1.4.3], pid[5396], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-02-23 18:41:28,202][INFO ][node                     ] [Bantam] initializing ...
+[2015-02-23 18:41:28,207][INFO ][plugins                  ] [Bantam] loaded [], sites []
+[2015-02-23 18:41:31,508][INFO ][node                     ] [Bantam] initialized
+[2015-02-23 18:41:31,508][INFO ][node                     ] [Bantam] starting ...
+[2015-02-23 18:41:31,649][INFO ][transport                ] [Bantam] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-02-23 18:41:31,757][INFO ][discovery                ] [Bantam] elasticsearch/Cg4H7BzgSdafckhmfAQlcA
+[2015-02-23 18:41:35,526][INFO ][cluster.service          ] [Bantam] new_master [Bantam][Cg4H7BzgSdafckhmfAQlcA][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-23 18:41:35,583][INFO ][gateway                  ] [Bantam] recovered [0] indices into cluster_state
+[2015-02-23 18:41:35,590][INFO ][http                     ] [Bantam] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-02-23 18:41:35,591][INFO ][node                     ] [Bantam] started
+[2015-02-23 18:41:45,642][INFO ][cluster.metadata         ] [Bantam] [meta_data] creating index, cause [auto(index api)], shards [5]/[1], mappings [data]
+[2015-02-23 18:41:46,302][INFO ][cluster.metadata         ] [Bantam] [meta_data] update_mapping [data] (dynamic)
+[2015-02-23 18:41:47,696][INFO ][cluster.metadata         ] [Bantam] [meta_data] update_mapping [misc] (dynamic)
+[2015-02-23 18:44:04,451][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-02-23 18:44:04,531][INFO ][node                     ] [Ajak] version[1.4.3], pid[5312], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-02-23 18:44:04,532][INFO ][node                     ] [Ajak] initializing ...
+[2015-02-23 18:44:04,536][INFO ][plugins                  ] [Ajak] loaded [], sites []
+[2015-02-23 18:44:07,886][INFO ][node                     ] [Ajak] initialized
+[2015-02-23 18:44:07,887][INFO ][node                     ] [Ajak] starting ...
+[2015-02-23 18:44:08,027][INFO ][transport                ] [Ajak] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-02-23 18:44:08,154][INFO ][discovery                ] [Ajak] elasticsearch/mDfnMHoORaW-zUm_cAVEYQ
+[2015-02-23 18:44:11,936][INFO ][cluster.service          ] [Ajak] new_master [Ajak][mDfnMHoORaW-zUm_cAVEYQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-23 18:44:11,991][INFO ][http                     ] [Ajak] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-02-23 18:44:11,991][INFO ][node                     ] [Ajak] started
+[2015-02-23 18:44:11,998][INFO ][gateway                  ] [Ajak] recovered [0] indices into cluster_state
+[2015-02-23 18:44:16,261][INFO ][cluster.metadata         ] [Ajak] [meta_data] creating index, cause [auto(index api)], shards [5]/[1], mappings [data]
+[2015-02-23 18:44:16,943][INFO ][cluster.metadata         ] [Ajak] [meta_data] update_mapping [data] (dynamic)
+[2015-02-23 18:44:18,332][INFO ][cluster.metadata         ] [Ajak] [meta_data] update_mapping [misc] (dynamic)
+[2015-02-23 18:45:46,377][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-02-23 18:45:46,454][INFO ][node                     ] [Stick] version[1.4.3], pid[3044], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-02-23 18:45:46,454][INFO ][node                     ] [Stick] initializing ...
+[2015-02-23 18:45:46,458][INFO ][plugins                  ] [Stick] loaded [], sites []
+[2015-02-23 18:45:49,740][INFO ][node                     ] [Stick] initialized
+[2015-02-23 18:45:49,740][INFO ][node                     ] [Stick] starting ...
+[2015-02-23 18:45:49,879][INFO ][transport                ] [Stick] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-02-23 18:45:49,985][INFO ][discovery                ] [Stick] elasticsearch/AiwmvmMsQk2iCKUnmB-9Bg
+[2015-02-23 18:45:53,754][INFO ][cluster.service          ] [Stick] new_master [Stick][AiwmvmMsQk2iCKUnmB-9Bg][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-23 18:45:53,808][INFO ][gateway                  ] [Stick] recovered [0] indices into cluster_state
+[2015-02-23 18:45:53,811][INFO ][http                     ] [Stick] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-02-23 18:45:53,811][INFO ][node                     ] [Stick] started
+[2015-02-23 18:46:45,644][INFO ][cluster.metadata         ] [Stick] [meta_data] creating index, cause [auto(index api)], shards [5]/[1], mappings [data]
+[2015-02-23 18:46:46,409][INFO ][cluster.metadata         ] [Stick] [meta_data] update_mapping [data] (dynamic)
+[2015-02-23 18:46:47,801][INFO ][cluster.metadata         ] [Stick] [meta_data] update_mapping [misc] (dynamic)
+[2015-02-23 18:48:49,006][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-02-23 18:48:49,083][INFO ][node                     ] [Cloud 9] version[1.4.3], pid[5916], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-02-23 18:48:49,084][INFO ][node                     ] [Cloud 9] initializing ...
+[2015-02-23 18:48:49,088][INFO ][plugins                  ] [Cloud 9] loaded [], sites []
+[2015-02-23 18:48:52,339][INFO ][node                     ] [Cloud 9] initialized
+[2015-02-23 18:48:52,339][INFO ][node                     ] [Cloud 9] starting ...
+[2015-02-23 18:48:52,486][INFO ][transport                ] [Cloud 9] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-02-23 18:48:52,593][INFO ][discovery                ] [Cloud 9] elasticsearch/YbrmcxYRR2i9WPnxyu_NeA
+[2015-02-23 18:48:56,363][INFO ][cluster.service          ] [Cloud 9] new_master [Cloud 9][YbrmcxYRR2i9WPnxyu_NeA][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-23 18:48:56,417][INFO ][http                     ] [Cloud 9] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-02-23 18:48:56,418][INFO ][node                     ] [Cloud 9] started
+[2015-02-23 18:48:56,429][INFO ][gateway                  ] [Cloud 9] recovered [0] indices into cluster_state
+[2015-02-23 18:49:06,174][INFO ][cluster.metadata         ] [Cloud 9] [meta_data] creating index, cause [auto(index api)], shards [5]/[1], mappings [data]
+[2015-02-23 18:49:06,946][INFO ][cluster.metadata         ] [Cloud 9] [meta_data] update_mapping [data] (dynamic)
+[2015-02-23 18:49:08,346][INFO ][cluster.metadata         ] [Cloud 9] [meta_data] update_mapping [calc] (dynamic)
+[2015-02-23 18:49:08,761][INFO ][cluster.metadata         ] [Cloud 9] [meta_data] update_mapping [misc] (dynamic)

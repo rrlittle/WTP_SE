@@ -1,0 +1,418 @@
+Timestamp,Instrument Name,Instrument Abbreviation,Scale Labels,Respondent,Phase,Additional Notes
+10/15/2014 17:36:20,name,na,"1) adoles.-par. relation. domain         ap
+2) life restrictions         lr
+4) antagonism         an","Mother, Father","Phase 2, Phase 5, Screener, some stuff",this was the best form evar!
+10/27/2014 13:42:22,,,,,,
+10/27/2014 13:47:50,ADULT SENS. PROFILE,au,"auditory processing	ap
+touch processing	tp","Mother, Father, Twin",Phase 4,
+10/27/2014 13:50:29,APES,ap,"negative daily event impact	di
+negative daily events	de
+negative event	ne
+negative impact	ni
+negative major event 	me
+negative major event impact 	mi
+neutral event 	ue
+positive event	pe
+positive impact	pi
+total event 	te
+total impact 	ti",Twin,Phase 4,
+10/27/2014 13:51:59,ASPD,ad,"callous/unemotional	cu
+impulsivity 	im
+narcissism 	na
+total	to ",Twin,Phase 4,
+10/27/2014 13:53:23,AUTISM SCREENER,as,,"Mother, Father",Phase 1,
+10/27/2014 13:57:38,BASAL CORTISOL,bc,,"Mother, Father, Twin","Phase 3, Phase 4",sibm' is also listed under respondent 
+10/27/2014 13:58:58,BASAL CORTISOL,bc_r1,,"Mother, Father, Twin","Phase 3, Phase 4","(indicates revised protocol, used for all ph4)
+'sibm' is also listed under respondent "
+10/27/2014 14:08:20,,,,,,
+10/28/2014 15:28:19,BAYLEY RATINGS,br,,"experimenter 1, experimenter 2",Phase 3,
+10/28/2014 15:28:52,BDI,bd,,"Mother, Father",Phase 3,
+10/28/2014 15:30:04,BISBAS,bb,"bas drive		bd
+bas fun seeking		bf
+bas reward responsiveness		br
+bis		bs","Mother, Father, Twin",Phase 4,
+10/28/2014 15:30:45,BITSEA,bi,"competence domain		co
+problem domain		pr",Mother,Phase 1,
+10/28/2014 15:32:16,BLOCK (WISC –III),bl,,Twin,"Phase 3, Phase 4",
+10/28/2014 15:32:59,BMSA,bm,,"Mother, Father",Phase 3,
+10/28/2014 15:33:24,BMSA (SHORT),bs,,"Mother, Father",Phase 4,
+10/28/2014 15:34:42,BPI -- symptomatology,bpsy,"conduct disorder	cd
+depression		de
+enuresis		en
+impulsivity		im
+inattention		at
+opposition & defiance	od
+overanxiousness	oa
+overt aggression	ag
+separation anxiety	sa",Twin,Phase 3,
+10/28/2014 15:39:41,BPI – peer scales,bp_pp,"bullied		bu
+peer acceptance and rejection	pa
+prosocial behaviors	ps
+social inhibition	so",Twin,Phase 3,
+10/28/2014 15:41:37,CBQ,cb,"activity level		al
+anger		an
+approach		ap
+attention focusing	af
+fear		fe 
+high pleasure 	hp
+inhibtiory control	  ic 
+impulsivity		im
+low pleasure		lp
+shyness		sh
+soothability		so
+smiling & laughter 	sl","Mother, Father","Phase 2, Phase 3",
+10/28/2014 15:56:02,CDI (adol child rep.),cc,"anhedonia 	an
+ineffectiveness	in
+interpersonal problems	ip",Twin,Phase 4,
+10/28/2014 15:58:36,CDI (adol child rep.),cc,"anhedonia 	an
+ineffectiveness	in
+interpersonal problems	ip
+negative mood	nm
+negative self-esteem	ns
+total depression score	de",Twin,Phase 4,"This is the CORRECT variable name, people ignore the other CDI (adol child rep.) variable"
+10/28/2014 15:59:02,CDI (depression),cd,,"Mother, Father","Phase 2, Phase 3",
+10/28/2014 15:59:36,CDI (adol parent report),cp,,"Mother, Father",Phase 4,
+10/28/2014 16:00:03,CDI (MacArthur vocab.),cv,,"Mother, Father",Phase 1,
+10/28/2014 16:00:29,CHAOS,ch,,Mother,Phase 3,
+10/28/2014 16:01:32,CW STROOP,cw,,Twin,Phase 4,
+10/28/2014 16:02:38,CW STROOP,cw_old ,,Twin,Phase 4,second CW STROOP abbreviation 
+10/28/2014 16:03:56,CRPR,cr,"authoritarian control		ac
+control by anxiety induction 	ca
+control by guilt induction	cg
+encourage independence		ei
+encourage openness		eo
+open aff. expression		oa
+rational guidance		rg	","Mother, Father","Phase 1, Phase 3, Phase 4",
+10/28/2014 16:04:24,CRSQ,cs,"angry expectations of rejection 	ge
+anx. expectations of rejection	ne",Twin,Phase 4,
+10/28/2014 16:05:16,DAS,da,"affectional expression		ae
+dyadic adjustment		da
+dyadic cohesion		dc
+dyadic consensus		dn
+dyadic satisfaction		ds",Mother,Phase 3,
+10/28/2014 16:05:49,DCPL,dc,,"Mother, Father","Phase 3, Phase 4",
+10/28/2014 16:07:35,DEM,de,,"Mother, Father","Phase 1, Phase 2, Phase 3, Phase 4, Phase 5, Screener","No f respondent at 1,s,5"
+10/28/2014 16:08:21,DIGIT (WISC-III),di,"digits backward	db
+digits forward	df",Twin,Phase 4,
+10/28/2014 16:09:27,DTQ,dt,"affection			af
+attention			at
+discipline			di","Mother, Father","Phase 3, Phase 4",
+10/28/2014 16:19:53,EATQ-R (CHILD REP),ec,"activation control	ac
+affiliation	af
+aggression 	ag
+attention	at
+depressive mood	dm
+fear	fe
+frustration	fs
+inhibitory control	   ic
+pleasure sensitivity	ps
+shyness	sh
+surgency	sg",Twin,Phase 4,
+10/28/2014 16:21:18,EATQ-R (PARENT REP),ep,"activation control	ac
+affiliation	af
+aggression	  ag
+attention	at
+depressive mood	dm
+fear	fe
+frustration	  fs
+inhibitory control	   ic
+shyness	sh
+surgency	sg","Mother, Father",Phase 4,
+10/28/2014 16:21:39,EPSI,ei,,Twin,Phase 4,
+10/28/2014 16:22:48,FAD,fa,"affectional involvement		ai
+affective responses		ar
+behavior control		bc
+communication		cm
+general functioning		gf
+problem solving		ps
+roles			rl","Mother, Father",Phase 3,
+10/28/2014 16:24:10,FCS,fc,,"Mother, Father","Phase 3, Phase 4",
+10/28/2014 16:26:22,FEQ ,fe,"negative dominance		nd
+negative submissive		ns
+positive dominance		pd
+positive submissive		ps","Mother, Father",Phase 4,
+10/28/2014 16:27:02,FINANCIALS STRESS,fs,,Mother,Phase 4,
+10/28/2014 16:30:11,HBQ,hb,"attention composite		ac
+conduct disorder		cd
+depression		de
+enuresis		en
+externalizing composite		ec
+health care utilization		hu
+impact on family		if
+impact on self			is
+impulsivity		im
+inattention		at
+internalizing composite	ic
+opposition & defiance  	od
+overt aggression	  ag
+overanxiousness	oa
+physical health	ph
+prosocial behavior	ps
+recreational activities		rc
+separation anxiety	sa
+social relations		sr","Mother, Father","Phase 2, Phase 3, Screener",
+10/28/2014 16:33:51,HBQ,pb,"attention composite		ac
+conduct disorder		cd
+depression		de
+enuresis		en
+externalizing composite		ec
+health care utilization		hu
+impact on family		if
+impact on self			is
+impulsivity		im
+inattention		at
+internalizing composite	ic
+opposition & defiance	  od
+overt aggression	  ag
+overanxiousness	oa
+physical health	ph
+prosocial behavior	ps
+recreational activities		rc
+separation anxiety	sa
+social relations		sr","Mother, Father","Phase 2, Phase 3, Screener",There are two instrument abbreviations for HBQ (hb & pb)
+10/28/2014 16:36:53,HBQ (PAR ADO/SIB. REP.),hb,"asocial		as
+conduct disorder	cd
+conduct disorder expanded	cx
+depression		de
+depression expanded	 dx
+health care utilization  	hu
+impact on family	   if
+impact on self	 (twin)	is
+impulsivity		im
+inattention		at
+inattention expanded	tx
+inhibition		in
+inhibition expanded	nx
+oppositional defiant dis. 	od
+overanxious 	oa
+overanxious expanded 	ox
+overt aggression 	ag
+overt agg. expanded 	gx
+peer acceptance-rejection	ar
+physical health	ph
+prosocial behaviors	ps
+recreational activities	ra
+relational aggression 	pbra
+relational agg. expanded 	rx
+relational victim	rv
+separation anxiety 	sa
+social anxiety	so
+social perception skills	sp
+social relations	sr","Mother, Father","Phase 4, Phase 5",
+10/28/2014 16:39:13,HBQ (ADOL CHILD REP),ha,"academic competence 	ap
+asocial 	as
+bullied 	bu
+conduct disorder 	cd
+depression   	de
+impulsivity 	im
+inattention 	at
+oppositional defiant disorder 	od
+overanxious 	oa
+overt aggression 	ag
+peer acceptance/rejection 	pa
+physical health 	ph
+prosocial behaviors 	ps
+relational aggression 	ra
+relational victim 	rv
+school engagement 	se
+separation anxiety 	sa
+social anxiety 	sx
+social inhibition 	si",Twin,"Phase 4, Phase 5",
+10/28/2014 16:48:26,HBQ (ADO. COTWIN REP),ha,"academic competence 	ap
+asocial 	as
+bullied 	bu
+overt aggression 	ag
+peer acceptance/rejection 	pa
+prosocial behaviors 	ps
+relational aggression 	ra
+relational victim 	rv
+social inhibition 	si",Twin,Phase 4,
+10/28/2014 16:49:39,HOME,ho,"acceptance of child behavior	ac
+opportunities for variety		va
+organization of environment	or
+parental involvement		pi
+provisions of play materials	  pl
+responsiveness		rp",interviewer,"Phase 3, Phase 4",
+10/28/2014 16:50:35,HOSTILE ATTRIBUTIONS,hs,"distress in instru. provocations 	di
+distress in relat. provocations 	dr
+intent attri for instru provocations	  is
+intent attri for relat provocations  	rs",Twin,Phase 4,
+10/28/2014 16:51:00,HUQ,hu,,Twin,Phase 4,
+10/28/2014 16:53:03,INTERVIEW,in,,"Mother, Father","Phase 1, Phase 3, Phase 4, Phase 5",
+10/28/2014 16:58:48,ITSEA,it,"activity 			ac
+activity/impulsivity 		ai
+aggression/defiance 		ad
+anxiety/obsessive compulsive 	ac
+anxiety/worry 		aw
+attention 			at
+competence 	                                 co
+compliance 			cm
+defiance 	de
+depression withdrawal 	dw
+dispositional aggression 	da
+dysregulation 	dy
+eating 	et
+eating (group score)	ea
+eating pathology 	ep
+externalizing symptoms 	es
+general anxiety 		ga
+impulsivity 			im
+inhibition to novelty 		in
+internalizing symptoms 		is
+maladaptive 	ma
+negative emotionality 	ne
+oppositional/defiant aggression 	od
+overt aggression		oa
+peer aggression 		pa
+pica	pi
+ptsd	pt
+relational aggression 		ra
+relational defiance 		rd
+seperation distress 		sd
+sensory sensitivity 	ss
+sexualized behavior 	sb
+sleep 			sl
+toileting 			to
+tourette symptoms 	ts","Mother, Father",Phase 1,
+10/28/2014 16:59:36,LES,le,"event score 			ev
+positive impact 		pi
+negative impact 		ni
+total impact 			ti",Mother,Phase 3,
+10/28/2014 17:03:22,MASC,ma,"anxiety disorders index 	ad
+anxious coping	ac
+harm avoidance	ha
+humiliation fears 		hf
+perfectionism 		pe
+performance fears 		pf
+physical symptom 		ph
+separation/panic 		sp
+somatic 			so
+total anxiety 		an",Twin,"Phase 4, Phase 5",
+10/28/2014 17:03:45,"Measurements (ht, wt)",ms,,Twin,"Phase 3, Phase 4",
+10/28/2014 17:05:19,MPQ,mp,"absorption	ab
+achievement	ac 
+aggression	      ag
+alienation	al
+control (vs impulsive)	cn
+harm avoidance	ha
+social closeness	sc
+social potency	sp
+stress reaction	sr
+stress reaction (short version)	ss
+traditionalism	tr
+wellbeing	wb
+well being (short version)   	ws","Mother, Father",Phase 3,
+10/28/2014 17:05:52,MPQ (SHORT),mq,"stress reaction	st
+well-being	wb","Mother, Father",Phase 4,
+10/28/2014 17:06:24,MRI,mr,,Mother,Phase 5,
+10/28/2014 17:07:25,NRI,nr,"admiration	ad
+affection	af
+companionship	co
+disclosure			di
+guidance			gu
+nurturance			nu
+reliable alliance 		rl",Twin,Phase 4,
+10/28/2014 17:08:03,PANAS,pa,"negative affect	na
+positive affect	pa","experimenter 1, experimenter 2",Phase 3,
+10/28/2014 17:09:25,PARENTAL MONITOR,pm,,"Mother, Father",Phase 4,"c and t are also mentioned under respondent ""in Digits"""
+10/28/2014 17:09:44,PA TASK,pt,,Twin,Phase 4,
+10/28/2014 17:10:14,PDD (TWIN/SIB),pd,,Mother,"Phase 3, Phase 4",*Separate from pd = play-dough
+10/28/2014 17:11:03,PSI,ps,"lack of attachment	la
+role restriction	rr
+sense of incompetence	si
+social isolation	is
+spousal relationship	sr",Mother,Phase 3,
+10/28/2014 17:11:26,PPVT,pp,,Twin,"Phase 3, Phase 4",
+10/28/2014 17:11:47,PW STROOP,pw,,experimenter 2,Phase 4,
+10/28/2014 17:12:07,REACTIVE CORTISOL,rc,,Twin,Phase 3,
+10/28/2014 17:12:29,RELIGIOSITY,re,,Twin,Phase 4,
+10/28/2014 17:12:46,RETRO. HOUSE. INFO,rh,,Mother,Phase 4,
+10/28/2014 17:13:05,ROLE OVERLOAD,ro,,Mother,Phase 4,
+10/28/2014 17:14:31,SD	,sd,"auditory 			au	
+background 		ba 
+experiences 	ex
+garment 	ga
+loud 	lo
+materials 	ma
+self-care 	sc 
+sounds 	so
+surfaces 	su
+tactile 			ta	",Mother,Screener,
+10/28/2014 17:15:21,SI,si,"auditory 			au	
+tactile 	ta	",Mother,Phase 3,"t also mentioned under respondent ""in Digits"""
+10/28/2014 17:16:05,SELF ESTEEM ,se,,Twin,Phase 4,
+10/28/2014 17:27:05,SIPA,sa,"adoles.-par. relation. domain 	ap
+life restrictions 	lr
+incompetence/guilt 	in
+relationship with spouse/partner 	re
+social alienation 	so","Mother, Father",Phase 4,
+10/28/2014 17:28:39,SRQ (Adol child report),sr,"admiration by sibling 	ab
+admiration of sibling 	ao
+affection 	af
+antagonism 	an
+companionship 	cn
+competition 	ct
+dominance by sibling 	db
+dominance of sibling 	do
+intimacy 	in
+maternal partiality 	mp
+nurturance by sibling 	nb
+nurturance of sibling 	no
+paternal partiality 	pp
+prosocial 	ps
+quarreling 	qu
+similarity 	si",Twin,Phase 4,
+10/28/2014 17:30:01,SRQ (child report),sc,"affection 	af
+antagonism 	an
+companionship 	cn
+competition 	ct
+dominance by sibling 	db
+dominance of sibling 	do
+maternal partiality 	mp
+paternal partiality 	pp
+prosocial 	ps
+quarreling 	qu
+similarity 	si",Twin,Phase 3,
+10/28/2014 17:31:29,SRQ (parent report),sp,"admiration by sibling 	ab
+admiration of sibling 	ao
+affection 	af
+antagonism 	an
+companionship 	cn
+competition 	ct
+dominance by sibling 	db
+dominance of sibling 	do
+intimacy 	in
+maternal partiality 	mp
+nurturance by sibling 	nb
+nurturance of sibling 	no
+paternal partiality 	pp
+prosocial 	ps
+quarreling 	qu
+similarity 	si",Mother,"Phase 3, Phase 4",
+10/28/2014 17:31:54,STUDENT INVENTORY,st,,Mother,Phase 4,
+10/28/2014 17:32:15,TANNER STAGES,ts,,Twin,Phase 4,
+10/28/2014 17:33:19,TBAQ,tb,"activity level	al
+anger	an
+inhibitory control  	ic
+interest	in
+pleasure	pl
+sadness	sd
+social fear	 sf","Mother, Father",Phase 1,
+10/28/2014 17:34:17,TIRE,ti,"differential parental criticism 	dp
+differ. twins’ peers’ cond. probs.	dc
+dominance between twins	dt
+father’s preference 	fp
+friends’ vs. sub’s conduct probs. 	fs
+mother’s preference 	mp","Mother, Father, Twin","Phase 4, Phase 5",
+10/28/2014 17:36:02,TIRE,ti,"differential parental criticism 	dp
+differ. twins’ peers’ cond. probs.	dc
+dominance between twins	dt
+father’s preference 	fp
+friends’ vs. sub’s conduct probs. 	fs
+mother’s preference 	mp
+negative parenting 	np
+positive parenting 	pp
+twins’ closeness 	tc
+twins’ quarrels and fights 	tq","Mother, Father, Twin","Phase 4, Phase 5","this is the CORRECT TIRE
+ignore the other TIRE entry"
+10/28/2014 17:36:45,ZYGOSITY,zy,,"Mother, experimenter 1, experimenter 2","Phase 1, Phase 2, Phase 3, Phase 4, Screener",

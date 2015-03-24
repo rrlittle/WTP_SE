@@ -1,0 +1,12 @@
+[2015-02-27 08:36:32,808][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2015-02-27 08:36:32,912][INFO ][node                     ] [Radian] version[1.4.3], pid[4028], build[36a29a7/2015-02-11T14:23:15Z]
+[2015-02-27 08:36:32,913][INFO ][node                     ] [Radian] initializing ...
+[2015-02-27 08:36:32,919][INFO ][plugins                  ] [Radian] loaded [], sites []
+[2015-02-27 08:36:37,020][INFO ][node                     ] [Radian] initialized
+[2015-02-27 08:36:37,020][INFO ][node                     ] [Radian] starting ...
+[2015-02-27 08:36:38,236][INFO ][transport                ] [Radian] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-02-27 08:36:38,788][INFO ][discovery                ] [Radian] elasticsearch/DXc8sgb5TtO-2jF1l4Cy5Q
+[2015-02-27 08:36:42,591][INFO ][cluster.service          ] [Radian] new_master [Radian][DXc8sgb5TtO-2jF1l4Cy5Q][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-27 08:36:42,698][INFO ][http                     ] [Radian] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-02-27 08:36:42,698][INFO ][node                     ] [Radian] started
+[2015-02-27 08:36:43,069][INFO ][gateway                  ] [Radian] recovered [1] indices into cluster_state
