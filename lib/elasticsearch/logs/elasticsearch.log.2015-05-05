@@ -1,0 +1,39 @@
+[2015-05-05 11:43:14,893][INFO ][node                     ] [Scrier] version[1.5.0], pid[4556], build[5448160/2015-03-23T14:30:58Z]
+[2015-05-05 11:43:15,160][INFO ][node                     ] [Scrier] initializing ...
+[2015-05-05 11:43:15,270][INFO ][plugins                  ] [Scrier] loaded [], sites []
+[2015-05-05 11:44:23,786][INFO ][node                     ] [Scrier] initialized
+[2015-05-05 11:44:25,643][INFO ][node                     ] [Scrier] starting ...
+[2015-05-05 11:44:28,088][INFO ][transport                ] [Scrier] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-05-05 11:44:28,500][INFO ][discovery                ] [Scrier] elasticsearch/QMCAiVgrSUm85cogkTphDw
+[2015-05-05 11:44:33,095][INFO ][cluster.service          ] [Scrier] new_master [Scrier][QMCAiVgrSUm85cogkTphDw][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-05-05 11:44:35,449][INFO ][http                     ] [Scrier] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-05-05 11:44:35,458][INFO ][node                     ] [Scrier] started
+[2015-05-05 11:44:52,277][DEBUG][action.search.type       ] [Scrier] All shards failed for phase: [query]
+org.elasticsearch.indices.IndexMissingException: [tables] missing
+	at org.elasticsearch.indices.IndicesService.indexServiceSafe(IndicesService.java:284)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-05-05 11:45:08,931][INFO ][gateway                  ] [Scrier] recovered [1] indices into cluster_state
+[2015-05-05 11:45:12,699][DEBUG][action.search.type       ] [Scrier] All shards failed for phase: [query]
+org.elasticsearch.index.shard.IllegalIndexShardStateException: [tables][1] CurrentState[RECOVERING] operations only allowed when started/relocated
+	at org.elasticsearch.index.shard.IndexShard.readAllowed(IndexShard.java:893)
+	at org.elasticsearch.index.shard.IndexShard.acquireSearcher(IndexShard.java:697)
+	at org.elasticsearch.index.shard.IndexShard.acquireSearcher(IndexShard.java:693)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:549)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-05-05 12:57:29,528][INFO ][bootstrap                ] running graceful exit on windows
+[2015-05-05 12:57:29,544][INFO ][node                     ] [Scrier] stopping ...

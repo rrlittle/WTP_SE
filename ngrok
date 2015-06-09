@@ -1,2 +1,0 @@
-[2015/02/24 14:45:10 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:56) [ctl:27f9dadc] Read message {"Type":"NewTunnel","Payload":{"ReqId":"ee238c72116d6e5a","Url":"http://572c310e.ngrok.com","Protocol":"http","Error":""}}
-[2015/02/24 14:45:10 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:60) [client] Tunnel established at http://572c310e.ngrok.com

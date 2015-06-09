@@ -1,0 +1,17 @@
+[2015-03-24 16:33:22,598][INFO ][node                     ] [Lazarus] version[1.5.0], pid[508], build[5448160/2015-03-23T14:30:58Z]
+[2015-03-24 16:33:22,602][INFO ][node                     ] [Lazarus] initializing ...
+[2015-03-24 16:33:22,654][INFO ][plugins                  ] [Lazarus] loaded [], sites []
+[2015-03-24 16:33:51,640][INFO ][node                     ] [Lazarus] initialized
+[2015-03-24 16:33:52,114][INFO ][node                     ] [Lazarus] starting ...
+[2015-03-24 16:33:53,057][INFO ][transport                ] [Lazarus] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-03-24 16:33:53,294][INFO ][discovery                ] [Lazarus] elasticsearch/KYxmMMbMQjGJnl94zU1V-g
+[2015-03-24 16:33:57,375][INFO ][cluster.service          ] [Lazarus] new_master [Lazarus][KYxmMMbMQjGJnl94zU1V-g][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-03-24 16:33:57,631][INFO ][http                     ] [Lazarus] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-03-24 16:33:57,652][INFO ][node                     ] [Lazarus] started
+[2015-03-24 16:33:57,921][INFO ][gateway                  ] [Lazarus] recovered [0] indices into cluster_state
+[2015-03-24 16:34:28,636][INFO ][cluster.metadata         ] [Lazarus] [meta_data] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [data]
+[2015-03-24 16:34:36,595][INFO ][cluster.metadata         ] [Lazarus] [meta_data] update_mapping [data] (dynamic)
+[2015-03-24 16:34:39,779][INFO ][cluster.metadata         ] [Lazarus] [meta_data] update_mapping [calc] (dynamic)
+[2015-03-24 16:34:40,694][INFO ][cluster.metadata         ] [Lazarus] [meta_data] update_mapping [misc] (dynamic)
+[2015-03-24 16:52:35,464][INFO ][bootstrap                ] running graceful exit on windows
+[2015-03-24 16:52:35,468][INFO ][node                     ] [Lazarus] stopping ...

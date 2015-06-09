@@ -1,0 +1,296 @@
+[2015-04-06 16:10:15,931][INFO ][node                     ] [Curtis Connors] version[1.5.0], pid[4392], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-06 16:10:16,056][INFO ][node                     ] [Curtis Connors] initializing ...
+[2015-04-06 16:10:16,181][INFO ][plugins                  ] [Curtis Connors] loaded [], sites []
+[2015-04-06 16:10:58,008][INFO ][node                     ] [Curtis Connors] initialized
+[2015-04-06 16:10:58,659][INFO ][node                     ] [Curtis Connors] starting ...
+[2015-04-06 16:11:00,203][INFO ][transport                ] [Curtis Connors] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-04-06 16:11:00,560][INFO ][discovery                ] [Curtis Connors] elasticsearch/_ibThmooRDm9iVAXc6XigQ
+[2015-04-06 16:11:04,582][INFO ][cluster.service          ] [Curtis Connors] new_master [Curtis Connors][_ibThmooRDm9iVAXc6XigQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-06 16:11:05,255][INFO ][http                     ] [Curtis Connors] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-04-06 16:11:05,257][INFO ][node                     ] [Curtis Connors] started
+[2015-04-06 16:11:17,320][INFO ][gateway                  ] [Curtis Connors] recovered [1] indices into cluster_state
+[2015-04-06 16:11:28,349][INFO ][bootstrap                ] running graceful exit on windows
+[2015-04-06 16:11:28,349][INFO ][node                     ] [Curtis Connors] stopping ...
+[2015-04-06 16:18:44,162][INFO ][bootstrap                ] running graceful exit on windows
+[2015-04-06 16:18:44,166][INFO ][node                     ] [Gorilla Girl] stopping ...
+[2015-04-06 16:18:44,229][INFO ][node                     ] [Gorilla Girl] stopped
+[2015-04-06 16:18:44,231][INFO ][node                     ] [Gorilla Girl] closing ...
+[2015-04-06 16:18:44,368][INFO ][node                     ] [Gorilla Girl] closed
+82][INFO ][node                     ] [Gorilla Girl] starting ...
+[2015-04-06 16:14:24,006][INFO ][transport                ] [Gorilla Girl] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-04-06 16:14:24,194][INFO ][discovery                ] [Gorilla Girl] elasticsearch/DlrY7BOfS9aUQiQxucrbiQ
+[2015-04-06 16:14:28,195][INFO ][cluster.service          ] [Gorilla Girl] new_master [Gorilla Girl][DlrY7BOfS9aUQiQxucrbiQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-06 16:14:28,424][INFO ][http                     ] [Gorilla Girl] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-04-06 16:14:28,431][INFO ][node                     ] [Gorilla Girl] started
+[2015-04-06 16:14:28,706][INFO ][gateway                  ] [Gorilla Girl] recovered [0] indices into cluster_state
+[2015-04-06 16:18:58,038][INFO ][node                     ] [Sidewinder] version[1.5.0], pid[3612], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-06 16:18:58,042][INFO ][node                     ] [Sidewinder] initializing ...
+[2015-04-06 16:18:58,096][INFO ][plugins                  ] [Sidewinder] loaded [], sites []
+[2015-04-06 16:19:26,825][INFO ][node                     ] [Sidewinder] initialized
+[2015-04-06 16:19:27,315][INFO ][node                     ] [Sidewinder] starting ...
+[2015-04-06 16:19:28,228][INFO ][transport                ] [Sidewinder] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-04-06 16:19:28,409][INFO ][discovery                ] [Sidewinder] elasticsearch/V5cNsOBRQYa1KY3tzK6LNA
+[2015-04-06 16:19:32,426][INFO ][cluster.service          ] [Sidewinder] new_master [Sidewinder][V5cNsOBRQYa1KY3tzK6LNA][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-06 16:19:32,817][INFO ][http                     ] [Sidewinder] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-04-06 16:19:32,822][INFO ][node                     ] [Sidewinder] started
+[2015-04-06 16:19:33,044][INFO ][gateway                  ] [Sidewinder] recovered [0] indices into cluster_state
+[2015-04-06 16:25:47,988][INFO ][bootstrap                ] running graceful exit on windows
+[2015-04-06 16:25:47,994][INFO ][node                     ] [Sidewinder] stopping ...
+[2015-04-06 16:25:48,127][INFO ][node                     ] [Sidewinder] stopped
+[2015-04-06 16:25:48,129][INFO ][node                     ] [Sidewinder] closing ...
+[2015-04-06 16:25:48,273][INFO ][node                     ] [Sidewinder] closed
+[2015-04-06 16:38:21,171][INFO ][node                     ] [Gailyn Bailey] version[1.5.0], pid[3452], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-06 16:38:21,175][INFO ][node                     ] [Gailyn Bailey] initializing ...
+[2015-04-06 16:38:21,225][INFO ][plugins                  ] [Gailyn Bailey] loaded [], sites []
+[2015-04-06 16:38:48,442][INFO ][node                     ] [Lunatica] version[1.5.0], pid[4880], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-06 16:38:48,446][INFO ][node                     ] [Lunatica] initializing ...
+[2015-04-06 16:38:48,506][INFO ][plugins                  ] [Lunatica] loaded [], sites []
+[2015-04-06 16:39:17,504][INFO ][node                     ] [Lunatica] initialized
+[2015-04-06 16:39:18,033][INFO ][node                     ] [Lunatica] starting ...
+[2015-04-06 16:39:18,833][INFO ][transport                ] [Lunatica] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-04-06 16:39:19,005][INFO ][discovery                ] [Lunatica] elasticsearch/QeOVbNG1RxmaT51YihICaw
+[2015-04-06 16:39:22,997][INFO ][cluster.service          ] [Lunatica] new_master [Lunatica][QeOVbNG1RxmaT51YihICaw][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-06 16:39:23,620][INFO ][http                     ] [Lunatica] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-04-06 16:39:23,622][INFO ][node                     ] [Lunatica] started
+[2015-04-06 16:39:34,939][INFO ][gateway                  ] [Lunatica] recovered [1] indices into cluster_state
+[2015-04-06 16:39:35,247][INFO ][cluster.metadata         ] [Lunatica] [megacorp] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2015-04-06 16:40:02,249][INFO ][bootstrap                ] running graceful exit on windows
+[2015-04-06 16:40:02,251][INFO ][node                     ] [Lunatica] stopping ...
+[2015-04-06 16:40:02,457][WARN ][index.engine             ] [Lunatica] [megacorp][0] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\megacorp\0\index), type=MERGE, rate=20.0)]): files: [write.lock]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:02,463][WARN ][index.engine             ] [Lunatica] [meta_data][0] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\meta_data\0\index), type=MERGE, rate=20.0)]): files: [write.lock, _0.cfs, _1.cfs]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:02,980][WARN ][index.engine             ] [Lunatica] [megacorp][1] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\megacorp\1\index), type=MERGE, rate=20.0)]): files: [write.lock]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:03,093][WARN ][index.engine             ] [Lunatica] [meta_data][1] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\meta_data\1\index), type=MERGE, rate=20.0)]): files: [write.lock, _0.cfs]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:03,501][WARN ][index.engine             ] [Lunatica] [megacorp][2] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\megacorp\2\index), type=MERGE, rate=20.0)]): files: [write.lock]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:03,675][WARN ][index.engine             ] [Lunatica] [meta_data][2] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\meta_data\2\index), type=MERGE, rate=20.0)]): files: [write.lock, _0.cfs]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:04,011][WARN ][index.engine             ] [Lunatica] [megacorp][3] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\megacorp\3\index), type=MERGE, rate=20.0)]): files: [write.lock]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:04,212][WARN ][index.engine             ] [Lunatica] [meta_data][3] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\meta_data\3\index), type=MERGE, rate=20.0)]): files: [write.lock, _2.cfs]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:40:04,462][WARN ][index.engine             ] [Lunatica] [megacorp][4] failed to read latest segment infos on flush
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in store(least_used[rate_limited(mmapfs(T:\WTP Search Tool\dev\lib\elasticsearch\data\elasticsearch\nodes\0\indices\megacorp\4\index), type=MERGE, rate=20.0)]): files: [write.lock]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:881)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:769)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:458)
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:89)
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:158)
+	at org.elasticsearch.index.store.Store.readLastCommittedSegmentsInfo(Store.java:148)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:674)
+	at org.elasticsearch.index.engine.InternalEngine.flush(InternalEngine.java:587)
+	at org.elasticsearch.index.engine.Engine.flushAndClose(Engine.java:1033)
+	at org.elasticsearch.index.shard.IndexShard.close(IndexShard.java:716)
+	at org.elasticsearch.index.IndexService.closeShardInjector(IndexService.java:408)
+	at org.elasticsearch.index.IndexService.removeShard(IndexService.java:382)
+	at org.elasticsearch.index.IndexService.close(IndexService.java:273)
+	at org.elasticsearch.indices.IndicesService.removeIndex(IndicesService.java:383)
+	at org.elasticsearch.indices.IndicesService.access$000(IndicesService.java:105)
+	at org.elasticsearch.indices.IndicesService$1.run(IndicesService.java:148)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-04-06 16:44:11,922][INFO ][node                     ] [Bedlam II] version[1.5.0], pid[2488], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-06 16:44:11,926][INFO ][node                     ] [Bedlam II] initializing ...
+[2015-04-06 16:44:11,974][INFO ][plugins                  ] [Bedlam II] loaded [], sites []
+[2015-04-06 16:44:39,368][INFO ][node                     ] [Bedlam II] initialized
+[2015-04-06 16:44:39,852][INFO ][node                     ] [Bedlam II] starting ...
+[2015-04-06 16:44:40,751][INFO ][transport                ] [Bedlam II] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-04-06 16:44:40,926][INFO ][discovery                ] [Bedlam II] elasticsearch/GzaIrmm2SQ6d6bZwdMZ5kQ
+[2015-04-06 16:44:44,907][INFO ][cluster.service          ] [Bedlam II] new_master [Bedlam II][GzaIrmm2SQ6d6bZwdMZ5kQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-06 16:44:45,143][INFO ][http                     ] [Bedlam II] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-04-06 16:44:45,150][INFO ][node                     ] [Bedlam II] started
+[2015-04-06 16:44:45,433][INFO ][gateway                  ] [Bedlam II] recovered [0] indices into cluster_state
+[2015-04-06 16:44:55,666][INFO ][cluster.metadata         ] [Bedlam II] [megacorp] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2015-04-06 16:45:30,471][INFO ][bootstrap                ] running graceful exit on windows
+[2015-04-06 16:45:30,473][INFO ][node                     ] [Bedlam II] stopping ...
+[2015-04-06 16:45:32,467][INFO ][node                     ] [Bedlam II] stopped
+[2015-04-06 16:45:32,468][INFO ][node                     ] [Bedlam II] closing ...
+[2015-04-06 16:45:32,597][INFO ][node                     ] [Bedlam II] closed
+[2015-04-06 16:46:58,021][INFO ][node                     ] [Amelia Voght] version[1.5.0], pid[3824], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-06 16:46:58,024][INFO ][node                     ] [Amelia Voght] initializing ...
+[2015-04-06 16:46:58,114][INFO ][plugins                  ] [Amelia Voght] loaded [], sites []
+[2015-04-06 16:47:37,157][INFO ][node                     ] [Amelia Voght] initialized
+[2015-04-06 16:47:37,728][INFO ][node                     ] [Amelia Voght] starting ...
+[2015-04-06 16:47:38,759][INFO ][transport                ] [Amelia Voght] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-04-06 16:47:38,940][INFO ][discovery                ] [Amelia Voght] elasticsearch/fa7pPm-4RUOTpckmflC-sQ
+[2015-04-06 16:47:42,957][INFO ][cluster.service          ] [Amelia Voght] new_master [Amelia Voght][fa7pPm-4RUOTpckmflC-sQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-06 16:47:43,230][INFO ][http                     ] [Amelia Voght] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-04-06 16:47:43,234][INFO ][node                     ] [Amelia Voght] started
+[2015-04-06 16:47:43,525][INFO ][gateway                  ] [Amelia Voght] recovered [0] indices into cluster_state
+[2015-04-06 16:52:25,005][INFO ][bootstrap                ] running graceful exit on windows
+[2015-04-06 16:52:25,008][INFO ][node                     ] [Amelia Voght] stopping ...
+[2015-04-06 16:52:25,081][INFO ][node                     ] [Amelia Voght] stopped
+[2015-04-06 16:52:25,083][INFO ][node                     ] [Amelia Voght] closing ...
+[2015-04-06 16:52:25,245][INFO ][node                     ] [Amelia Voght] closed
+[2015-04-06 16:52:42,996][INFO ][node                     ] [Battering Ram] version[1.5.0], pid[3432], build[5448160/2015-03-23T14:30:58Z]
+[2015-04-06 16:52:43,000][INFO ][node                     ] [Battering Ram] initializing ...
+[2015-04-06 16:52:43,052][INFO ][plugins                  ] [Battering Ram] loaded [], sites []
+[2015-04-06 16:53:11,848][INFO ][node                     ] [Battering Ram] initialized
+[2015-04-06 16:53:12,359][INFO ][node                     ] [Battering Ram] starting ...
+[2015-04-06 16:53:13,260][INFO ][transport                ] [Battering Ram] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-04-06 16:53:13,436][INFO ][discovery                ] [Battering Ram] elasticsearch/dMCIL9rlRuSmvqU0bAKG_g
+[2015-04-06 16:53:17,450][INFO ][cluster.service          ] [Battering Ram] new_master [Battering Ram][dMCIL9rlRuSmvqU0bAKG_g][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-04-06 16:53:17,866][INFO ][http                     ] [Battering Ram] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-04-06 16:53:17,869][INFO ][node                     ] [Battering Ram] started
+[2015-04-06 16:53:18,043][INFO ][gateway                  ] [Battering Ram] recovered [0] indices into cluster_state
+[2015-04-06 23:21:32,966][INFO ][bootstrap                ] running graceful exit on windows
+[2015-04-06 23:21:33,480][INFO ][node                     ] [Battering Ram] stopping ...
+[2015-04-06 23:21:36,063][INFO ][node                     ] [Battering Ram] stopped
+[2015-04-06 23:21:36,064][INFO ][node                     ] [Battering Ram] closing ...
+[2015-04-06 23:21:37,065][INFO ][node                     ] [Battering Ram] closed
