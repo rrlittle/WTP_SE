@@ -41,6 +41,6 @@ IF ERRORLEVEL 1 (
 	EXIT /B %ERRORLEVEL%
 )
 
-"%JAVA_HOME%\bin\java" %JAVA_OPTS% %ES_JAVA_OPTS% %ES_PARAMS% !newparams! -cp "%ES_CLASSPATH%" "org.elasticsearch.bootstrap.Elasticsearch"
+"%JAVA_HOME%\java" %JAVA_OPTS% %ES_JAVA_OPTS% %ES_PARAMS% !newparams! -cp "%ES_CLASSPATH%" "org.elasticsearch.bootstrap.Elasticsearch"
 
 ENDLOCAL

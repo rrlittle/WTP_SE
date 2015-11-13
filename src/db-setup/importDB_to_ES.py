@@ -152,7 +152,7 @@ class MapManager:
         return string
 
     def get_info(self, instr_abbrev, instr_full=None, instr_list = None, line ='', debug = True): # gets scales and name
-        """ Search for intrument with abbreviation that matches.
+        """ Search for instrument with abbreviation that matches.
             if there are any scales, return them. they will be in the form of a dict
             If instrument name can be determined return that as well
 
@@ -204,7 +204,7 @@ class MapManager:
                     if(debug): print('%s---Extensions found: Recursing' %(line+'\t'))
                     instr_abbrev_suffix = instr_abbrev[instr_dict['abbreviation'].__len__():] # save after map abrv
                     # recurse down
-                    lower_scales, instr_full = self.get_info( instr_abbrev_suffix, instr_list = instr_dict['extensions'], line = (line + '\t'), debug=debug) 
+                    lower_scales, instr_full = self.get_info( instr_abbrev_suffix, instr_full=instr_full, instr_list = instr_dict['extensions'], line = (line + '\t'), debug=debug) 
                     if(lower_scales):       # if it found something
                         if(not scales): scales = {}          # if scales doesn't exist initialize it
                         scales.update(lower_scales)          # add it to scales.  
@@ -271,9 +271,9 @@ class dbManager:
                 {
                     'type': 'data'/'calc'/'misc'
                     'tablename': tablename,
-                    'instrument abbreviation': 
-                    'respondent':
-                    'phase'
+                    'instrument abbreviation': ABES
+                    'respondent': t/m/f
+                    'phase' : 4
                     etc....
                 }
 
@@ -290,7 +290,7 @@ class dbManager:
                      'respondent':'table_split[-1]',
                  },
                  'calc':{
-                     'tablename':'table_split[0:table_split.__len__()]',
+                     'tablename':'table_split[0:]',
                      'phase':'table_split[1: 2]',
                      'instrument abbreviation':'table_split[2: table_split.__len__()-1]',
                      'respondent':'table_split[-1]',
@@ -301,16 +301,16 @@ class dbManager:
             },
             'filters':{
                 'data':{
-                'length':4,
-                'disallowed words':[
-                    'dates'
-                ]
+                    'length':4,
+                    'disallowed words':[
+                        'dates'
+                    ]
                 },
                 'calc':{
-                'length':4,
-                'disallowed words':[
-                    'dates'
-                ]
+                   'length':4,
+                    'disallowed words':[
+                        'dates'
+                    ]
                 }
             },
             '__doc__': \
@@ -373,6 +373,7 @@ class dbManager:
     def get_table_type(self, table_split, filters): # find what type of table this is
         """ This determines the filter type based on the tablename and the filters map. 
             """
+
         if(table_split[0] not in filters):
             return 'misc'
         for aspect in filters[table_split[0]]: # go through each aspect within
@@ -411,8 +412,8 @@ class dbImporter:
             # open the database and enumerate through tablenames
         for i,tablename in enumerate(dbm.open_db()):
             if(tablename not in tables_not_to_include):
-                    #break the tablename into it's individual parts. 
-                table_info_raw = dbm.parse_row(tablename, debug = debug) 
+              r      #break the tablename into it's individual parts. 
+                table_info_raw = dbm.parse_ow(tablename, debug = debug) 
             
                     # apply the mapping based on those parts. save them to the struct. 
                 table_info_raw = mm.apply_mapping(table_info_raw, debug = debug) 
@@ -440,5 +441,7 @@ class dbImporter:
         dbm.insert_struct_to_es(es_struct, 'tables') 
         #dbm.close_es()                             #may be unsafe.
 
+
+        # dbm.insert_struct_to_es(table_info_raw,table_info_ras['tablename'])
 
 importer = dbImporter()

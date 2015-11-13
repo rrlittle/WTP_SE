@@ -6567,6 +6567,28 @@
     "tablename": "data_rd_zy_t", 
     "type": "data"
   }, 
+  "data_rdmr_agn_t": {
+    "instrument abbreviation": "agn", 
+    "phase": "Rdoc Imaging", 
+    "respondent": "twin", 
+    "tablename": "data_rdmr_agn_t", 
+    "type": "data"
+  }, 
+  "data_rdmr_hdt_t": {
+    "instrument abbreviation": "hdt", 
+    "phase": "Rdoc Imaging", 
+    "respondent": "twin", 
+    "tablename": "data_rdmr_hdt_t", 
+    "type": "data"
+  }, 
+  "data_rdmr_psap_t": {
+    "instrument abbreviation": "psap", 
+    "instrument name": "PSI ", 
+    "phase": "Rdoc Imaging", 
+    "respondent": "twin", 
+    "tablename": "data_rdmr_psap_t", 
+    "type": "data"
+  }, 
   "data_rdmr_tr": {
     "tablename": "data_rdmr_tr", 
     "type": "misc"
@@ -7111,6 +7133,18 @@
     "tablename": "no_recruit_helper", 
     "type": "misc"
   }, 
+  "tables": {
+    "tablename": "tables", 
+    "type": "misc"
+  }, 
+  "trash_fjasdkjfl": {
+    "tablename": "trash_fjasdkjfl", 
+    "type": "misc"
+  }, 
+  "trash_fsdf": {
+    "tablename": "trash_fsdf", 
+    "type": "misc"
+  }, 
   "trash_hhg_sd interventions": {
     "tablename": "trash_hhg_sd interventions", 
     "type": "misc"
@@ -7189,6 +7223,10 @@
   }, 
   "trash_nls_p3address_2009": {
     "tablename": "trash_nls_p3address_2009", 
+    "type": "misc"
+  }, 
+  "trash_trahs": {
+    "tablename": "trash_trahs", 
     "type": "misc"
   }, 
   "user_1_bit_f_2008_02": {

@@ -1,0 +1,1470 @@
+[2015-06-09 11:55:01,946][DEBUG][action.search.type       ] [Farallah] [tables][0], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@52bb84c2] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"scales:*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [scales:*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'scales:*activity/impulsivity*': Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:01,948][DEBUG][action.search.type       ] [Farallah] [tables][2], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@52bb84c2] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"scales:*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [scales:*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'scales:*activity/impulsivity*': Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:01,946][DEBUG][action.search.type       ] [Farallah] [tables][3], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@52bb84c2] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"scales:*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [scales:*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'scales:*activity/impulsivity*': Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:01,946][DEBUG][action.search.type       ] [Farallah] [tables][1], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@52bb84c2]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"scales:*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [scales:*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'scales:*activity/impulsivity*': Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:01,946][DEBUG][action.search.type       ] [Farallah] [tables][4], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@52bb84c2] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"scales:*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [scales:*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'scales:*activity/impulsivity*': Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:02,101][DEBUG][action.search.type       ] [Farallah] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"scales:*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [scales:*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'scales:*activity/impulsivity*': Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 30.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,218][DEBUG][action.search.type       ] [Farallah] [tables][3], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@770994b9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,229][DEBUG][action.search.type       ] [Farallah] [tables][1], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@770994b9]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,228][DEBUG][action.search.type       ] [Farallah] [tables][2], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@770994b9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,224][DEBUG][action.search.type       ] [Farallah] [tables][4], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@770994b9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,221][DEBUG][action.search.type       ] [Farallah] [tables][0], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@770994b9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,255][DEBUG][action.search.type       ] [Farallah] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,393][DEBUG][action.search.type       ] [Farallah] [tables][1], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48f0e1fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivit*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivit*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivit*': Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,395][DEBUG][action.search.type       ] [Farallah] [tables][2], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48f0e1fd]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivit*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivit*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivit*': Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,393][DEBUG][action.search.type       ] [Farallah] [tables][4], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48f0e1fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivit*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivit*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivit*': Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,393][DEBUG][action.search.type       ] [Farallah] [tables][3], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48f0e1fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivit*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivit*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivit*': Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,393][DEBUG][action.search.type       ] [Farallah] [tables][0], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48f0e1fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivit*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivit*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivit*': Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,418][DEBUG][action.search.type       ] [Farallah] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivit*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivit*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivit*': Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 22.  Encountered: <EOF> after : "/impulsivit*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,651][DEBUG][action.search.type       ] [Farallah] [tables][1], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@688c5caf] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivi*': Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,661][DEBUG][action.search.type       ] [Farallah] [tables][2], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@688c5caf]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivi*': Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,660][DEBUG][action.search.type       ] [Farallah] [tables][0], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@688c5caf] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivi*': Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,722][DEBUG][action.search.type       ] [Farallah] [tables][2], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4b82c43e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsiv*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsiv*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsiv*': Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,738][DEBUG][action.search.type       ] [Farallah] [tables][3], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4b82c43e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsiv*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsiv*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsiv*': Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,760][DEBUG][action.search.type       ] [Farallah] [tables][4], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4b82c43e]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsiv*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsiv*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsiv*': Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,780][DEBUG][action.search.type       ] [Farallah] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsiv*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsiv*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsiv*': Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,652][DEBUG][action.search.type       ] [Farallah] [tables][4], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@688c5caf] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivi*': Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,651][DEBUG][action.search.type       ] [Farallah] [tables][3], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@688c5caf] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivi*': Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,720][DEBUG][action.search.type       ] [Farallah] [tables][1], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4b82c43e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsiv*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsiv*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsiv*': Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,719][DEBUG][action.search.type       ] [Farallah] [tables][0], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4b82c43e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsiv*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsiv*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsiv*': Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 20.  Encountered: <EOF> after : "/impulsiv*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:08,698][DEBUG][action.search.type       ] [Farallah] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivi*': Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 21.  Encountered: <EOF> after : "/impulsivi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,480][DEBUG][action.search.type       ] [Farallah] [tables][0], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2772bdb9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsi*': Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,486][DEBUG][action.search.type       ] [Farallah] [tables][3], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2772bdb9]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsi*': Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,510][DEBUG][action.search.type       ] [Farallah] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsi*': Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,485][DEBUG][action.search.type       ] [Farallah] [tables][2], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2772bdb9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsi*': Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,485][DEBUG][action.search.type       ] [Farallah] [tables][1], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2772bdb9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsi*': Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,480][DEBUG][action.search.type       ] [Farallah] [tables][4], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2772bdb9] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsi*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsi*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsi*': Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 19.  Encountered: <EOF> after : "/impulsi*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,958][DEBUG][action.search.type       ] [Farallah] [tables][0], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c673c0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,968][DEBUG][action.search.type       ] [Farallah] [tables][2], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c673c0]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:10,036][DEBUG][action.search.type       ] [Farallah] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,968][DEBUG][action.search.type       ] [Farallah] [tables][1], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c673c0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,962][DEBUG][action.search.type       ] [Farallah] [tables][3], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c673c0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2015-06-09 11:55:09,962][DEBUG][action.search.type       ] [Farallah] [tables][4], node[MSgteCeUQ6KYflkpHSty7w], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@c673c0] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"*activity/impulsivity*","lowercase_expanded_terms":true,"analyze_wildcard":false}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] Failed to parse query [*activity/impulsivity*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*activity/impulsivity*': Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 23.  Encountered: <EOF> after : "/impulsivity*"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_ntk(QueryParser.java:640)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:333)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more

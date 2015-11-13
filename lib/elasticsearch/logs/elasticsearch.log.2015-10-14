@@ -1,0 +1,15 @@
+[2015-10-14 09:50:29,865][INFO ][node                     ] [Baroness Blood] version[1.5.0], pid[3732], build[5448160/2015-03-23T14:30:58Z]
+[2015-10-14 09:50:29,918][INFO ][node                     ] [Baroness Blood] initializing ...
+[2015-10-14 09:50:29,983][INFO ][plugins                  ] [Baroness Blood] loaded [], sites []
+[2015-10-14 09:53:29,824][INFO ][node                     ] [Crime Master] version[1.5.0], pid[3180], build[5448160/2015-03-23T14:30:58Z]
+[2015-10-14 09:53:29,830][INFO ][node                     ] [Crime Master] initializing ...
+[2015-10-14 09:53:29,912][INFO ][plugins                  ] [Crime Master] loaded [], sites []
+[2015-10-14 09:54:05,689][INFO ][node                     ] [Crime Master] initialized
+[2015-10-14 09:54:06,327][INFO ][node                     ] [Crime Master] starting ...
+[2015-10-14 09:54:07,502][INFO ][transport                ] [Crime Master] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2015-10-14 09:54:07,930][INFO ][discovery                ] [Crime Master] elasticsearch/7Ktjz51ESSybHc1z_7-qUA
+[2015-10-14 09:54:11,956][INFO ][cluster.service          ] [Crime Master] new_master [Crime Master][7Ktjz51ESSybHc1z_7-qUA][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-14 09:54:12,217][INFO ][http                     ] [Crime Master] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2015-10-14 09:54:12,251][INFO ][node                     ] [Crime Master] started
+[2015-10-14 09:54:12,546][INFO ][gateway                  ] [Crime Master] recovered [0] indices into cluster_state
+[2015-10-14 09:54:42,057][INFO ][cluster.routing.allocation.decider] [Crime Master] low disk watermark [15%] exceeded on [7Ktjz51ESSybHc1z_7-qUA][Crime Master] free: 68.1gb[13.6%], replicas will not be assigned to this node
