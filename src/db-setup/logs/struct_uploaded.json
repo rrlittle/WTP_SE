@@ -597,7 +597,7 @@
   }, 
   "calc_3_bp_pp_t": {
     "instrument abbreviation": "bp_pp", 
-    "instrument name": "peer scales ", 
+    "instrument name": "BPI peer scales ", 
     "phase": "Phase 3", 
     "respondent": "twin", 
     "scales": {
@@ -611,6 +611,7 @@
   }, 
   "calc_3_bp_sy_t": {
     "instrument abbreviation": "bp_sy", 
+    "instrument name": "BPI ", 
     "phase": "Phase 3", 
     "respondent": "twin", 
     "tablename": "calc_3_bp_sy_t", 
@@ -1064,6 +1065,7 @@
   }, 
   "calc_4_au_f": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 4", 
     "respondent": "father", 
     "tablename": "calc_4_au_f", 
@@ -1071,6 +1073,7 @@
   }, 
   "calc_4_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 4", 
     "respondent": "mother", 
     "tablename": "calc_4_au_m", 
@@ -1078,6 +1081,7 @@
   }, 
   "calc_4_au_t": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 4", 
     "respondent": "twin", 
     "tablename": "calc_4_au_t", 
@@ -1312,6 +1316,7 @@
   }, 
   "calc_4_ec_t": {
     "instrument abbreviation": "ec", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 4", 
     "respondent": "twin", 
     "tablename": "calc_4_ec_t", 
@@ -1327,6 +1332,7 @@
   }, 
   "calc_4_ep_f": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 4", 
     "respondent": "father", 
     "tablename": "calc_4_ep_f", 
@@ -1334,6 +1340,7 @@
   }, 
   "calc_4_ep_m": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 4", 
     "respondent": "mother", 
     "tablename": "calc_4_ep_m", 
@@ -1810,6 +1817,7 @@
   }, 
   "calc_5_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 5", 
     "respondent": "mother", 
     "tablename": "calc_5_au_m", 
@@ -1817,6 +1825,7 @@
   }, 
   "calc_5_au_t": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 5", 
     "respondent": "twin", 
     "tablename": "calc_5_au_t", 
@@ -1861,6 +1870,7 @@
   }, 
   "calc_5_ec_t": {
     "instrument abbreviation": "ec", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 5", 
     "respondent": "twin", 
     "tablename": "calc_5_ec_t", 
@@ -1868,6 +1878,7 @@
   }, 
   "calc_5_ep_m": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 5", 
     "respondent": "mother", 
     "tablename": "calc_5_ep_m", 
@@ -2033,6 +2044,7 @@
   }, 
   "calc_c3_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Conte 3", 
     "respondent": "mother", 
     "tablename": "calc_c3_au_m", 
@@ -2065,6 +2077,7 @@
   }, 
   "calc_c3_ep_m": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Conte 3", 
     "respondent": "mother", 
     "tablename": "calc_c3_ep_m", 
@@ -2148,6 +2161,7 @@
   }, 
   "calc_de_ethnicity_s": {
     "instrument abbreviation": "ethnicity", 
+    "instrument name": "EATQ ", 
     "phase": "de", 
     "respondent": "Sibling", 
     "tablename": "calc_de_ethnicity_s", 
@@ -2171,6 +2185,7 @@
   }, 
   "calc_mr_ai_t": {
     "instrument abbreviation": "ai", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "mr", 
     "respondent": "twin", 
     "tablename": "calc_mr_ai_t", 
@@ -2247,6 +2262,7 @@
   }, 
   "calc_oc_m_tap": {
     "instrument abbreviation": "mother", 
+    "instrument name": "MPQ ", 
     "phase": "oc", 
     "respondent": "tap", 
     "tablename": "calc_oc_m_tap", 
@@ -2513,6 +2529,7 @@
   }, 
   "data_1_as_f": {
     "instrument abbreviation": "as", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 1", 
     "respondent": "father", 
     "tablename": "data_1_as_f", 
@@ -2520,6 +2537,7 @@
   }, 
   "data_1_as_m": {
     "instrument abbreviation": "as", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 1", 
     "respondent": "mother", 
     "tablename": "data_1_as_m", 
@@ -3113,6 +3131,7 @@
   }, 
   "data_3_bp_e1": {
     "instrument abbreviation": "bp", 
+    "instrument name": "BPI ", 
     "phase": "Phase 3", 
     "respondent": "experimenter 1", 
     "tablename": "data_3_bp_e1", 
@@ -3120,6 +3139,7 @@
   }, 
   "data_3_bp_e2": {
     "instrument abbreviation": "bp", 
+    "instrument name": "BPI ", 
     "phase": "Phase 3", 
     "respondent": "experimenter 2", 
     "tablename": "data_3_bp_e2", 
@@ -3127,7 +3147,7 @@
   }, 
   "data_3_bp_pp_t": {
     "instrument abbreviation": "bp_pp", 
-    "instrument name": "peer scales ", 
+    "instrument name": "BPI peer scales ", 
     "phase": "Phase 3", 
     "respondent": "twin", 
     "scales": {
@@ -3141,6 +3161,7 @@
   }, 
   "data_3_bp_sy_t": {
     "instrument abbreviation": "bp_sy", 
+    "instrument name": "BPI ", 
     "phase": "Phase 3", 
     "respondent": "twin", 
     "tablename": "data_3_bp_sy_t", 
@@ -4016,6 +4037,7 @@
   }, 
   "data_4_au_f": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 4", 
     "respondent": "father", 
     "tablename": "data_4_au_f", 
@@ -4023,6 +4045,7 @@
   }, 
   "data_4_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 4", 
     "respondent": "mother", 
     "tablename": "data_4_au_m", 
@@ -4030,6 +4053,7 @@
   }, 
   "data_4_au_t": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 4", 
     "respondent": "twin", 
     "tablename": "data_4_au_t", 
@@ -4121,6 +4145,7 @@
   }, 
   "data_4_bp_e1": {
     "instrument abbreviation": "bp", 
+    "instrument name": "BPI ", 
     "phase": "Phase 4", 
     "respondent": "experimenter 1", 
     "tablename": "data_4_bp_e1", 
@@ -4128,6 +4153,7 @@
   }, 
   "data_4_bp_e2": {
     "instrument abbreviation": "bp", 
+    "instrument name": "BPI ", 
     "phase": "Phase 4", 
     "respondent": "experimenter 2", 
     "tablename": "data_4_bp_e2", 
@@ -4252,7 +4278,7 @@
   }, 
   "data_4_cw_old_t": {
     "instrument abbreviation": "cw_old", 
-    "instrument name": "Newman Version ", 
+    "instrument name": "CW Stroop Newman Version ", 
     "phase": "Phase 4", 
     "respondent": "twin", 
     "tablename": "data_4_cw_old_t", 
@@ -4260,7 +4286,7 @@
   }, 
   "data_4_cw_t": {
     "instrument abbreviation": "cw", 
-    "instrument name": "Published Instrument ", 
+    "instrument name": "CW Stroop Published Instrument ", 
     "phase": "Phase 4", 
     "respondent": "twin", 
     "tablename": "data_4_cw_t", 
@@ -4368,6 +4394,7 @@
   }, 
   "data_4_ec_t": {
     "instrument abbreviation": "ec", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 4", 
     "respondent": "twin", 
     "tablename": "data_4_ec_t", 
@@ -4383,6 +4410,7 @@
   }, 
   "data_4_ep_f": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 4", 
     "respondent": "father", 
     "tablename": "data_4_ep_f", 
@@ -4390,6 +4418,7 @@
   }, 
   "data_4_ep_m": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 4", 
     "respondent": "mother", 
     "tablename": "data_4_ep_m", 
@@ -5162,6 +5191,7 @@
   }, 
   "data_5_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 5", 
     "respondent": "mother", 
     "tablename": "data_5_au_m", 
@@ -5169,6 +5199,7 @@
   }, 
   "data_5_au_t": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Phase 5", 
     "respondent": "twin", 
     "tablename": "data_5_au_t", 
@@ -5233,6 +5264,7 @@
   }, 
   "data_5_ec_t": {
     "instrument abbreviation": "ec", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 5", 
     "respondent": "twin", 
     "tablename": "data_5_ec_t", 
@@ -5240,6 +5272,7 @@
   }, 
   "data_5_ep_m": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Phase 5", 
     "respondent": "mother", 
     "tablename": "data_5_ep_m", 
@@ -5557,6 +5590,7 @@
   }, 
   "data_c3_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Conte 3", 
     "respondent": "mother", 
     "tablename": "data_c3_au_m", 
@@ -5564,6 +5598,7 @@
   }, 
   "data_c3_au_t": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Conte 3", 
     "respondent": "twin", 
     "tablename": "data_c3_au_t", 
@@ -5639,6 +5674,7 @@
   }, 
   "data_c3_ec_t": {
     "instrument abbreviation": "ec", 
+    "instrument name": "EATQ ", 
     "phase": "Conte 3", 
     "respondent": "twin", 
     "tablename": "data_c3_ec_t", 
@@ -5646,6 +5682,7 @@
   }, 
   "data_c3_ep_m": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Conte 3", 
     "respondent": "mother", 
     "tablename": "data_c3_ep_m", 
@@ -5887,6 +5924,7 @@
   }, 
   "data_mr_ai_t": {
     "instrument abbreviation": "ai", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "mr", 
     "respondent": "twin", 
     "tablename": "data_mr_ai_t", 
@@ -5894,6 +5932,7 @@
   }, 
   "data_mr_at_t": {
     "instrument abbreviation": "at", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "mr", 
     "respondent": "twin", 
     "tablename": "data_mr_at_t", 
@@ -5936,6 +5975,7 @@
   }, 
   "data_mr_er_t": {
     "instrument abbreviation": "er", 
+    "instrument name": "EATQ ", 
     "phase": "mr", 
     "respondent": "twin", 
     "tablename": "data_mr_er_t", 
@@ -6173,6 +6213,7 @@
   }, 
   "data_oc_m_tap": {
     "instrument abbreviation": "mother", 
+    "instrument name": "MPQ ", 
     "phase": "oc", 
     "respondent": "tap", 
     "tablename": "data_oc_m_tap", 
@@ -6256,6 +6297,7 @@
   }, 
   "data_rd_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Rdoc", 
     "respondent": "mother", 
     "tablename": "data_rd_au_m", 
@@ -6263,6 +6305,7 @@
   }, 
   "data_rd_au_t": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Rdoc", 
     "respondent": "twin", 
     "tablename": "data_rd_au_t", 
@@ -6322,6 +6365,7 @@
   }, 
   "data_rd_ec_t": {
     "instrument abbreviation": "ec", 
+    "instrument name": "EATQ ", 
     "phase": "Rdoc", 
     "respondent": "twin", 
     "tablename": "data_rd_ec_t", 
@@ -6329,6 +6373,7 @@
   }, 
   "data_rd_ep_m": {
     "instrument abbreviation": "ep", 
+    "instrument name": "EATQ ", 
     "phase": "Rdoc", 
     "respondent": "mother", 
     "tablename": "data_rd_ep_m", 
@@ -6569,6 +6614,7 @@
   }, 
   "data_rdmr_agn_t": {
     "instrument abbreviation": "agn", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "Rdoc Imaging", 
     "respondent": "twin", 
     "tablename": "data_rdmr_agn_t", 
@@ -6767,6 +6813,7 @@
   }, 
   "data_sd_as_m": {
     "instrument abbreviation": "as", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "sd", 
     "respondent": "mother", 
     "tablename": "data_sd_as_m", 
@@ -7013,6 +7060,7 @@
   }, 
   "data_w14_au_f": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "w14", 
     "respondent": "father", 
     "tablename": "data_w14_au_f", 
@@ -7020,6 +7068,7 @@
   }, 
   "data_w14_au_m": {
     "instrument abbreviation": "au", 
+    "instrument name": "Adolescent Child Report ", 
     "phase": "w14", 
     "respondent": "mother", 
     "tablename": "data_w14_au_m", 

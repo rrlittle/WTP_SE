@@ -1,7 +1,7 @@
 @echo off
 
 SETLOCAL enabledelayedexpansion
-TITLE Elasticsearch 2.1.0
+TITLE Elasticsearch 1.5.0
 
 SET params='%*'
 
@@ -33,8 +33,6 @@ FOR /F "usebackq tokens=1* delims= " %%A IN (!params!) DO (
 	)
 )
 
-SET HOSTNAME=%COMPUTERNAME%
-
 CALL "%~dp0elasticsearch.in.bat"
 IF ERRORLEVEL 1 (
 	IF NOT DEFINED nopauseonerror (
@@ -43,6 +41,6 @@ IF ERRORLEVEL 1 (
 	EXIT /B %ERRORLEVEL%
 )
 
-"%JAVA_HOME%\java" %JAVA_OPTS% %ES_JAVA_OPTS% %ES_PARAMS% !newparams! -cp "%ES_CLASSPATH%" "org.elasticsearch.bootstrap.Elasticsearch" start
+"%JAVA_HOME%\java" %JAVA_OPTS% %ES_JAVA_OPTS% %ES_PARAMS% !newparams! -cp "%ES_CLASSPATH%" "org.elasticsearch.bootstrap.Elasticsearch"
 
 ENDLOCAL

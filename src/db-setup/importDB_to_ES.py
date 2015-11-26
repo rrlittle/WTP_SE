@@ -412,8 +412,8 @@ class dbImporter:
             # open the database and enumerate through tablenames
         for i,tablename in enumerate(dbm.open_db()):
             if(tablename not in tables_not_to_include):
-              r      #break the tablename into it's individual parts. 
-                table_info_raw = dbm.parse_ow(tablename, debug = debug) 
+                    #break the tablename into it's individual parts. 
+                table_info_raw = dbm.parse_row(tablename, debug = debug) 
             
                     # apply the mapping based on those parts. save them to the struct. 
                 table_info_raw = mm.apply_mapping(table_info_raw, debug = debug) 
