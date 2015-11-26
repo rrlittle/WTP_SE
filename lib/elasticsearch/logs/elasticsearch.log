@@ -1,97 +1,287 @@
-[2015-11-11 18:35:08,971][INFO ][node                     ] [Jack Power] version[1.5.0], pid[7636], build[5448160/2015-03-23T14:30:58Z]
-[2015-11-11 18:35:09,062][INFO ][node                     ] [Jack Power] initializing ...
-[2015-11-11 18:35:09,124][INFO ][plugins                  ] [Jack Power] loaded [], sites []
-[2015-11-11 18:35:44,997][INFO ][node                     ] [Jack Power] initialized
-[2015-11-11 18:35:45,786][INFO ][node                     ] [Jack Power] starting ...
-[2015-11-11 18:35:47,136][INFO ][transport                ] [Jack Power] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
-[2015-11-11 18:35:47,345][INFO ][discovery                ] [Jack Power] elasticsearch/nUv0poBXQba8g8HCwdGJlg
-[2015-11-11 18:35:51,382][INFO ][cluster.service          ] [Jack Power] new_master [Jack Power][nUv0poBXQba8g8HCwdGJlg][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
-[2015-11-11 18:35:52,382][INFO ][http                     ] [Jack Power] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
-[2015-11-11 18:35:52,392][INFO ][node                     ] [Jack Power] started
-[2015-11-11 18:36:04,438][INFO ][gateway                  ] [Jack Power] recovered [1] indices into cluster_state
-[2015-11-11 18:36:22,029][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:36:52,039][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:37:22,008][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:37:52,176][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:38:21,966][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:38:51,997][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:39:22,026][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:39:52,043][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:40:22,003][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:40:52,007][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:41:21,971][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:41:52,022][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:42:21,981][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:42:52,084][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:43:22,002][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:43:52,010][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:44:22,006][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:44:51,990][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:45:22,002][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:45:52,032][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:46:22,033][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:46:52,046][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:47:21,973][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:47:52,236][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:48:22,005][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:48:52,025][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:49:22,046][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:49:52,000][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:50:21,990][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:50:52,046][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:51:22,064][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:51:52,010][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:52:21,980][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:52:53,354][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:53:22,062][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:53:52,144][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:54:22,021][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:54:52,189][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:55:22,027][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:55:52,154][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:56:22,082][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:56:52,293][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:57:22,016][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:57:52,171][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:58:22,037][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:58:52,117][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:59:22,022][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 18:59:52,155][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:00:22,099][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:00:52,148][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:01:22,112][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:01:52,138][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:02:22,363][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:02:52,392][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:03:22,337][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:03:52,248][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:04:22,030][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:04:52,047][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:05:22,091][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:05:52,195][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:06:22,109][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:06:52,135][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:07:22,048][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:07:52,191][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:08:22,133][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:08:52,208][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:09:22,053][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:09:52,165][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:10:22,075][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:10:52,168][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:11:22,168][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:11:52,216][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:12:22,072][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:12:52,179][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:13:22,082][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:13:52,240][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:14:22,257][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:14:52,197][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:15:22,174][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:15:52,238][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:16:22,236][INFO ][cluster.routing.allocation.decider] [Jack Power] low disk watermark [15%] exceeded on [nUv0poBXQba8g8HCwdGJlg][Jack Power] free: 62.2gb[12.4%], replicas will not be assigned to this node
-[2015-11-11 19:16:47,366][INFO ][bootstrap                ] running graceful exit on windows
-[2015-11-11 19:16:47,369][INFO ][node                     ] [Jack Power] stopping ...
-[2015-11-11 19:16:50,619][INFO ][node                     ] [Jack Power] stopped
-[2015-11-11 19:16:50,619][INFO ][node                     ] [Jack Power] closing ...
-[2015-11-11 19:16:50,822][INFO ][node                     ] [Jack Power] closed
+[2015-11-25 18:52:28,785][WARN ][bootstrap                ] unable to install syscall filter: syscall filtering not supported for OS: 'Windows 7'
+[2015-11-25 18:52:34,691][INFO ][node                     ] [Frank Payne] version[2.1.0], pid[6592], build[72cd1f1/2015-11-18T22:40:03Z]
+[2015-11-25 18:52:34,692][INFO ][node                     ] [Frank Payne] initializing ...
+[2015-11-25 18:52:38,893][INFO ][plugins                  ] [Frank Payne] loaded [marvel-agent], sites []
+[2015-11-25 18:52:39,774][INFO ][env                      ] [Frank Payne] using [1] data paths, mounts [[wtp_develop (T:)]], net usable_space [59.5gb], net total_space [500gb], spins? [unknown], types [ODS5]
+[2015-11-25 18:52:40,154][ERROR][bootstrap                ] Exception
+java.lang.IllegalStateException: marvel plugin requires the license plugin to be installed
+	at org.elasticsearch.marvel.license.LicenseModule.verifyLicensePlugin(LicenseModule.java:37)
+	at org.elasticsearch.marvel.license.LicenseModule.<init>(LicenseModule.java:25)
+	at org.elasticsearch.marvel.MarvelPlugin.nodeModules(MarvelPlugin.java:83)
+	at org.elasticsearch.plugins.PluginsService.nodeModules(PluginsService.java:224)
+	at org.elasticsearch.node.Node.<init>(Node.java:168)
+	at org.elasticsearch.node.Node.<init>(Node.java:129)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:145)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:178)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:285)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2015-11-25 18:56:15,323][WARN ][bootstrap                ] unable to install syscall filter: syscall filtering not supported for OS: 'Windows 7'
+[2015-11-25 18:56:20,950][INFO ][node                     ] [Supernalia] version[2.1.0], pid[6980], build[72cd1f1/2015-11-18T22:40:03Z]
+[2015-11-25 18:56:20,952][INFO ][node                     ] [Supernalia] initializing ...
+[2015-11-25 18:56:26,116][INFO ][plugins                  ] [Supernalia] loaded [license, marvel-agent], sites []
+[2015-11-25 18:56:26,993][INFO ][env                      ] [Supernalia] using [1] data paths, mounts [[wtp_develop (T:)]], net usable_space [59.5gb], net total_space [500gb], spins? [unknown], types [ODS5]
+[2015-11-25 18:56:52,370][INFO ][node                     ] [Supernalia] initialized
+[2015-11-25 18:56:52,372][INFO ][node                     ] [Supernalia] starting ...
+[2015-11-25 18:56:53,042][INFO ][transport                ] [Supernalia] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2015-11-25 18:56:53,120][INFO ][discovery                ] [Supernalia] elasticsearch/-ozuqKiCRYGaux1LGga_tQ
+[2015-11-25 18:56:57,310][INFO ][cluster.service          ] [Supernalia] new_master {Supernalia}{-ozuqKiCRYGaux1LGga_tQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2015-11-25 18:56:57,429][INFO ][http                     ] [Supernalia] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2015-11-25 18:56:57,432][INFO ][node                     ] [Supernalia] started
+[2015-11-25 18:56:59,794][INFO ][gateway                  ] [Supernalia] recovered [1] indices into cluster_state
+[2015-11-25 18:57:00,927][INFO ][license.plugin.core      ] [Supernalia] license [b626737d-68f8-4501-8c69-019601a93066] - valid
+[2015-11-25 18:57:00,950][ERROR][license.plugin.core      ] [Supernalia] 
+#
+# License will expire on [Saturday, December 26, 2015]. If you have a new license, please update it.
+# Otherwise, please reach out to your support contact.
+# 
+# Commercial plugins operate with reduced functionality on license expiration:
+# - marvel
+#  - The agent will stop collecting cluster and indices metrics
+[2015-11-25 18:57:04,174][DEBUG][action.admin.indices.recovery] [Supernalia] [indices:monitor/recovery] failed to execute operation for shard [[tables][3], node[-ozuqKiCRYGaux1LGga_tQ], [P], v[12], s[INITIALIZING], a[id=gVCwe8AaQuiXdCESs428sQ], unassigned_info[[reason=CLUSTER_RECOVERED], at[2015-11-26T00:56:58.177Z]]]
+[tables][[tables][3]] BroadcastShardOperationFailedException[operation indices:monitor/recovery failed]; nested: IndexNotFoundException[no such index];
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.onShardOperation(TransportBroadcastByNodeAction.java:405)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.messageReceived(TransportBroadcastByNodeAction.java:382)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.messageReceived(TransportBroadcastByNodeAction.java:371)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [tables] IndexNotFoundException[no such index]
+	at org.elasticsearch.indices.IndicesService.indexServiceSafe(IndicesService.java:310)
+	at org.elasticsearch.action.admin.indices.recovery.TransportRecoveryAction.shardOperation(TransportRecoveryAction.java:102)
+	at org.elasticsearch.action.admin.indices.recovery.TransportRecoveryAction.shardOperation(TransportRecoveryAction.java:52)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.onShardOperation(TransportBroadcastByNodeAction.java:401)
+	... 7 more
+[2015-11-25 18:57:04,592][DEBUG][action.admin.indices.stats] [Supernalia] [indices:monitor/stats] failed to execute operation for shard [[tables][3], node[-ozuqKiCRYGaux1LGga_tQ], [P], v[12], s[INITIALIZING], a[id=gVCwe8AaQuiXdCESs428sQ], unassigned_info[[reason=CLUSTER_RECOVERED], at[2015-11-26T00:56:58.177Z]]]
+[tables][[tables][3]] BroadcastShardOperationFailedException[operation indices:monitor/stats failed]; nested: IndexNotFoundException[no such index];
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.onShardOperation(TransportBroadcastByNodeAction.java:405)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.messageReceived(TransportBroadcastByNodeAction.java:382)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.messageReceived(TransportBroadcastByNodeAction.java:371)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [tables] IndexNotFoundException[no such index]
+	at org.elasticsearch.indices.IndicesService.indexServiceSafe(IndicesService.java:310)
+	at org.elasticsearch.action.admin.indices.stats.TransportIndicesStatsAction.shardOperation(TransportIndicesStatsAction.java:97)
+	at org.elasticsearch.action.admin.indices.stats.TransportIndicesStatsAction.shardOperation(TransportIndicesStatsAction.java:47)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.onShardOperation(TransportBroadcastByNodeAction.java:401)
+	... 7 more
+[2015-11-25 18:57:04,600][DEBUG][action.admin.indices.stats] [Supernalia] [indices:monitor/stats] failed to execute operation for shard [[tables][3], node[-ozuqKiCRYGaux1LGga_tQ], [P], v[12], s[INITIALIZING], a[id=gVCwe8AaQuiXdCESs428sQ], unassigned_info[[reason=CLUSTER_RECOVERED], at[2015-11-26T00:56:58.177Z]]]
+[tables][[tables][3]] BroadcastShardOperationFailedException[operation indices:monitor/stats failed]; nested: IndexNotFoundException[no such index];
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.onShardOperation(TransportBroadcastByNodeAction.java:405)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.messageReceived(TransportBroadcastByNodeAction.java:382)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.messageReceived(TransportBroadcastByNodeAction.java:371)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:350)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: [tables] IndexNotFoundException[no such index]
+	at org.elasticsearch.indices.IndicesService.indexServiceSafe(IndicesService.java:310)
+	at org.elasticsearch.action.admin.indices.stats.TransportIndicesStatsAction.shardOperation(TransportIndicesStatsAction.java:97)
+	at org.elasticsearch.action.admin.indices.stats.TransportIndicesStatsAction.shardOperation(TransportIndicesStatsAction.java:47)
+	at org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeAction$BroadcastByNodeTransportRequestHandler.onShardOperation(TransportBroadcastByNodeAction.java:401)
+	... 7 more
+[2015-11-25 18:57:06,319][INFO ][cluster.metadata         ] [Supernalia] [.marvel-es-data] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [node, shards, _default_, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, node_stats, indices_stats]
+[2015-11-25 18:57:10,676][INFO ][cluster.metadata         ] [Supernalia] [.marvel-es-2015.11.26] creating index, cause [auto(bulk api)], templates [.marvel-es], shards [1]/[1], mappings [shards, _default_, node, index_stats, nodes, index_recovery, cluster_state, cluster_info, cluster_stats, node_stats, indices_stats]
+[2015-11-25 18:57:11,602][WARN ][index.translog           ] [Supernalia] [tables][3] failed to delete temp file T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\3\translog\translog-7240379800141308836.tlog
+java.nio.file.NoSuchFileException: T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\3\translog\translog-7240379800141308836.tlog
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-11-25 18:57:11,726][WARN ][index.translog           ] [Supernalia] [tables][2] failed to delete temp file T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\2\translog\translog-9069453137099907922.tlog
+java.nio.file.NoSuchFileException: T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\2\translog\translog-9069453137099907922.tlog
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-11-25 18:57:12,306][WARN ][index.translog           ] [Supernalia] [tables][4] failed to delete temp file T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\4\translog\translog-3723643748995354717.tlog
+java.nio.file.NoSuchFileException: T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\4\translog\translog-3723643748995354717.tlog
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-11-25 18:57:13,224][WARN ][index.translog           ] [Supernalia] [tables][0] failed to delete temp file T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\0\translog\translog-6721223839685193821.tlog
+java.nio.file.NoSuchFileException: T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\0\translog\translog-6721223839685193821.tlog
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-11-25 18:57:13,270][WARN ][cluster.metadata         ] ha_pb_t, data_rd_pa_t, arch_int1_s_ses, data_4_cc_t, calc_3_oc_m, trash_mkv_geiq_10, data_mr_fe_m, calc_sd_hb_m, data_3_sd, data_3_fa_f, calc_5_ap_t, trash_trahs, data_3_hb_ps_sib_m, aaatable, data_1_it_c1_f, data_s_span_pd_m, data_c3_mu_t, arch_int1_s_bci, data_3_tg, calc_4_cp_f, data_c3_ma_t, data_4_hb_pr_sib_m, gen_milwaukee_zips, data_4_hb_pr_f, data_s_hb_if_m, calc_early_measure, user_jlb_ph4call_2_23_07, data_3_ps_m, data_s_span_hb_hu_m, calc_de_ethnicity_s, user_4_colorword, user_zyg_final_qu_observation, data_4_tr, data_4_hc_m, calc_4_sp_m, calc_5_hc_m, data_r1_tr, data_rd_hs_t, data_4_ma_t, data_4_dc_f, data_4_bl_t, data_5_sd_t, data_4_pm_f, data_3_hb_ra_m, data_5_mr, user_cla_sd tracker dates spc flag, calc_5_au_m, calc_4_fe_f, data_5_bb_t, calc_5_bb_t, data_1_cv_f, calc_s_hb_m, gen_siblings, user_4_disc_011109_parent, data_4_hb_if_sib_m, data_4_ia_e1, data_3_ch_m, data_3_hb_sr_sib_m, calc_5_hu_t, data_s_span_de_m, data_2_oc_f, calc_c3_ep_m, data_4_hb_if_f, data_3_new_ns, data_5_hb_ph_m, data_4_hb_sr_sib_m, data_sd_sa_td_o, arch_siblings, calc_c3_ti_m, user_4_disc_121908_twin, calc_4_pm_c, data_4_bd_m, data_rd_ha_sp_t, data_3_sp_m, data_mr_ir_t, calc_mintarget, data_4_hc_f, calc_3_pa_e1, calc_s_groups, data_c3_tr, gen_geo_zips, calc_sd_di_m, calc_5_ec_t, calc_5_ep_m, calc_oc_t_tap, data_c3_dates, data_5_de_m, data_4_bb_f, arch_int1_bfi_respondent1, arch_interview 4 response tracker, data_5_ti_t, data_4_hb_hu_sib_m, data_4_hb_ps_m, data_s_dates, data_c3_hb_is_m, data_3_ms_t, data_1_tb_99_m, data_c3_hw_m, data_5_cr_m, calc_4_ep_m, arch_int1_d_cbq, user_4_datasetwithvisit_2009_0108, data_3_pr, user_jane_discage, data_c3_disc_dr_p, data_5_hb_pb_m, calc_chronicity, data_c3_disc_dr_y, data_2_dates, data_3_span_cb_m, data_3_mp_f, calc_4_dc_int_m, data_1_tb_99_f, data_s_span_hb_pb_m, calc_3_hb_m, data_birthrecord_tr, data_4_dt_f, calc_mr_so_t, calc_3_bm_f, calc_project_participation, data_5_ep_m, data_s_sd_m, trash_nls_imagingrecruit_20100215, calc_3_le_m, data_2_hb_if_f, data_c3_cg_zy, data_4_bb_m, data_3_ia_e1, data_mr_ms_t, data_c3_pd, data_5_hb_if_m, data_3_ia_e2, data_mr_ps_m, data_4_ap_t, calc_4_dt_f, data_dna, data_4_pi_t, data_rd_hb_is_m, arch_int1_ccare, data_4_re_t, data_sd_hb_sr_m, data_rd_cr_m, data_rdmr_psap_t, calc_4_dc_ques_m, calc_2_cb_m, calc_1_cr_f, user_sd_sd, arch_int1_paq_respondent2, user_jlb_ph4call_list_04_2009, calc_4_mq_m, data_5_hb_is_m, data_3_ho_i, data_rd_ti_t, gen_family, data_nc_tap, gen_jforms_users, data_4_hb_hu_m, user_5_dps_p_2010_0218, fake, data_1_it_f1_f, data_4_pw_t, calc_2_cd_m, calc_4_ma_t, data_5_hc_m, data_5_dates, data_3_oc_m, calc_2_oc_f, data_4_nr_t, data_c3_hb_if_m, data_5_mu_t, data_mr_fe_f, data_mr_rc_t, data_5_au_m, calc_mr_ta_po_t, data_nc_old, calc_4_dt_m, user_geo_participation_with_wtp_ids, trash_nls_geo_br_4_25, user_4_disc_091809_parent, data_4_ti_m, data_3_wg_1, data_3_fa_m, gen_twins, data_c3_de_m, data_4_hb_is_m, user_cla_sd mpq by twin, user_jk_mom final 1, trash_jlb_ph4call_missingdata_04_09, data_3_is_new, calc_3_address_tractcode, calc_5_cr_m, data_5_ha_pb_t, trash_mkv_kathy6, data_1_tr, data_3_dis_f, arch_int1_icq, calc_c3_hb_pb_m, data_4_io_e2, data_rd_ap_t, data_4_pm_c, data_palmprints, data_rd_sd_t, trash_nls_geozyg_2008_0914, data_3_in_f, gen_family_not_wtp, data_4_hb_if_m, data_4_pd_sib, calc_3_cr_m, data_4_bb_t, data_4_hb_pb_m, data_4_bp_e1, user_3_disc_091509, calc_3_ch_m, data_4_fc_m, data_palmprint_tr, data_sd_ho_i, calc_2_cb_f, data_rd_se_t, calc_4_fc_f, data_1_it_b1_m, calc_4_da_f, data_nm_tap, data_4_mq_m, data_mr_ro_f, data_4_bo, data_1_it_f1_m, calc_mr_pb_t, data_c3_au_m, data_at_dates, data_1_de_m, calc_4_hs_t, data_sd_di_m, data_rd_ha_sp_c, data_rd_au_m, data_1_zy, data_4_ep_m, data_at_sp, data_4_zy_e1, data_6_ks2, data_3_ns, data_3_sm, data_3_sc_t, data_mr_ta_in_t, calc_4_au_f, data_4_ms_t, data_2_cd_m, calc_sd_tb_m, calc_4_sa_m, user_jlb_cort4, calc_5_hb_m, calc_4_fe_m, data_s_tr, data_rd_ha_pb_t, data_s_hb_pb_m, data_4_bd_f, data_sd_hb_is_m, data_1_it_e1_m, data_1_it_c1_m, data_5_pm_t, calc_3_hb_f, arch_int1_cbq_respondent2, calc_1_it_m, data_2_hb_ra_f, calc_palmprints, data_nm, data_3_cd_m, data_oc_t_tap, gen_no_recruit_sort, data_4_pd, calc_4_au_t, data_5_pd, data_rd_cg_zy, user_nls_ph4disc, data_at_hb_pb, calc_3_st, user_geodemo_2009, data_rd_au_t, data_5_rs_t, data_4_re_m, data_3_hb_ra_sib_m, data_3_bc_s_r1, data_4_sp_m, calc_4_au_m, arch_s_de_m, data_s_hb_is_m, data_4_de_m, data_1_bi_m, data_3_st2r, data_s_de_m, user_nls_3_tr_update, data_mr_tr, arch_int1_psi, arch_int1_tbaq_respondent1, data_4_fs_m, data_at_ph, data_4_hb_ra_m, data_4_bs_f, data_c3_hc_m, arch_cbqm, user_nls_geo_wtp_br_4_25, data_sd_hb_if_m, data_4_st_m, data_rd_in_m, data_mr_mc_t, data_3_hb_ph_sib_m, data_mr_ro_m, data_4_addresses, data_5_pi_t, data_sd_sa_ad_o, data_5_dc_m, data_3_rc_t, arch_int1_d_icq, calc_4_le_m, calc_zy_tgendna, user_tap 5 percent, data_3_bd_f, calc_4_cs_t, data_4_br_e2, data_rdmr_hdt_t, trash_nls_minimage_2010_03, data_3_hb_pb_f, data_4_hb_ph_sib_m, data_4_fe_m, calc_sib_age, data_4_ti_f, data_4_ep_f, user_sd_control selection list, calc_4_nr_t, data_4_sib_qu_respondent, calc_1_tb_00_m, data_4_hb_ra_sib_m, data_mr_at_t, data_4_cw_t, trash_mkv_jg39, calc_4_fs_m, arch_int1_s_paq, data_2_hb_ra_m, calc_4_cp_m, calc_1_tb_99_m, trash_mkv_sw39, data_3_oc_f, data_at_dem, arch_int1_feq_respondent2, data_4_se_t, data_s_hb_hu_m, calc_3_fa_f, data_4_bp_e2, data_sd_as_m, arch_zyg, data_3_hb_pb_sib_m, data_c3_cr_m, data_4_ti_t, data_3_hb_if_sib_m, arch_1_de_m, user_5_dps_t_2010_0218, calc_oc_t, data_5_in_m, data_3_cb_f, data_mr_pq_t, data_3_pd_emo, data_3_bm_m, tables, arch_int1_s_scq, data_rd_hb_ph_m, data_4_hb_pr_m, data_4_hb_sr_f, user_4_picword, data_3_dc_f, calc_4_hc_f, data_s_span_zy, data_rd_pi_t, data_3_span_de_m, calc_jane_ages, user_nls_kk_thesis_sample_save_2_3, arch_ph2, data_3_bd_m, data_c3_ha_pb_t, data_3_hb_if_f, calc_c3_au_m, data_4_cw_old_t, calc_1_tb_00_f, data_sd_hb_ph_m, data_3_sn_emo, data_3_zy, data_1_tb_00_m, data_3_ta, gen_secondary_contact, data_3_de_f, calc_nc_t, data_4_hu_t, data_rd_dc_m, user_1_bit_m_2008_02, gen_parentdates, data_w14_au_m, data_1_dates, data_4_io_e1, gen_family_geo, calc_1_bi_f, data_4_cp_m, calc_1_cr_m, data_4_cr_f, user_1_bit_f_2008_02, data_4_ad_t, data_4_zy_e2, data_3_bc_m_r1, calc_3_hc_f, data_5_ap_t, calc_oc_prenatal_m, data_4_ro_m, calc_4_hb_pb_f, calc_3_oc_f, data_rd_dates, calc_c3_hb_m, data_sd_tb_m, calc_4_bd_f, arch_int1_feq_respondent3, data_sd_sa_td_c, arch_int1_paq_respondent1, calc_4_ro_m, data_3_dates, data_4_mq_f, calc_5_pm_t, data_1_cr_f, data_1_it_e1_f, gen_states, calc_4_rs_t, data_5_ti_m, data_rd_zy_t, data_rdmr_agn_t, data_3_sn_beh, trash_nls_emoregpapersample_0711, data_sd_sr_m, user_ka_pd, calc_3_bp_pp_t, calc_4_hb_pb_m, data_3_pp_t, calc_3_bc_m, data_oc_old, arch_interview 3 response tracker, data_3_bl_st_t, data_2_hb_if_m, data_rd_hc_m, data_4_cortid, user_cla_extended milw zips, data_sd_de_m, data_3_fp_new, calc_4_pm_m, data_sd_sh_t, calc_de_ethnicity, data_5_hw_t, calc_3_sp_m, data_rd_hw_m, data_3_hb_ps_m, calc_4_pi, calc_a_ba, user_cidi_data_short_dad_3_17_06, data_4_hs_t, data_4_cs_t, arch_dates, calc_4_bl_t, calc_4_bs_m, data_c3_zy_t, data_rd_ad_t, data_2_hb_ps_m, calc_1_it_f, arch_ibq_respondent3, data_3_bp_e2, data_4_fc_f, data_1_cv_m, data_c3_bb_t, calc_4_ec_t, data_2_zy, arch_int1_scq, user_sd_randomization, user_zyg_dna_results, calc_3_bc_f, user_cla_complete sd screener data, calc_3_bp_sy_t, data_3_bb, data_4_hb_pb_f, data_mr_pa_in_t, data_3_bl_t, data_sd_hb_ps_m, user_fsv, data_4_hb_ps_f, data_c3_pi_m, calc_3_tp, user_5_dps_t_12_15_2010, data_4_hb_is_f, data_3_fp_old, calc_mr_dp_t, calc_4_dc_ques_f, data_3_hc_m, data_5_ec_t, data_3_bp_e1, data_rdmr_tr, arch_int1_cbq_respondent1, data_c3_rs_t, calc_oc_m_tap, calc_2_groups, user_nls_spdcontrols_2009_0203, calc_c3_hc_m, calc_3_dt_f, data_4_hb_ps_sib_m, calc_3_dc_m, data_3_cg_tw_emo, calc_4_bb_f, user_allscreener_groupmembership_2007_08_24, data_3_wg_2, calc_5_ti_m, calc_4_hu_t, calc_2_cd_f, data_c3_hb_pb_m, calc_sd_ss, data_3_da_m, data_3_em, calc_3_pa_e2, calc_4_da_m, data_rd_de_m, data_4_bc_t_r1, calc_3_bm_m, data_5_au_t, data_3_hb_ph_m, gen_family_twinautism, data_3_hb_is_f, user_4_cort_dhea_t, data_sd_sp_m, data_4_rs_t, data_c3_sd_t, user_sd_auditory original lists, data_mr_ai_t, data_3_bp_sy_t, data_3_cg_tw_beh, data_3_cb_m, data_4_au_m, data_w14_tr, calc_s_sd_m, data_c3_ec_t, data_2_hb_ps_f, data_3_bc_t_r1, data_c3_ha_sp_t, gen_family_autism, user_geo_demo_2009, calc_4_hb_f, user_allscreener_rawdata_2008_01, arch_demographics, data_2_hb_sr_f, data_3_dt_f, calc_sd_sp, calc_mr_ai_t, calc_nc_t_tap, calc_3_bc_t, data_3_dt_m, data_3_mp_m, data_4_hb_ph_m, calc_3_fc_m, data_1_it_d1_m, arch_zyg_follow up, data_rd_bb_t, gen_de_state, data_3_cr_m, arch_int1_d_tbaq, data_2_hb_ph_f, data_4_bc_m_r1, data_4_hb_is_sib_m, data_3_bc_t, data_zy_tgendna, data_at_in, data_rd_pm_t, data_4_br_e1, data_mr_pa_pr_t, calc_1_hc_m, user_dna_2009conflist, calc_4_ad_t, user_nls_recruitment_2007_04_01, data_mr_pb_t, calc_3_cd_f, data_3_bm_f, gen_household, user_cidi_data_short_mom_3_17_06, user_3_disc_012509, data_sd_si_t, calc_2_hb_f, gen_social_security, data_1_as_f, data_5_pi_m, data_4_pm_m, data_c3_pi_t, data_3_pd_beh, trash_fjasdkjfl, data_3_dc_m, calc_1_bi_m, data_4_sa_f, user_geo_98_births_12_2004, trash_hhg_sd interventions, calc_3_sc_t, data_3_fp, data_3_oc_sib_m, arch_interview 1 response tracker, data_4_ha_pb_t, data_4_le_m, data_at_sl, calc_3_bd_m, data_zyg_tap, calc_4_sr_t, data_sd_bi_m, data_3_hb_ps_f, data_3_zy_e1, data_4_sa_m, data_1_tb_03_m, data_3_span_hc_m, data_s_span_dates, calc_3_cb_m, data_rd_ti_m, data_mr_bd_f, user_wallace09sample_2009_0131, calc_4_cc_t, arch_familyid, data_1_tb_00_f, data_nm_old, data_3_br_e1, data_c3_hb_ph_m, data_4_in_m, data_6_ks1, data_4_pt_11_2007, data_5_tr, data_sd_tr, data_4_pm_t, calc_sd_it_m, arch_int1_s_feq, calc_5_au_t, calc_4_bb_t, data_5_hw_m, data_sd_hb_ra_m, data_5_cs_t, gen_staff]]
+[2015-11-25 18:57:16,746][WARN ][index.translog           ] [Supernalia] [tables][1] failed to delete temp file T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\1\translog\translog-1589410389680997650.tlog
+java.nio.file.NoSuchFileException: T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0\indices\tables\1\translog\translog-1589410389680997650.tlog
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.delete(Unknown Source)
+	at java.nio.file.Files.delete(Unknown Source)
+	at org.elasticsearch.index.translog.Translog.recoverFromFiles(Translog.java:324)
+	at org.elasticsearch.index.translog.Translog.<init>(Translog.java:166)
+	at org.elasticsearch.index.engine.InternalEngine.openTranslog(InternalEngine.java:209)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:152)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:25)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1408)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1403)
+	at org.elasticsearch.index.shard.IndexShard.internalPerformTranslogRecovery(IndexShard.java:906)
+	at org.elasticsearch.index.shard.IndexShard.performTranslogRecovery(IndexShard.java:883)
+	at org.elasticsearch.index.shard.StoreRecoveryService.recoverFromStore(StoreRecoveryService.java:245)
+	at org.elasticsearch.index.shard.StoreRecoveryService.access$100(StoreRecoveryService.java:56)
+	at org.elasticsearch.index.shard.StoreRecoveryService$1.run(StoreRecoveryService.java:129)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-11-25 18:57:20,277][INFO ][cluster.metadata         ] [Supernalia] [.marvel-es-2015.11.26] update_mapping [cluster_stats]
+[2015-11-25 18:57:21,673][INFO ][cluster.metadata         ] [Supernalia] [.marvel-es-2015.11.26] update_mapping [node_stats]
+[2015-11-25 18:57:28,040][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 18:57:32,498][INFO ][cluster.metadata         ] [Supernalia] [.marvel-es-2015.11.26] update_mapping [cluster_stats]
+[2015-11-25 18:57:33,708][INFO ][cluster.metadata         ] [Supernalia] [.marvel-es-2015.11.26] update_mapping [indices_stats]
+[2015-11-25 18:57:58,461][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 18:58:28,473][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 18:59:00,365][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 18:59:30,378][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:00:00,401][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:00:30,412][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:01:00,441][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:01:30,455][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:02:00,459][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:02:30,495][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:03:00,910][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:03:30,940][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:04:00,945][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:04:30,959][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:05:01,661][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:05:31,677][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:06:01,691][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:06:31,705][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:07:01,722][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:07:31,997][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:08:02,010][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:08:32,024][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:09:02,036][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:09:32,388][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:10:02,403][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:10:33,772][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:11:03,789][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:11:33,793][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:12:03,809][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:12:33,823][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:13:03,836][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:13:34,055][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:14:04,401][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:14:34,406][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:15:04,534][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:15:34,676][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:16:04,807][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:16:34,993][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:17:05,725][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:17:35,738][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:18:06,496][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:18:36,509][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:19:06,515][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:19:36,545][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:20:07,541][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:20:37,556][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:21:07,561][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:21:37,590][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:22:07,603][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:22:37,615][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:23:07,630][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:23:38,105][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:24:08,117][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:24:39,210][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:25:09,222][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:25:39,235][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:26:09,249][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:26:39,260][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:27:09,698][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:27:39,711][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:28:10,823][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:28:40,836][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:29:10,854][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:29:40,869][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:30:10,881][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:30:41,419][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:31:11,433][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:31:41,448][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:32:11,461][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:32:41,475][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:33:11,488][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:33:41,500][INFO ][cluster.routing.allocation.decider] [Supernalia] low disk watermark [85%] exceeded on [-ozuqKiCRYGaux1LGga_tQ][Supernalia][T:\Source Code\WTP Search Tool\dev\data\elasticsearch\nodes\0] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 19:34:04,571][INFO ][bootstrap                ] running graceful exit on windows
+[2015-11-25 19:34:04,576][INFO ][node                     ] [Supernalia] stopping ...
+[2015-11-25 19:34:09,323][INFO ][node                     ] [Supernalia] stopped
+[2015-11-25 19:34:09,325][INFO ][node                     ] [Supernalia] closing ...
+[2015-11-25 19:34:09,359][INFO ][node                     ] [Supernalia] closed

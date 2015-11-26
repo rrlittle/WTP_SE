@@ -50,21 +50,31 @@ if NOT "%ES_USE_IPV4%" == "" (
 set JAVA_OPTS=%JAVA_OPTS% -Djava.net.preferIPv4Stack=true
 )
 
-set JAVA_OPTS=%JAVA_OPTS% -XX:+UseParNewGC
-set JAVA_OPTS=%JAVA_OPTS% -XX:+UseConcMarkSweepGC
-
-set JAVA_OPTS=%JAVA_OPTS% -XX:CMSInitiatingOccupancyFraction=75
-set JAVA_OPTS=%JAVA_OPTS% -XX:+UseCMSInitiatingOccupancyOnly
-
+REM Add gc options. ES_GC_OPTS is unsupported, for internal testing
+if "%ES_GC_OPTS%" == "" (
+set ES_GC_OPTS=%ES_GC_OPTS% -XX:+UseParNewGC
+set ES_GC_OPTS=%ES_GC_OPTS% -XX:+UseConcMarkSweepGC
+set ES_GC_OPTS=%ES_GC_OPTS% -XX:CMSInitiatingOccupancyFraction=75
+set ES_GC_OPTS=%ES_GC_OPTS% -XX:+UseCMSInitiatingOccupancyOnly
 REM When running under Java 7
 REM JAVA_OPTS=%JAVA_OPTS% -XX:+UseCondCardMark
+)
+set JAVA_OPTS=%JAVA_OPTS%%ES_GC_OPTS%
 
-if NOT "%ES_USE_GC_LOGGING%" == "" set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintGCDetails
-if NOT "%ES_USE_GC_LOGGING%" == "" set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintGCTimeStamps
-if NOT "%ES_USE_GC_LOGGING%" == "" set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintClassHistogram
-if NOT "%ES_USE_GC_LOGGING%" == "" set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintTenuringDistribution
-if NOT "%ES_USE_GC_LOGGING%" == "" set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintGCApplicationStoppedTime
-if NOT "%ES_USE_GC_LOGGING%" == "" set JAVA_OPTS=%JAVA_OPTS% -Xloggc:%ES_HOME%/logs/gc.log
+if "%ES_GC_LOG_FILE%" == "" goto nogclog
+
+:gclog
+set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintGCDetails
+set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintGCTimeStamps
+set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintGCDateStamps
+set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintClassHistogram
+set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintTenuringDistribution
+set JAVA_OPTS=%JAVA_OPTS% -XX:+PrintGCApplicationStoppedTime
+set JAVA_OPTS=%JAVA_OPTS% -Xloggc:%ES_GC_LOG_FILE%
+for %%F in ("%ES_GC_LOG_FILE%") do set ES_GC_LOG_FILE_DIRECTORY=%%~dpF
+if NOT EXIST "%ES_GC_LOG_FILE_DIRECTORY%\." mkdir "%ES_GC_LOG_FILE_DIRECTORY%"
+
+:nogclog
 
 REM Causes the JVM to dump its heap on OutOfMemory.
 set JAVA_OPTS=%JAVA_OPTS% -XX:+HeapDumpOnOutOfMemoryError
@@ -78,5 +88,16 @@ set JAVA_OPTS=%JAVA_OPTS% -XX:+DisableExplicitGC
 REM Ensure UTF-8 encoding by default (e.g. filenames)
 set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8
 
-set ES_CLASSPATH=%ES_CLASSPATH%;%ES_HOME%/lib/elasticsearch-1.5.0.jar;%ES_HOME%/lib/*;%ES_HOME%/lib/sigar/*
+REM Use our provided JNA always versus the system one
+set JAVA_OPTS=%JAVA_OPTS% -Djna.nosys=true
+
+REM check in case a user was using this mechanism
+if "%ES_CLASSPATH%" == "" (
+set ES_CLASSPATH=%ES_HOME%/lib/elasticsearch-2.1.0.jar;%ES_HOME%/lib/*
+) else (
+ECHO Error: Don't modify the classpath with ES_CLASSPATH, Best is to add 1>&2
+ECHO additional elements via the plugin mechanism, or if code must really be 1>&2
+ECHO added to the main classpath, add jars to lib\, unsupported 1>&2
+EXIT /B 1
+)
 set ES_PARAMS=-Delasticsearch -Des-foreground=yes -Des.path.home="%ES_HOME%"
