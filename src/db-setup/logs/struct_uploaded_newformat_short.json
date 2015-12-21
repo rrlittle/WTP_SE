@@ -1,0 +1,67 @@
+{
+    "aaatable": {
+      "tablename": "aaatable",
+      "type": "misc"
+    },
+    "arch_interview 4 response tracker": {
+      "tablename": "arch_interview 4 response tracker",
+      "type": "misc"
+    },
+    "calc_1_bi_f": {
+      "instrument abbreviation": "bi",
+      "instrument name": "Parent Adolescent/Sibling Report ",
+      "phase": "Phase 1",
+      "respondent": "father",
+      "tablename": "calc_1_bi_f",
+      "type": "calc"
+    },
+    "calc_1_bi_m": {
+      "instrument abbreviation": "bi",
+      "instrument name": "Parent Adolescent/Sibling Report ",
+      "phase": "Phase 1",
+      "respondent": "mother",
+      "tablename": "calc_1_bi_m",
+      "type": "calc"
+    },
+    "calc_1_cr_f": {
+      "instrument abbreviation": "cr",
+      "instrument name": "CRPR ",
+      "phase": "Phase 1",
+      "respondent": "father",
+      "scales":[ 
+        {"name":"ac","description":"authoritarian control"},
+        {"name":"ca","description":"control by anxiety induction"},
+        {"name":"cg","description":"control by guilt induction"},
+        {"name":"ei","description":"encourage independence"},
+        {"name":"eo","description":"encourage openness"},
+        {"name":"oa","description":"open aff. expression"},
+        {"name":"rg","description":"rational guidance"}
+      ],
+      "tablename": "calc_1_cr_f",
+      "type": "calc"
+    },
+    "calc_1_cr_m": {
+      "instrument abbreviation": "cr",
+      "instrument name": "CRPR ",
+      "phase": "Phase 1",
+      "respondent": "mother",
+      "scales": [
+        {"name":"ac","description": "authoritarian control"},
+        {"name":"ca","description": "control by anxiety induction"},
+        {"name":"cg","description": "control by guilt induction"},
+        {"name":"ei","description": "encourage independence"},
+        {"name":"eo","description": "encourage openness"},
+        {"name":"oa","description": "open aff. expression"},
+        {"name":"rg","description": "rational guidance"}
+      ],
+      "tablename": "calc_1_cr_m",
+      "type": "calc"
+    },
+    "calc_1_hc_m": {
+      "instrument abbreviation": "hc",
+      "phase": "Phase 1",
+      "respondent": "mother",
+      "tablename": "calc_1_hc_m",
+      "type": "calc"
+    }
+}

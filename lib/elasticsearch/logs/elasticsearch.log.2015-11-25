@@ -1,0 +1,1223 @@
+[2015-11-25 20:12:33,911][INFO ][node                     ] [Crazy Eight] version[1.5.0], pid[4380], build[5448160/2015-03-23T14:30:58Z]
+[2015-11-25 20:12:33,914][INFO ][node                     ] [Crazy Eight] initializing ...
+[2015-11-25 20:12:33,966][INFO ][plugins                  ] [Crazy Eight] loaded [], sites []
+[2015-11-25 20:13:07,003][ERROR][gateway.local.state.shards] [Crazy Eight] failed to read local state (started shards), exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+[2015-11-25 20:13:08,348][ERROR][gateway.local.state.meta ] [Crazy Eight] failed to read local state, exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadIndexState(LocalGatewayMetaState.java:401)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:389)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+[2015-11-25 20:13:08,790][ERROR][gateway.local.state.shards] [Crazy Eight] failed to read local state (started shards), exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+[2015-11-25 20:13:09,775][ERROR][gateway.local.state.meta ] [Crazy Eight] failed to read local state, exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadIndexState(LocalGatewayMetaState.java:401)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:389)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+[2015-11-25 20:13:10,154][ERROR][gateway.local.state.shards] [Crazy Eight] failed to read local state (started shards), exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+[2015-11-25 20:13:10,662][ERROR][gateway.local.state.meta ] [Crazy Eight] failed to read local state, exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadIndexState(LocalGatewayMetaState.java:401)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:389)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+[2015-11-25 20:13:10,818][ERROR][bootstrap                ] Exception
+org.elasticsearch.common.inject.CreationException: Guice creation errors:
+
+1) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+  at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState
+    for parameter 4 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+    for parameter 1 at org.elasticsearch.gateway.GatewayService.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.GatewayService
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadIndexState(LocalGatewayMetaState.java:401)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:389)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+
+2) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+  at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState
+    for parameter 4 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadIndexState(LocalGatewayMetaState.java:401)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:389)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+
+3) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+  at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadIndexState(LocalGatewayMetaState.java:401)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:389)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 11 but was: 8
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+
+4) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+  at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState
+    for parameter 3 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+    for parameter 1 at org.elasticsearch.gateway.GatewayService.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.GatewayService
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+
+5) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+  at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState
+    for parameter 3 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+
+6) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+  at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+
+6 errors
+	at org.elasticsearch.common.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:344)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:178)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+[2015-11-25 20:37:44,844][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:38:14,854][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:38:44,774][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:39:14,753][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:39:44,765][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:40:14,998][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:40:44,822][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:41:14,985][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:41:45,007][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:42:15,038][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:42:44,774][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:43:14,808][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:43:44,849][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:44:14,859][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:44:44,755][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:45:15,391][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:45:44,874][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:46:15,006][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:46:44,846][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:47:14,886][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:47:44,845][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:48:14,783][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:48:44,825][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:49:14,782][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:49:44,880][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:50:14,823][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:50:44,819][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:51:14,757][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:51:44,763][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:52:14,856][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:52:44,745][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:53:14,744][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:53:44,749][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:54:15,003][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:54:44,792][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:55:14,847][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:55:44,840][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:56:15,030][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:56:44,973][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:57:14,998][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:57:45,015][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:58:14,935][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:58:44,724][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:59:14,811][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 20:59:44,785][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:00:14,767][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:00:44,738][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:01:14,913][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:01:44,864][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:02:14,865][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:02:44,906][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:03:14,865][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:03:44,769][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:04:14,710][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:04:44,764][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:05:14,739][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:05:44,725][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:06:14,804][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:06:44,803][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:07:14,743][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:07:44,991][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:08:14,790][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:08:44,789][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:09:14,811][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:09:44,847][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:10:14,789][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:10:45,202][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:11:14,788][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:11:44,877][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:12:14,765][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:12:44,755][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:13:14,830][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:13:44,732][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:14:14,726][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:14:44,749][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:15:14,830][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:15:44,900][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:16:14,765][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:16:44,837][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:17:14,869][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:17:44,744][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:18:14,788][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:18:44,863][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:19:14,782][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:19:44,782][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:20:14,769][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:20:44,865][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:21:14,900][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:21:44,783][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:22:14,873][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:22:44,778][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:23:14,768][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:23:44,955][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:24:14,803][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:24:44,842][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:25:14,785][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:25:44,816][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:26:14,849][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:26:44,803][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:27:14,813][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:27:44,822][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:28:14,812][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:28:44,805][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:29:14,806][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:29:44,913][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:30:14,814][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:30:44,819][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:31:14,844][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:31:44,829][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:32:14,932][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:32:44,854][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:33:14,909][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:33:44,814][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:34:14,836][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:34:44,849][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:35:14,838][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:35:44,844][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:36:14,877][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:36:45,169][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:37:14,928][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:37:44,970][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:38:14,974][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:38:45,136][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:39:14,998][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:39:44,899][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:40:14,852][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:40:44,987][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:41:15,187][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:41:45,174][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:42:14,976][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:42:45,009][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:43:14,937][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:43:45,049][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:44:15,102][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:44:44,965][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:45:14,964][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:45:44,868][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:46:14,878][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:46:44,951][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:47:14,891][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:47:44,870][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:48:14,889][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:48:44,880][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:49:14,971][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:49:44,904][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:50:14,956][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:50:44,853][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:51:14,877][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:51:44,875][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:52:14,871][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:52:44,881][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:53:14,893][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:53:44,892][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:54:14,897][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:54:45,082][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:55:15,164][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:55:44,946][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:56:14,898][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:56:44,943][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:57:14,946][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:57:45,116][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:58:14,929][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:58:44,849][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:59:14,848][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 21:59:45,067][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:00:14,867][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:00:44,883][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:01:14,939][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:01:44,897][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:02:14,975][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:02:44,940][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:03:14,945][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:03:44,911][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:04:14,900][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:04:45,096][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:05:14,938][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:05:45,244][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:06:15,096][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:06:44,859][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:07:14,848][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:07:44,847][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:08:14,949][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:08:44,940][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:09:14,860][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:09:44,894][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:10:14,879][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:10:44,893][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:11:14,893][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:11:44,892][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:12:14,892][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:12:44,969][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:13:14,900][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:13:44,897][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:14:14,898][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:14:44,995][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:15:14,937][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:15:44,921][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:16:14,909][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:16:44,924][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:17:14,919][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:17:45,094][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:18:14,977][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:18:45,055][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:19:14,969][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:19:44,976][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:20:14,989][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:20:44,996][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:21:14,981][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:21:44,945][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:22:14,966][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:22:44,972][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:23:15,150][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:23:45,112][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:24:14,951][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:24:44,957][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:25:14,956][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:25:44,936][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:26:15,235][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:26:45,236][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:27:15,071][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:27:44,938][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:28:14,974][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:28:44,952][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:29:14,938][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:29:44,946][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:30:14,954][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:30:44,970][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:31:14,958][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:31:45,053][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:32:14,962][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:32:45,043][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:33:14,978][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:33:45,047][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:34:15,005][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:34:44,980][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:35:14,978][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:35:45,006][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:36:14,978][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:36:45,082][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:37:15,147][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:37:45,125][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:38:15,080][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:38:45,020][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:39:15,003][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:39:44,992][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:40:15,093][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:40:45,084][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:41:15,176][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:41:45,223][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:42:15,199][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:42:45,197][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:43:15,220][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:43:45,285][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:44:15,313][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:44:45,223][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:45:15,284][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:45:45,228][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:46:15,226][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:46:45,213][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:47:15,252][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:47:45,299][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:48:15,495][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:48:45,429][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:49:15,247][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:49:45,340][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:50:15,261][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:50:45,197][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:51:15,287][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:51:45,244][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:52:15,327][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:52:45,361][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:53:15,241][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:53:45,212][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:54:15,199][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:54:45,410][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:55:15,197][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:55:45,211][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:56:15,423][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:56:45,359][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:57:15,493][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:57:45,192][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:58:15,363][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:58:45,219][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:59:15,190][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 22:59:45,207][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:00:15,278][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:00:45,301][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:01:15,174][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:01:45,368][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:02:15,239][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:02:45,226][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:03:15,241][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:03:45,373][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:04:15,265][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:04:45,240][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:05:15,282][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:05:45,360][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:06:15,341][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:06:45,270][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:07:15,195][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:07:45,226][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:08:15,271][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:08:45,224][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:09:15,318][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:09:45,452][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:10:15,219][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:10:45,239][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:11:15,209][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:11:45,182][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:12:15,418][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:12:45,388][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:13:15,401][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:13:45,213][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:14:15,485][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:14:45,234][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:15:15,519][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:15:45,319][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:16:15,231][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:16:45,271][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:17:15,242][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:17:45,322][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:18:15,266][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:18:45,219][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:19:15,268][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:19:45,231][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:20:15,535][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:20:45,494][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:21:15,428][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:21:45,408][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:22:15,228][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:22:45,414][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:23:15,277][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:23:45,258][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:24:15,292][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:24:45,296][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:25:15,210][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:25:45,227][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:26:15,414][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:26:45,402][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:27:15,349][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:27:45,267][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:28:15,226][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:28:45,263][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:29:15,269][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:29:45,326][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:30:15,268][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:30:45,251][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:31:15,367][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:31:45,284][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:32:15,246][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:32:45,385][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:33:15,474][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:33:45,263][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:34:15,301][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:34:45,369][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:35:15,276][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:35:45,383][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:36:15,352][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:36:45,398][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:37:15,489][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:37:45,308][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:38:15,376][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:38:45,191][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:39:15,154][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:39:45,211][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:40:15,304][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:40:45,234][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:41:15,195][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:41:45,119][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:42:15,201][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:42:45,206][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:43:15,299][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:43:45,318][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:44:15,129][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:44:45,137][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:45:15,144][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:45:45,123][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:46:15,139][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:46:45,127][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:47:15,218][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:47:45,141][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:48:15,257][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:48:45,192][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:49:15,144][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:49:45,128][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:50:15,162][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:50:45,214][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:51:15,280][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:51:45,185][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:52:15,184][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:52:45,236][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:53:15,214][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:53:45,308][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:54:15,312][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:54:45,116][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:55:15,124][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:55:45,127][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:56:15,124][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:56:45,219][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:57:15,149][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:57:45,319][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:58:15,178][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:58:45,150][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:59:15,114][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+[2015-11-25 23:59:45,136][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node
+][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_zyg] (dynamic)
+[2015-11-25 20:29:17,961][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_hb_pb_f] (dynamic)
+[2015-11-25 20:29:17,967][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_cr_m] (dynamic)
+[2015-11-25 20:29:17,971][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_hw] (dynamic)
+[2015-11-25 20:29:17,974][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_2_hc_m] (dynamic)
+[2015-11-25 20:29:17,976][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_int1_s_zyg] (dynamic)
+[2015-11-25 20:29:17,980][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_ha_sp_c] (dynamic)
+[2015-11-25 20:29:17,982][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_nls_kk_thesis_sample_save_2_3] (dynamic)
+[2015-11-25 20:29:17,989][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_de_m] (dynamic)
+[2015-11-25 20:29:17,993][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_milwaukee_site_list_final] (dynamic)
+[2015-11-25 20:29:17,996][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_bb_t] (dynamic)
+[2015-11-25 20:29:17,999][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_hu_t] (dynamic)
+[2015-11-25 20:29:18,002][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_hb_pb_m] (dynamic)
+[2015-11-25 20:29:18,006][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_disc_dr_y] (dynamic)
+[2015-11-25 20:29:18,017][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_dc_m] (dynamic)
+[2015-11-25 20:29:18,024][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_fa_f] (dynamic)
+[2015-11-25 20:29:18,029][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_ha_sp_t] (dynamic)
+[2015-11-25 20:29:18,032][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_at_sl] (dynamic)
+[2015-11-25 20:29:18,035][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_hb_sr_f] (dynamic)
+[2015-11-25 20:29:18,060][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_hb_pb_f] (dynamic)
+[2015-11-25 20:29:18,065][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_fa_m] (dynamic)
+[2015-11-25 20:29:18,068][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_hh] (dynamic)
+[2015-11-25 20:29:18,071][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_hb_ph_m] (dynamic)
+[2015-11-25 20:29:18,076][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_mp_f] (dynamic)
+[2015-11-25 20:29:18,079][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_c3_cr_m] (dynamic)
+[2015-11-25 20:29:18,091][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_ti_t] (dynamic)
+[2015-11-25 20:29:18,094][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_hb_sr_m] (dynamic)
+[2015-11-25 20:29:18,097][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_geo_participation_with_wtp_ids] (dynamic)
+[2015-11-25 20:29:18,100][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_mp_m] (dynamic)
+[2015-11-25 20:29:18,103][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_c3_dc_m] (dynamic)
+[2015-11-25 20:29:18,106][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_ti_f] (dynamic)
+[2015-11-25 20:29:18,110][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [trash_nls_geo_br_4_25] (dynamic)
+[2015-11-25 20:29:18,113][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_ec_t] (dynamic)
+[2015-11-25 20:29:18,136][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_at_sp] (dynamic)
+[2015-11-25 20:29:18,150][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_sd_it_m] (dynamic)
+[2015-11-25 20:29:18,153][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_in_m] (dynamic)
+[2015-11-25 20:29:18,157][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_ta] (dynamic)
+[2015-11-25 20:29:18,162][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_ti_m] (dynamic)
+[2015-11-25 20:29:18,168][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_tb] (dynamic)
+[2015-11-25 20:29:18,194][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_cd_m] (dynamic)
+[2015-11-25 20:29:18,200][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_oc_t] (dynamic)
+[2015-11-25 20:29:18,205][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_tg] (dynamic)
+[2015-11-25 20:29:18,210][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_cd_f] (dynamic)
+[2015-11-25 20:29:18,213][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_cg1_qu_respondent] (dynamic)
+[2015-11-25 20:29:18,216][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_zy] (dynamic)
+[2015-11-25 20:29:18,220][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_s_de_m] (dynamic)
+[2015-11-25 20:29:18,226][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_s_tr] (dynamic)
+[2015-11-25 20:29:18,229][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_ro_m] (dynamic)
+[2015-11-25 20:29:18,232][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_ia_e1] (dynamic)
+[2015-11-25 20:29:18,236][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_ta_po_t] (dynamic)
+[2015-11-25 20:29:18,240][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_tr] (dynamic)
+[2015-11-25 20:29:18,243][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_ia_e2] (dynamic)
+[2015-11-25 20:29:18,246][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_dc_int_f] (dynamic)
+[2015-11-25 20:29:18,249][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_hc_m] (dynamic)
+[2015-11-25 20:29:18,252][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_ho_i] (dynamic)
+[2015-11-25 20:29:18,255][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_au_t] (dynamic)
+[2015-11-25 20:29:18,258][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_oc_m] (dynamic)
+[2015-11-25 20:29:18,261][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_nm_t] (dynamic)
+[2015-11-25 20:29:18,280][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_sd_sr_m] (dynamic)
+[2015-11-25 20:29:18,286][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_dc_int_m] (dynamic)
+[2015-11-25 20:29:18,290][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_ep_m] (dynamic)
+[2015-11-25 20:29:18,293][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rdmr_psap_t] (dynamic)
+[2015-11-25 20:29:18,296][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_rh_m] (dynamic)
+[2015-11-25 20:29:18,299][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_dna_2009conflist] (dynamic)
+[2015-11-25 20:29:18,302][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_sd_sh_m] (dynamic)
+[2015-11-25 20:29:18,307][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_s_span_zy] (dynamic)
+[2015-11-25 20:29:18,310][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [gen_family_alt] (dynamic)
+[2015-11-25 20:29:18,312][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_sd_sh_t] (dynamic)
+[2015-11-25 20:29:18,315][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_mr_pb_t] (dynamic)
+[2015-11-25 20:29:18,318][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_5_dps_t_12_15_2010] (dynamic)
+[2015-11-25 20:29:18,320][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_nls_geo_wtp_br_4_25] (dynamic)
+[2015-11-25 20:29:18,323][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_dates] (dynamic)
+[2015-11-25 20:29:18,326][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_hw_m] (dynamic)
+[2015-11-25 20:29:18,329][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_cb_f] (dynamic)
+[2015-11-25 20:29:18,331][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_er_t] (dynamic)
+[2015-11-25 20:29:18,334][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_4_disc_011109_parent] (dynamic)
+[2015-11-25 20:29:18,338][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_jane_discage] (dynamic)
+[2015-11-25 20:29:18,342][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_1_cr_m] (dynamic)
+[2015-11-25 20:29:18,344][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_pt_11_2007] (dynamic)
+[2015-11-25 20:29:18,347][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_cb_m] (dynamic)
+[2015-11-25 20:29:18,350][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_5_ti_m] (dynamic)
+[2015-11-25 20:29:18,353][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_1_cr_f] (dynamic)
+[2015-11-25 20:29:18,358][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_nr_t] (dynamic)
+[2015-11-25 20:29:18,361][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_sa_f] (dynamic)
+[2015-11-25 20:29:18,364][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_5_ti_t] (dynamic)
+[2015-11-25 20:29:18,367][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_pa_po_t] (dynamic)
+[2015-11-25 20:29:18,370][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_pa_e1] (dynamic)
+[2015-11-25 20:29:18,376][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_sa_m] (dynamic)
+[2015-11-25 20:29:18,379][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_mr] (dynamic)
+[2015-11-25 20:29:18,382][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_au_f] (dynamic)
+[2015-11-25 20:29:18,384][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_hb_ra_sib_m] (dynamic)
+[2015-11-25 20:29:18,387][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_ho_i] (dynamic)
+[2015-11-25 20:29:18,390][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_int1_d_cbq] (dynamic)
+[2015-11-25 20:29:18,393][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_visit_age] (dynamic)
+[2015-11-25 20:29:18,396][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_pm_t] (dynamic)
+[2015-11-25 20:29:18,399][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_zyg_follow up] (dynamic)
+[2015-11-25 20:29:18,402][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_bb] (dynamic)
+[2015-11-25 20:29:18,407][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_ha_pb_t] (dynamic)
+[2015-11-25 20:29:18,410][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_span_in_m] (dynamic)
+[2015-11-25 20:29:18,413][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_pi_m] (dynamic)
+[2015-11-25 20:29:18,415][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rdmr_agn_t] (dynamic)
+[2015-11-25 20:29:18,418][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_sd_sa_td_o] (dynamic)
+[2015-11-25 20:29:18,421][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_ps_m] (dynamic)
+[2015-11-25 20:29:18,424][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_1_it_b1_f] (dynamic)
+[2015-11-25 20:29:18,427][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_interview 1 response tracker] (dynamic)
+[2015-11-25 20:29:18,430][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_1_it_b1_m] (dynamic)
+[2015-11-25 20:29:18,433][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_sd_control selection list] (dynamic)
+[2015-11-25 20:29:18,437][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_1_bit_f_2008_02] (dynamic)
+[2015-11-25 20:29:18,449][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_st1r] (dynamic)
+[2015-11-25 20:29:18,454][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [trash_nls_geno2idlist_2010] (dynamic)
+[2015-11-25 20:29:18,458][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_2_tr] (dynamic)
+[2015-11-25 20:29:18,461][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_nc_t] (dynamic)
+[2015-11-25 20:29:18,464][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_hu_t] (dynamic)
+[2015-11-25 20:29:18,467][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_int1_s_scq] (dynamic)
+[2015-11-25 20:29:18,473][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_oc_m] (dynamic)
+[2015-11-25 20:29:18,476][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_hc_f] (dynamic)
+[2015-11-25 20:29:18,479][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_ti_t] (dynamic)
+[2015-11-25 20:29:18,482][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [trash_jlb_ph4call_97to99] (dynamic)
+[2015-11-25 20:29:18,485][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_2_hb_is_m] (dynamic)
+[2015-11-25 20:29:18,502][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_span_mp_m] (dynamic)
+[2015-11-25 20:29:18,505][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_int1_s_ccare] (dynamic)
+[2015-11-25 20:29:18,509][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_hb_ps_m] (dynamic)
+[2015-11-25 20:29:18,511][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_tr] (dynamic)
+[2015-11-25 20:29:18,514][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_dates] (dynamic)
+[2015-11-25 20:29:18,517][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_2_hb_is_f] (dynamic)
+[2015-11-25 20:29:18,520][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_ti_f] (dynamic)
+[2015-11-25 20:29:18,525][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_oc_t] (dynamic)
+[2015-11-25 20:29:18,527][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_ti_m] (dynamic)
+[2015-11-25 20:29:18,530][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_rs_t] (dynamic)
+[2015-11-25 20:29:18,533][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_cr_m] (dynamic)
+[2015-11-25 20:29:18,536][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [gen_secondary_contact] (dynamic)
+[2015-11-25 20:29:18,550][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_sd_sp_m] (dynamic)
+[2015-11-25 20:29:18,554][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_fe_m] (dynamic)
+[2015-11-25 20:29:18,557][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_pm_t] (dynamic)
+[2015-11-25 20:29:18,560][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_hc_f] (dynamic)
+[2015-11-25 20:29:18,563][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [gen_jforms_users] (dynamic)
+[2015-11-25 20:29:18,568][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_fe_f] (dynamic)
+[2015-11-25 20:29:18,571][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_hc_m] (dynamic)
+[2015-11-25 20:29:18,575][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_tr] (dynamic)
+[2015-11-25 20:29:18,578][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_ti_m] (dynamic)
+[2015-11-25 20:29:18,597][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_ti_t] (dynamic)
+[2015-11-25 20:29:18,601][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_1_tb_00_f] (dynamic)
+[2015-11-25 20:29:18,606][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_1_tb_00_m] (dynamic)
+[2015-11-25 20:29:18,611][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_4_picword] (dynamic)
+[2015-11-25 20:29:18,614][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_cw_old_t] (dynamic)
+[2015-11-25 20:29:18,618][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_int1_psi] (dynamic)
+[2015-11-25 20:29:18,624][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_ir_t] (dynamic)
+[2015-11-25 20:29:18,627][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_rs_t] (dynamic)
+[2015-11-25 20:29:18,630][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_sd_tb_m] (dynamic)
+[2015-11-25 20:29:18,633][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_cla_extended milw zips] (dynamic)
+[2015-11-25 20:29:18,640][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_pp_t] (dynamic)
+[2015-11-25 20:29:18,643][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_4_disc_091809_twin] (dynamic)
+[2015-11-25 20:29:18,646][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_geo_98_births_12_2004] (dynamic)
+[2015-11-25 20:29:18,649][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [arch_int1_bfi_respondent3] (dynamic)
+[2015-11-25 20:29:18,664][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_le_m] (dynamic)
+[2015-11-25 20:29:18,668][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_mq_m] (dynamic)
+[2015-11-25 20:29:18,671][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_ha_sp_c] (dynamic)
+[2015-11-25 20:29:18,674][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_mp_f] (dynamic)
+[2015-11-25 20:29:18,677][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_bb_t] (dynamic)
+[2015-11-25 20:29:18,680][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_cr_f] (dynamic)
+[2015-11-25 20:29:18,685][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_mp_m] (dynamic)
+[2015-11-25 20:29:18,690][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_s_span_sd_m] (dynamic)
+[2015-11-25 20:29:18,693][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_sd_tactile original lists] (dynamic)
+[2015-11-25 20:29:18,696][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_nls_ph4disc] (dynamic)
+[2015-11-25 20:29:18,710][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_cr_m] (dynamic)
+[2015-11-25 20:29:18,713][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_pr] (dynamic)
+[2015-11-25 20:29:18,716][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_cr_m] (dynamic)
+[2015-11-25 20:29:18,726][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_oc_f] (dynamic)
+[2015-11-25 20:29:18,729][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_disc_dr_p] (dynamic)
+[2015-11-25 20:29:18,732][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_rd_ha_sp_t] (dynamic)
+[2015-11-25 20:29:18,735][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [gen_milwaukee_zips] (dynamic)
+[2015-11-25 20:29:18,786][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_oc_m] (dynamic)
+[2015-11-25 20:29:18,789][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_hw_t] (dynamic)
+[2015-11-25 20:29:18,792][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_sn_beh] (dynamic)
+[2015-11-25 20:29:18,796][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_hs_t] (dynamic)
+[2015-11-25 20:29:18,799][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_hb_hu_sib_m] (dynamic)
+[2015-11-25 20:29:18,803][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [trash_mkv_finalhtwtid] (dynamic)
+[2015-11-25 20:29:18,806][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_ha_sp_t] (dynamic)
+[2015-11-25 20:29:18,809][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_dt_m] (dynamic)
+[2015-11-25 20:29:18,812][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_sample_anxietypaper_2007] (dynamic)
+[2015-11-25 20:29:18,816][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_dt_f] (dynamic)
+[2015-11-25 20:29:18,819][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [trash_nls_geozyg_2008_0914] (dynamic)
+[2015-11-25 20:29:18,822][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_geo_demo_2009] (dynamic)
+[2015-11-25 20:29:18,827][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_5_au_m] (dynamic)
+[2015-11-25 20:29:18,830][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_s_span_in_m] (dynamic)
+[2015-11-25 20:29:18,833][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_geo participation dates] (dynamic)
+[2015-11-25 20:29:18,840][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_pd_sib] (dynamic)
+[2015-11-25 20:29:18,847][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_4_ha_sp_c] (dynamic)
+[2015-11-25 20:29:18,850][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_yt] (dynamic)
+[2015-11-25 20:29:18,857][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_c3_tr] (dynamic)
+[2015-11-25 20:29:18,862][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_pa_gen_t] (dynamic)
+[2015-11-25 20:29:18,865][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [user_1_bit_m_2008_02] (dynamic)
+[2015-11-25 20:29:18,868][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_le_m] (dynamic)
+[2015-11-25 20:29:18,873][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_in_f] (dynamic)
+[2015-11-25 20:29:18,878][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_4_ma_t] (dynamic)
+[2015-11-25 20:29:18,881][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_cd_f] (dynamic)
+[2015-11-25 20:29:18,885][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_1_it_m] (dynamic)
+[2015-11-25 20:29:18,889][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_s_de_m] (dynamic)
+[2015-11-25 20:29:18,892][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_1_it_f] (dynamic)
+[2015-11-25 20:29:18,896][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_cd_m] (dynamic)
+[2015-11-25 20:29:18,899][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_3_in_m] (dynamic)
+[2015-11-25 20:29:18,910][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_cb_f] (dynamic)
+[2015-11-25 20:29:18,913][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [data_mr_pa_pr_t] (dynamic)
+[2015-11-25 20:29:18,917][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [calc_3_cb_m] (dynamic)
+[2015-11-25 20:29:18,923][INFO ][cluster.metadata         ] [Sybil Dvorak] [tables] update_mapping [trash_mkv_jgidlist8] (dynamic)
+[2015-11-25 20:29:44,759][INFO ][cluster.routing.allocation.decider] [Sybil Dvorak] low disk watermark [15%] exceeded on [KJ4OY6PDRsushSzMSxUbcQ][Sybil Dvorak] free: 59.5gb[11.9%], replicas will not be assigned to this node

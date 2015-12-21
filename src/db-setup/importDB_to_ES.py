@@ -245,15 +245,17 @@ class dbManager:
     def close_es(self):
         pass # it looks like nothing bad happens if you leave the connection hanging. 
 
-    def insert_struct_to_es(self, struct, index, debug = True):
-        """ puts a struct into the es. specify an index and the keys 
-            specify the type. the actual subdicts form the es documents
-            stuct of tables.
+    def bulk_insert_to_es(self, bulk_list_fp, debug = True):
+        """ uses bulk api to insert from a file containing bulk-api type action things...
+            basically pass this a filepointer to a file structured like those found at
+             https://elasticsearch-py.readthedocs.org/en/master/helpers.html?highlight=bulk#bulk-helpers
+
             """  
-        for doc_type in struct: # table names are _type key in es
-            x = self.e.index(index=index, doc_type=doc_type, body=struct[doc_type])
-            if(debug): print(x)
-        
+        bulkstr_list = bulk_list_fp.readlines()
+        bulkstr = "".join(bulkstr_list)
+        resp = self.e.bulk(bulkstr)
+        if debug: print(resp)
+
     ################
     ## END DATABASE MANAGEMENT
 
@@ -399,49 +401,58 @@ class dbManager:
 
 class dbImporter:
 
-    def __init__(self, tables_not_to_include = [], debug = True, debugMore=True):
-            
-        mm = MapManager(debug=False)   #initialize the map manager
-        if(debug): mm.log_mappings('logs/mappings_used') #check that mappigs are correct
+    def __init__(self, tables_not_to_include = [], 
+        debug = True, 
+        debugMore=True, 
+        recalc_struct_to_upload = True):
+        ''' recalc_struct_to_upload : true if you would like to reconstruct the struct to upload. 
+                                        if false. it will upload the json doc in logs\bulk_import_data
+            '''
 
-        es_struct={} # begin populating a struct in the fashion we want the es to be in. 
-            # NOTE: the keys will be tablenames. 
+        INDEX = 'metadata'
+        DOCTYPE = 'tables'
 
         dbm = dbManager()   #initialize database Manager
 
-            # open the database and enumerate through tablenames
-        for i,tablename in enumerate(dbm.open_db()):
-            if(tablename not in tables_not_to_include):
-                    #break the tablename into it's individual parts. 
-                table_info_raw = dbm.parse_row(tablename, debug = debug) 
+            # NOTE: the keys will be tablenames. 
+        if recalc_struct_to_upload:
+            mm = MapManager(debug=False)   #initialize the map manager
+            if(debug): mm.log_mappings('logs/mappings_used') #check that mappigs are correct
+    
+            # open the bulk_uplopad file to print import statements to.
+            bulk_upload_fp = u.log_file('logs/bulk_import_data.json', keep_alive=True)
             
-                    # apply the mapping based on those parts. save them to the struct. 
-                table_info_raw = mm.apply_mapping(table_info_raw, debug = debug) 
+                # open the database and enumerate through tablenames
+            for i,tablename in enumerate(dbm.open_db()):
+                if(tablename not in tables_not_to_include):
+                        #break the tablename into it's individual parts. 
+                    table_info_raw = dbm.parse_row(tablename, debug = debug) 
                 
-                # if there is an instrument... get the scales.
-                if('instrument abbreviation' in table_info_raw):
-                    if(debugMore): print('\n\nAbout to look at scales for %s' % u.prettify_str(table_info_raw))  
-    
-                    # get the scales & instrument name from the mappings
-                    scales, instrument_name = mm.get_info(table_info_raw['instrument abbreviation'], debug = debugMore)
+                        # apply the mapping based on those parts. save them to the struct. 
+                    table_info_raw = mm.apply_mapping(table_info_raw, debug = debug) 
                     
-                    if(scales): # get_info may return null, if it doesn't have scales/instrument name
-                        table_info_raw['scales'] = scales
-                    if(instrument_name):
-                        table_info_raw['instrument name'] = instrument_name
-    
-                            #table_info_raw WILL have a tablename.
-                es_struct[table_info_raw['tablename']] = table_info_raw
+                    # if there is an instrument... get the scales.
+                    if('instrument abbreviation' in table_info_raw):
+                        if(debugMore): print('\n\nAbout to look at scales for %s' % u.prettify_str(table_info_raw))  
+        
+                        # get the scales & instrument name from the mappings
+                        scales, instrument_name = mm.get_info(table_info_raw['instrument abbreviation'], debug = debugMore)
+                        
+                        if(scales): # get_info may return null, if it doesn't have scales/instrument name
+                            table_info_raw['scales'] = scales
+                        if(instrument_name):
+                            table_info_raw['instrument name'] = instrument_name
+                    table_indexing = {'index':{'_index':INDEX, '_type':DOCTYPE, '_id':i}}
+                    json.dump(table_indexing, bulk_upload_fp)
+                    json.dump(table_info_raw, bulk_upload_fp)
+        else: # grab the logs\struct_uploaded,json and upload that
+            bulk_upload_fp = json.load(open('logs/bulk_import_data.json'))
 
-        u.log_file('logs/struct_uploaded.json', \
-                            message = u.prettify_str(es_struct))
         dbm.close_db()
+        dbm.open_es()
+        print('exporting struct to es.... may take some time....')
 
-        dbm.open_es()                       
-        dbm.insert_struct_to_es(es_struct, 'tables') 
-        #dbm.close_es()                             #may be unsafe.
+        dbm.insert_struct_to_es(bulk_upload_fp) 
+        print(u.prettify_str(json.loads(bulk_upload_fp)))
 
-
-        # dbm.insert_struct_to_es(table_info_raw,table_info_ras['tablename'])
-
-importer = dbImporter()
+importer = dbImporter(recalc_struct_to_upload=True)

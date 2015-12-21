@@ -1,0 +1,791 @@
+[2015-12-03 17:46:56,479][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:47:26,464][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:47:56,751][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:48:26,449][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:48:56,483][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:49:26,625][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:49:56,515][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:50:26,581][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:50:56,449][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:51:26,425][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:51:56,556][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:52:26,502][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:52:56,600][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:53:26,486][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:53:56,432][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:54:26,550][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:54:56,503][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:55:26,485][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:55:56,414][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:35:56,401][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:36:26,534][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:36:56,466][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:37:26,376][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:37:56,396][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:38:26,468][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:38:56,502][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:39:26,508][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:39:56,405][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:40:26,496][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:40:56,463][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:22:26,505][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:22:56,593][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:23:26,563][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:23:56,633][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:24:26,480][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:24:56,448][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 17:25:26,510][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+led shard for [tables][0], node[PPhRbnNmTOCk_8-j2hXmOw], [P], s[INITIALIZING], indexUUID [RhEJjKWQQySSvtj5V4-YmA], reason [Failed to start shard, message [IndexShardGatewayRecoveryException[[tables][0] failed recovery]; nested: EngineCreationFailureException[[tables][0] failed to create engine]; nested: IOException[The parameter is incorrect]; ]]
+[2015-12-03 17:06:40,946][WARN ][cluster.action.shard     ] [Cornelius van Lunt] [tables][0] received shard failed for [tables][0], node[PPhRbnNmTOCk_8-j2hXmOw], [P], s[INITIALIZING], indexUUID [RhEJjKWQQySSvtj5V4-YmA], reason [Failed to start shard, message [IndexShardGatewayRecoveryException[[tables][0] failed recovery]; nested: EngineCreationFailureException[[tables][0] failed to create engine]; nested: IOException[The parameter is incorrect]; ]]
+[2015-12-03 17:06:40,949][WARN ][indices.cluster          ] [Cornelius van Lunt] [tables][1] sending failed shard after recovery failure
+org.elasticsearch.index.gateway.IndexShardGatewayRecoveryException: [tables][1] failed recovery
+	at org.elasticsearch.index.gateway.IndexShardGatewayService$1.run(IndexShardGatewayService.java:162)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.engine.EngineCreationFailureException: [tables][1] failed to create engine
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:140)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:24)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1251)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1246)
+	at org.elasticsearch.index.shard.IndexShard.prepareForTranslogRecovery(IndexShard.java:767)
+	at org.elasticsearch.index.gateway.local.LocalIndexShardGateway.recover(LocalIndexShardGateway.java:226)
+	at org.elasticsearch.index.gateway.IndexShardGatewayService$1.run(IndexShardGatewayService.java:112)
+	... 3 more
+Caused by: java.io.IOException: The parameter is incorrect
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:150)
+	at org.apache.lucene.store.Lock.obtain(Lock.java:77)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:755)
+	at org.elasticsearch.index.engine.InternalEngine.createWriter(InternalEngine.java:1055)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:138)
+	... 9 more
+[2015-12-03 17:06:40,973][WARN ][cluster.action.shard     ] [Cornelius van Lunt] [tables][1] sending failed shard for [tables][1], node[PPhRbnNmTOCk_8-j2hXmOw], [P], s[INITIALIZING], indexUUID [RhEJjKWQQySSvtj5V4-YmA], reason [Failed to start shard, message [IndexShardGatewayRecoveryException[[tables][1] failed recovery]; nested: EngineCreationFailureException[[tables][1] failed to create engine]; nested: IOException[The parameter is incorrect]; ]]
+[2015-12-03 17:06:40,977][WARN ][cluster.action.shard     ] [Cornelius van Lunt] [tables][1] received shard failed for [tables][1], node[PPhRbnNmTOCk_8-j2hXmOw], [P], s[INITIALIZING], indexUUID [RhEJjKWQQySSvtj5V4-YmA], reason [Failed to start shard, message [IndexShardGatewayRecoveryException[[tables][1] failed recovery]; nested: EngineCreationFailureException[[tables][1] failed to create engine]; nested: IOException[The parameter is incorrect]; ]]
+[2015-12-03 17:06:41,451][WARN ][cluster.action.shard     ] [Cornelius van Lunt] [tables][0] received shard failed for [tables][0], node[PPhRbnNmTOCk_8-j2hXmOw], [P], s[INITIALIZING], indexUUID [RhEJjKWQQySSvtj5V4-YmA], reason [master [Cornelius van Lunt][PPhRbnNmTOCk_8-j2hXmOw][Thurios][inet[/144.92.143.172:9300]] marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2015-12-03 17:06:41,453][WARN ][cluster.action.shard     ] [Cornelius van Lunt] [tables][1] received shard failed for [tables][1], node[PPhRbnNmTOCk_8-j2hXmOw], [P], s[INITIALIZING], indexUUID [RhEJjKWQQySSvtj5V4-YmA], reason [master [Cornelius van Lunt][PPhRbnNmTOCk_8-j2hXmOw][Thurios][inet[/144.92.143.172:9300]] marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2015-12-03 17:06:41,456][WARN ][cluster.action.shard     ] [Cornelius van Lunt] [tables][2] received shard failed for [tables][2], node[PPhRbnNmTOCk_8-j2hXmOw], [P], s[INITIALIZING], indexUUID [RhEJjKWQQySSvtj5V4-YmA], reason [master [Cornelius van Lunt][PPhRbnNmTOCk_8-j2hXmOw][Thurios][inet[/144.92.143.172:9300]] marked shard as initializing, but shard is marked as failed, resend shard failure]
+[2015-12-03 17:06:56,415][INFO ][cluster.routing.allocation.decider] [Cornelius van Lunt] low disk watermark [15%] exceeded on [PPhRbnNmTOCk_8-j2hXmOw][Cornelius van Lunt] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:41:03,582][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:41:33,649][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:37:03,653][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:37:33,567][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:38:03,624][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:38:33,591][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:39:03,559][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:39:33,577][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:40:03,594][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:40:33,626][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:29:33,548][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:30:03,539][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:30:33,534][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+ org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:09:58,712][DEBUG][action.search.type       ] [Inza] [tables][3], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@75200d06] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:09:58,712][DEBUG][action.search.type       ] [Inza] [tables][1], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@75200d06]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:09:58,738][DEBUG][action.search.type       ] [Inza] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:09:58,712][DEBUG][action.search.type       ] [Inza] [tables][2], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@75200d06] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:09:58,712][DEBUG][action.search.type       ] [Inza] [tables][4], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@75200d06] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:10:03,376][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:10:25,927][DEBUG][action.search.type       ] [Inza] [tables][3], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4d27d768] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:10:25,929][DEBUG][action.search.type       ] [Inza] [tables][1], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4d27d768] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:10:25,928][DEBUG][action.search.type       ] [Inza] [tables][2], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4d27d768] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:10:25,928][DEBUG][action.search.type       ] [Inza] [tables][4], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4d27d768]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:10:25,954][DEBUG][action.search.type       ] [Inza] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:10:25,928][DEBUG][action.search.type       ] [Inza] [tables][0], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4d27d768] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:10:33,564][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:11:03,470][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:11:33,561][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:12:03,479][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:12:33,389][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:13:02,115][DEBUG][action.search.type       ] [Inza] [tables][1], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@24661a54] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:13:02,116][DEBUG][action.search.type       ] [Inza] [tables][0], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@24661a54] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:13:02,116][DEBUG][action.search.type       ] [Inza] [tables][2], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@24661a54] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:13:02,116][DEBUG][action.search.type       ] [Inza] [tables][3], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@24661a54]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:13:02,142][DEBUG][action.search.type       ] [Inza] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:13:02,116][DEBUG][action.search.type       ] [Inza] [tables][4], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@24661a54] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query": {"match": "phase 3"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:295)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 18:13:03,619][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:13:33,464][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:14:03,577][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:14:33,564][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:15:03,568][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:15:33,460][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:16:03,557][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:16:33,479][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:17:03,424][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:17:33,462][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:18:03,406][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:18:33,377][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:19:03,336][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:19:33,374][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:20:03,341][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:20:33,375][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:21:03,371][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:21:33,380][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:22:03,371][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:22:33,456][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:23:03,344][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:23:33,524][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:24:03,376][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:24:33,462][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:25:03,504][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:25:33,480][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:26:03,405][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:26:36,231][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:27:03,467][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:27:33,413][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:28:03,428][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:28:33,433][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:29:03,407][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:29:33,494][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:30:03,422][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:30:33,425][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:31:03,494][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:31:33,506][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:32:03,661][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:32:33,469][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:33:03,431][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:33:33,493][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:34:03,439][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:34:33,453][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:35:02,441][DEBUG][action.search.type       ] [Inza] [tables][1], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@41585c8f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[2]: Parse Failure [Failed to parse source [{"size": 2, "match": {"phase": "Phase 1"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[2]: Parse Failure [No parser for element [match]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:703)
+	... 9 more
+[2015-12-03 18:35:02,442][DEBUG][action.search.type       ] [Inza] [tables][2], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@41585c8f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[2]: Parse Failure [Failed to parse source [{"size": 2, "match": {"phase": "Phase 1"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[2]: Parse Failure [No parser for element [match]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:703)
+	... 9 more
+[2015-12-03 18:35:02,442][DEBUG][action.search.type       ] [Inza] [tables][4], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@41585c8f]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[2]: Parse Failure [Failed to parse source [{"size": 2, "match": {"phase": "Phase 1"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[2]: Parse Failure [No parser for element [match]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:703)
+	... 9 more
+[2015-12-03 18:35:02,441][DEBUG][action.search.type       ] [Inza] [tables][3], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@41585c8f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[2]: Parse Failure [Failed to parse source [{"size": 2, "match": {"phase": "Phase 1"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[2]: Parse Failure [No parser for element [match]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:703)
+	... 9 more
+[2015-12-03 18:35:02,441][DEBUG][action.search.type       ] [Inza] [tables][0], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@41585c8f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[2]: Parse Failure [Failed to parse source [{"size": 2, "match": {"phase": "Phase 1"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[2]: Parse Failure [No parser for element [match]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:703)
+	... 9 more
+[2015-12-03 18:35:02,452][DEBUG][action.search.type       ] [Inza] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[2]: Parse Failure [Failed to parse source [{"size": 2, "match": {"phase": "Phase 1"}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[2]: Parse Failure [No parser for element [match]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:703)
+	... 9 more
+[2015-12-03 18:35:03,527][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:35:33,503][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:36:03,544][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:36:33,439][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:37:03,442][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:37:33,516][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:38:03,541][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:38:33,711][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:39:03,517][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:39:33,686][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:40:03,515][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:40:33,504][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:41:03,492][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:41:33,525][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:42:03,554][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:42:33,648][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:43:03,510][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:43:33,668][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:44:03,571][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:44:33,713][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:45:03,664][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:45:33,504][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:46:03,462][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:46:33,554][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:47:03,532][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:47:33,465][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:48:03,536][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:48:33,512][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:49:03,561][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:49:33,663][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:50:03,652][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:50:33,568][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:51:03,595][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:51:33,651][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:52:03,776][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:52:33,565][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:53:03,568][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:53:33,707][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:54:03,523][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:54:33,515][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:55:03,478][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:55:33,572][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:56:03,423][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:56:33,434][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:57:03,433][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:57:33,440][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:58:03,404][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:58:33,658][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:59:03,523][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 18:59:33,469][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:00:03,430][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:00:33,452][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:01:03,433][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:01:33,462][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:02:04,920][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:02:33,633][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:03:03,480][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:03:33,433][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:04:03,533][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:04:33,501][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:05:03,583][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:05:33,454][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:06:03,439][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:06:33,448][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:07:03,467][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:07:33,460][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:08:03,489][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:08:33,475][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:09:03,468][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:09:33,504][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:10:03,700][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:10:19,091][DEBUG][action.search.type       ] [Inza] [tables][3], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@22405f2d] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][3]: from[-1],size[50]: Parse Failure [Failed to parse source [{"size": 50, "query": {"bool": {"must": {}, "should": {"match": {"phase": "Phase 1"}}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:289)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:73)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 19:10:19,092][DEBUG][action.search.type       ] [Inza] [tables][0], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@22405f2d]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[50]: Parse Failure [Failed to parse source [{"size": 50, "query": {"bool": {"must": {}, "should": {"match": {"phase": "Phase 1"}}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:289)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:73)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 19:10:19,092][DEBUG][action.search.type       ] [Inza] [tables][4], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@22405f2d] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][4]: from[-1],size[50]: Parse Failure [Failed to parse source [{"size": 50, "query": {"bool": {"must": {}, "should": {"match": {"phase": "Phase 1"}}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:289)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:73)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 19:10:19,092][DEBUG][action.search.type       ] [Inza] [tables][2], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@22405f2d] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][2]: from[-1],size[50]: Parse Failure [Failed to parse source [{"size": 50, "query": {"bool": {"must": {}, "should": {"match": {"phase": "Phase 1"}}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:289)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:73)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 19:10:19,092][DEBUG][action.search.type       ] [Inza] [tables][1], node[XrslFwu2Rh2NRZeCF32S2Q], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@22405f2d] lastShard [true]
+org.elasticsearch.search.SearchParseException: [tables][1]: from[-1],size[50]: Parse Failure [Failed to parse source [{"size": 50, "query": {"bool": {"must": {}, "should": {"match": {"phase": "Phase 1"}}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:289)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:73)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 19:10:19,103][DEBUG][action.search.type       ] [Inza] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [tables][0]: from[-1],size[50]: Parse Failure [Failed to parse source [{"size": 50, "query": {"bool": {"must": {}, "should": {"match": {"phase": "Phase 1"}}}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [tables] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:289)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:73)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-03 19:10:33,551][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:11:03,463][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:11:33,551][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:12:03,569][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:12:33,527][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:13:03,665][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:13:33,582][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:14:03,505][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:14:33,503][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:15:03,468][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:15:33,468][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:16:03,492][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:16:33,492][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:17:03,535][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:17:33,527][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:18:03,565][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:18:33,570][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:19:03,483][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
+[2015-12-03 19:19:33,486][INFO ][cluster.routing.allocation.decider] [Inza] low disk watermark [15%] exceeded on [XrslFwu2Rh2NRZeCF32S2Q][Inza] free: 58.6gb[11.7%], replicas will not be assigned to this node
