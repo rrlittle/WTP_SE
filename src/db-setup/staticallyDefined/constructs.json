@@ -18,7 +18,7 @@
 		"... ... ... ... 'details' is a string holding some extra information about the instrument name (the lowest extension i.e. the most specific)",
 		"... ... ... ... 'memo' is a string that holds some extra information about the current dict that doens't fit anywhere else."],
     "Maps": {
-        "phaseToPhase": {
+        "phase": {
         	"1":"Phase 1",
         	"2":"Phase 2",
         	"3":"Phase 3",
@@ -30,7 +30,7 @@
             "s":"Screener",
             "rdmr":"Rdoc Imaging"
         },
-        "respToResp":{
+        "respondent":{
         	"m":"mother",
         	"f":"father",
         	"e1":"experimenter 1",

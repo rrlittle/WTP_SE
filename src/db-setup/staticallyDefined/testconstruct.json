@@ -1,0 +1,95 @@
+{
+  "SQR": {
+    "abbreviation": "s",
+    "scales": {
+      "pa": "PARENT SCAAAAAAAAAAAALES",
+      "ab": "PARENTAL OBLIGATION"
+    },
+    "extensions": {
+      "Adolescent Child Report": {
+        "abbreviation": "r",
+        "respondent": [
+          "t"
+        ],
+        "phase": [
+          4
+        ],
+        "scales": {
+          "ab": "admiration by sibling",
+          "ao": "admiration of sibling",
+          "af": "affection",
+          "an": "antagonism",
+          "cn": "companionship",
+          "ct": "competition",
+          "si": "similarity"
+        },
+        "extensions": {
+          "SUPER Adolescent Child Report2": {
+            "abbreviation": "r",
+            "respondent": [
+              "t"
+            ],
+            "phase": [
+              4
+            ],
+            "scales": {
+              "zzz": "sadflkjsd;fksjad'flkjsadfl;kasdf;sjkaefk;",
+              "ao": "CHILD"
+             
+            }
+          }
+        }
+      },
+      "Chlid Report": {
+        "abbreviation": "c",
+        "phase": [
+          3
+        ],
+        "respondent": [
+          "t"
+        ],
+        "scales": {
+          "af": "affection",
+          "an": "antagonism",
+          "cn": "companionship",
+          "ct": "competition",
+          "db": "dominance by sibling",
+          "do": "dominance of sibling",
+          "mp": "maternal partiality",
+          "pp": "paternal partiality",
+          "ps": "prosocial",
+          "qu": "quarreling",
+          "si": "similarity"
+        }
+      },
+      "Parent Report": {
+        "abbreviation": "p",
+        "respondent": [
+          "m"
+        ],
+        "phase": [
+          3,
+          4
+        ],
+        "scales": {
+          "ab": "admiration by sibling",
+          "ao": "admiration of sibling",
+          "af": "affection",
+          "an": "antagonism",
+          "cn": "companionship",
+          "ct": "competition",
+          "db": "dominance by sibling",
+          "do": "dominance of sibling",
+          "in": "intimacy",
+          "mp": "maternal partiality",
+          "nb": "nurturance by sibling",
+          "no": "nurturance of sibling",
+          "pp": "paternal partiality",
+          "ps": "prosocial",
+          "qu": "quarreling",
+          "si": "similarity"
+        }
+      }
+    }
+  }
+}

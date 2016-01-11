@@ -1,6 +1,9 @@
 '''
         ---------------------------------------------------------------
-        ===     Usage: in bash shell. run 'python es_setup.py'      ===
+        ===     Usage: in python shell. run 
+                    import importDB_to_ES
+                    importDB_to_ES.dbImporter(recalc_struct_to_upload=True)
+                                                              ===
 
         This script will go through the whole wtp_data and extract tables.
         It will parse each tablename and extract everything possible from them. 
@@ -8,8 +11,7 @@
         It also uses a statically defined mapping found in ./staticallyDefined/constructs.json
 
         It then populates an Elasticsearch database.    (It does naivley assume that there is an ES instance Running)
-                                                        (if there's not it'll fail.                                 )
-        with the populated struct.
+        with the populated structself.                  (   if there's not it'll fail.                              )
 
         Be sure it's in the same directory as waisman_utils.py as it uses that package. 
         it's also dependent on the elasticasearch egg to be installed (use pip)
@@ -21,13 +23,14 @@
 
 
 import waisman_utils as u
-from elasticsearch import Elasticsearch as es
+from elasticsearch import Elasticsearch as es # requirement use pip to install
 import json
 
 ## BEGIN JSON AND MAPPING
 ####################
 class MapManager:
     def __init__(self, path='staticallyDefined/constructs.json', debug=True):
+        from staticallyDefined import sdfad as b
         # when initialized. load the file in path
         # load the mappings from the file
         self.instr_params, self.json_raw = self.load_mappings(path, debug=debug)
@@ -191,7 +194,8 @@ class MapManager:
         for instr in instr_list: # iterate through all instruments provided.
             instr_dict = instr_list[instr] # instr_dict is the parameters dict for inst
             #_check_ if this is the correct instrument. 
-            if(instr_abbrev.startswith(instr_dict['abbreviation'])): # 
+            # NOTE : as it uses starts with - potential bug when abbrevations have 'au' and 'aub'
+            if(instr_abbrev[0:instr_dict['abbreviation'].__len__()] == (instr_dict['abbreviation'])): # 
                 if(debug): print('%sFound beginning of %s in:' %(line, instr_abbrev))
                 if(debug): print('%s\"%s\" %s' %(line, instr, u.prettify_str(instr_dict).replace('\n','\n\t'+line)))
                 
@@ -431,7 +435,7 @@ class dbImporter:
                         # apply the mapping based on those parts. save them to the struct. 
                     table_info_raw = mm.apply_mapping(table_info_raw, debug = debug) 
                     
-                    # if there is an instrument... get the scales.
+                    # if there is an instrument... get the scales. & extra info
                     if('instrument abbreviation' in table_info_raw):
                         if(debugMore): print('\n\nAbout to look at scales for %s' % u.prettify_str(table_info_raw))  
         
@@ -439,7 +443,13 @@ class dbImporter:
                         scales, instrument_name = mm.get_info(table_info_raw['instrument abbreviation'], debug = debugMore)
                         
                         if(scales): # get_info may return null, if it doesn't have scales/instrument name
-                            table_info_raw['scales'] = scales
+                            table_info_raw['scales'] = []
+                            for scale in scales:
+                                scale_info = {
+                                    'scale' : scale,
+                                    'description' : scales[scale]
+                                }
+                                table_info_raw['scales'].append(scale_info)
                         if(instrument_name):
                             table_info_raw['instrument name'] = instrument_name
                     table_indexing = {'index':{'_index':INDEX, '_type':DOCTYPE, '_id':i}}
@@ -455,4 +465,3 @@ class dbImporter:
         dbm.insert_struct_to_es(bulk_upload_fp) 
         print(u.prettify_str(json.loads(bulk_upload_fp)))
 
-importer = dbImporter(recalc_struct_to_upload=True)

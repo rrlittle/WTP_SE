@@ -1,0 +1,483 @@
+[2015-12-21 15:18:17,963][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:18:48,153][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:19:17,790][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:19:47,641][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:20:17,707][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:20:48,180][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:21:18,262][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:21:47,998][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:22:17,809][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:22:48,214][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:23:18,153][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:23:39,222][DEBUG][action.index             ] [Deathurge] [customer][2], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [index {[customer][external][1], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:562)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:493)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:465)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:192)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:515)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:422)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-12-21 15:23:48,146][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:24:17,869][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:24:30,265][DEBUG][action.index             ] [Deathurge] [customer][3], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [index {[customer][external][2], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:562)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:493)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:465)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:192)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:515)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:422)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-12-21 15:24:43,248][DEBUG][action.index             ] [Deathurge] [customer][3], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [index {[customer][external][2], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:562)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:493)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:465)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:192)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:515)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:422)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2015-12-21 15:24:48,062][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:25:17,822][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:25:48,050][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:26:18,141][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:26:48,012][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:27:18,004][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:27:47,979][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:28:18,289][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:28:19,078][INFO ][cluster.metadata         ] [Deathurge] [customer] update_mapping [external] (dynamic)
+[2015-12-21 15:28:34,895][DEBUG][action.search.type       ] [Deathurge] [customer][0], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48e7c1e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: NumericTokenStream does not support CharTermAttribute.
+	at org.apache.lucene.analysis.NumericTokenStream$NumericAttributeFactory.createAttributeInstance(NumericTokenStream.java:138)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.elasticsearch.index.analysis.NumericTokenizer$1.createAttributeInstance(NumericTokenizer.java:44)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:704)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:28:34,960][DEBUG][action.search.type       ] [Deathurge] [customer][2], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48e7c1e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: TokenStream contract violation: close() call missing
+	at org.apache.lucene.analysis.Tokenizer.setReader(Tokenizer.java:90)
+	at org.apache.lucene.analysis.Analyzer$TokenStreamComponents.setReader(Analyzer.java:323)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:185)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:702)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:28:34,898][DEBUG][action.search.type       ] [Deathurge] [customer][1], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48e7c1e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: NumericTokenStream does not support CharTermAttribute.
+	at org.apache.lucene.analysis.NumericTokenStream$NumericAttributeFactory.createAttributeInstance(NumericTokenStream.java:138)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.elasticsearch.index.analysis.NumericTokenizer$1.createAttributeInstance(NumericTokenizer.java:44)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:704)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:28:35,279][DEBUG][action.search.type       ] [Deathurge] [customer][3], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48e7c1e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: NumericTokenStream does not support CharTermAttribute.
+	at org.apache.lucene.analysis.NumericTokenStream$NumericAttributeFactory.createAttributeInstance(NumericTokenStream.java:138)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.elasticsearch.index.analysis.NumericTokenizer$1.createAttributeInstance(NumericTokenizer.java:44)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:704)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:28:35,280][DEBUG][action.search.type       ] [Deathurge] [customer][4], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@48e7c1e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: NumericTokenStream does not support CharTermAttribute.
+	at org.apache.lucene.analysis.NumericTokenStream$NumericAttributeFactory.createAttributeInstance(NumericTokenStream.java:138)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.elasticsearch.index.analysis.NumericTokenizer$1.createAttributeInstance(NumericTokenizer.java:44)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:704)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:28:48,126][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:29:18,114][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:29:48,003][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:30:17,783][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:30:48,668][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:31:18,268][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:31:48,148][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:32:18,197][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:32:47,789][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:33:17,861][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:33:48,027][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:34:18,107][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:34:48,211][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:35:17,827][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:35:48,073][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:36:18,166][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:36:48,012][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:37:18,042][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:37:47,794][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:38:18,249][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:38:48,055][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:39:18,183][DEBUG][action.search.type       ] [Deathurge] [customer][1], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7c19ca04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][1]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: NumericTokenStream does not support CharTermAttribute.
+	at org.apache.lucene.analysis.NumericTokenStream$NumericAttributeFactory.createAttributeInstance(NumericTokenStream.java:138)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.elasticsearch.index.analysis.NumericTokenizer$1.createAttributeInstance(NumericTokenizer.java:44)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:704)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:39:18,189][DEBUG][action.search.type       ] [Deathurge] [customer][3], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7c19ca04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][3]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: TokenStream contract violation: close() call missing
+	at org.apache.lucene.analysis.Tokenizer.setReader(Tokenizer.java:90)
+	at org.apache.lucene.analysis.Analyzer$TokenStreamComponents.setReader(Analyzer.java:323)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:185)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:702)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:39:18,189][DEBUG][action.search.type       ] [Deathurge] [customer][2], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7c19ca04]
+org.elasticsearch.search.SearchParseException: [customer][2]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: NumericTokenStream does not support CharTermAttribute.
+	at org.apache.lucene.analysis.NumericTokenStream$NumericAttributeFactory.createAttributeInstance(NumericTokenStream.java:138)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.elasticsearch.index.analysis.NumericTokenizer$1.createAttributeInstance(NumericTokenizer.java:44)
+	at org.apache.lucene.util.AttributeSource.addAttribute(AttributeSource.java:222)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:704)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:39:18,183][DEBUG][action.search.type       ] [Deathurge] [customer][0], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7c19ca04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][0]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: TokenStream contract violation: close() call missing
+	at org.apache.lucene.analysis.Tokenizer.setReader(Tokenizer.java:90)
+	at org.apache.lucene.analysis.Analyzer$TokenStreamComponents.setReader(Analyzer.java:323)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:185)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:702)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:39:18,183][DEBUG][action.search.type       ] [Deathurge] [customer][4], node[brA3hFGyTCCvyktwDksdBw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7c19ca04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [customer][4]: from[-1],size[10000]: Parse Failure [Failed to parse source [{"size":10000,"query":{"query_string":{"query":"age:*10*","lowercase_expanded_terms":true,"analyze_wildcard":true}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:558)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: TokenStream contract violation: close() call missing
+	at org.apache.lucene.analysis.Tokenizer.setReader(Tokenizer.java:90)
+	at org.apache.lucene.analysis.Analyzer$TokenStreamComponents.setReader(Analyzer.java:323)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:185)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getPossiblyAnalyzedWildcardQuery(MapperQueryParser.java:702)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuerySingle(MapperQueryParser.java:677)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.getWildcardQuery(MapperQueryParser.java:628)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.handleBareTokenQuery(QueryParserBase.java:858)
+	at org.apache.lucene.queryparser.classic.QueryParser.Term(QueryParser.java:360)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:259)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:183)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2015-12-21 15:39:18,841][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:39:48,124][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:40:17,886][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:40:47,974][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:41:18,460][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:41:47,950][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:42:18,140][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:42:47,959][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:43:18,098][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:43:45,357][INFO ][cluster.metadata         ] [Deathurge] [bank] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2015-12-21 15:43:51,185][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:43:53,479][INFO ][cluster.metadata         ] [Deathurge] [bank] update_mapping [accounts] (dynamic)
+[2015-12-21 15:44:18,979][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:44:48,760][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:45:18,699][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:45:48,467][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:46:18,636][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:46:48,730][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:47:18,559][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:47:48,695][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:48:18,637][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:48:48,764][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:49:18,539][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:49:48,634][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:50:19,055][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:50:49,479][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:51:19,054][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:51:48,593][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:52:19,057][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:52:48,770][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:53:18,401][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:53:48,809][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:54:18,536][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:54:48,441][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:55:18,515][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:55:48,444][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:56:18,692][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:56:48,246][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:57:18,415][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:57:49,510][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:58:19,372][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:58:49,437][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:59:19,595][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 15:59:49,388][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:00:19,667][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:00:50,159][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:01:19,029][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:01:48,819][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:02:18,602][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:02:48,523][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:03:18,843][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:03:48,736][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:04:18,601][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:04:48,620][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:05:18,537][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:05:49,050][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:06:18,839][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:06:48,462][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
+[2015-12-21 16:07:14,607][INFO ][bootstrap                ] running graceful exit on windows
+[2015-12-21 16:07:14,623][INFO ][node                     ] [Deathurge] stopping ...
+[2015-12-21 16:07:16,588][INFO ][cluster.routing.allocation.decider] [Deathurge] low disk watermark [15%] exceeded on [brA3hFGyTCCvyktwDksdBw][Deathurge] free: 54.3gb[10.8%], replicas will not be assigned to this node
