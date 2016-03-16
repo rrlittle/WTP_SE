@@ -1,7 +1,8 @@
 import pypyodbc as  db
 import json
 import importlib.util as imp
-
+import logging
+from os.path import join
 
 def load_json(path):
     f = open(path,'r')
@@ -24,6 +25,7 @@ def open_db_con(conString):
     """
     conn = db.connect(conString)
     return conn
+
 
 def close_db_con():
     """Closes the connection to wtp database
@@ -66,4 +68,40 @@ def log_file(path,message = None, keep_alive = False, mode='w'):
         f.close()
         return written
 
+
+def get_logger(name='log', 
+    filepath=['logs','log.md'], 
+    mode='w', 
+    fileLevel=logging.DEBUG, 
+    consoleLevel=logging.INFO,
+    format='%(levelname)s:%(funcName)s(%(lineno)s): %(message)s'):
+    ''' this function returns a logging object
+        that prints to a file if desired at a different logging level than 
+        the console. 
+        filepath should be an os.path.joinable array of paths or None
+        name can be arbitrary, but should be unique for each logger created
+        otherwise you'll prprbaly get unexpected behavior.
+
+        fileLevel is the level files should be printed at
+        consoleLevel should be None or the level to print to the console at.
+        none means nothing will be printed to console. 
+        '''
+
+    l = logging.getLogger(name)
+    l.propagate = False
+    l.setLevel(logging.DEBUG) # you can only restrict later. not add. 
+                                # so be totally inclusive by defualt
+    f = logging.Formatter(format)
+    if filepath and mode and fileLevel:
+        fh = logging.FileHandler(join(*filepath), mode=mode)
+        fh.setLevel(fileLevel)
+        fh.setFormatter(f)
+        l.addHandler(fh)
+    
+    if consoleLevel:
+        sh = logging.StreamHandler()
+        sh.setLevel(consoleLevel)
+        sh.setFormatter(f)
+        l.addHandler(sh)
+    return l
 

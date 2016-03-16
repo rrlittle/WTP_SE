@@ -1,0 +1,874 @@
+[2016-01-14 11:00:12,496][INFO ][node                     ] [Foolkiller] version[1.5.0], pid[3228], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-14 11:00:12,567][INFO ][node                     ] [Foolkiller] initializing ...
+[2016-01-14 11:00:12,627][INFO ][plugins                  ] [Foolkiller] loaded [], sites []
+[2016-01-14 11:00:46,439][INFO ][node                     ] [Foolkiller] initialized
+[2016-01-14 11:00:47,089][INFO ][node                     ] [Foolkiller] starting ...
+[2016-01-14 11:00:47,981][INFO ][transport                ] [Foolkiller] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-14 11:00:48,163][INFO ][discovery                ] [Foolkiller] elasticsearch/h6t-ZQG4TSiXokFoNXjK_g
+[2016-01-14 11:00:52,192][INFO ][cluster.service          ] [Foolkiller] new_master [Foolkiller][h6t-ZQG4TSiXokFoNXjK_g][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-14 11:00:52,860][INFO ][http                     ] [Foolkiller] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/144.92.143.172:9201]}
+[2016-01-14 11:00:52,863][INFO ][node                     ] [Foolkiller] started
+[2016-01-14 11:01:03,921][INFO ][gateway                  ] [Foolkiller] recovered [1] indices into cluster_state
+[2016-01-14 11:01:23,195][INFO ][cluster.routing.allocation.decider] [Foolkiller] low disk watermark [15%] exceeded on [h6t-ZQG4TSiXokFoNXjK_g][Foolkiller] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:01:53,070][INFO ][cluster.routing.allocation.decider] [Foolkiller] low disk watermark [15%] exceeded on [h6t-ZQG4TSiXokFoNXjK_g][Foolkiller] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:02:22,971][INFO ][cluster.routing.allocation.decider] [Foolkiller] low disk watermark [15%] exceeded on [h6t-ZQG4TSiXokFoNXjK_g][Foolkiller] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:02:39,262][INFO ][bootstrap                ] running graceful exit on windows
+[2016-01-14 11:02:39,264][INFO ][node                     ] [Foolkiller] stopping ...
+[2016-01-14 11:02:42,527][INFO ][node                     ] [Foolkiller] stopped
+[2016-01-14 11:02:42,529][INFO ][node                     ] [Foolkiller] closing ...
+[2016-01-14 11:02:42,683][INFO ][node                     ] [Foolkiller] closed
+[2016-01-14 11:03:00,101][INFO ][node                     ] [Grasshopper II] version[1.5.0], pid[4972], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-14 11:03:00,105][INFO ][node                     ] [Grasshopper II] initializing ...
+[2016-01-14 11:03:00,166][INFO ][plugins                  ] [Grasshopper II] loaded [], sites []
+[2016-01-14 11:03:33,543][INFO ][node                     ] [Grasshopper II] initialized
+[2016-01-14 11:03:34,096][INFO ][node                     ] [Grasshopper II] starting ...
+[2016-01-14 11:03:35,068][INFO ][transport                ] [Grasshopper II] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-14 11:03:35,254][INFO ][discovery                ] [Grasshopper II] elasticsearch/XXKWujNnTQeKTDRuQYvoFA
+[2016-01-14 11:03:39,266][INFO ][cluster.service          ] [Grasshopper II] new_master [Grasshopper II][XXKWujNnTQeKTDRuQYvoFA][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-14 11:03:39,898][INFO ][http                     ] [Grasshopper II] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/144.92.143.172:9201]}
+[2016-01-14 11:03:39,901][INFO ][node                     ] [Grasshopper II] started
+[2016-01-14 11:03:51,054][INFO ][gateway                  ] [Grasshopper II] recovered [1] indices into cluster_state
+[2016-01-14 11:04:10,037][INFO ][cluster.routing.allocation.decider] [Grasshopper II] low disk watermark [15%] exceeded on [XXKWujNnTQeKTDRuQYvoFA][Grasshopper II] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:04:33,610][INFO ][bootstrap                ] running graceful exit on windows
+[2016-01-14 11:04:33,613][INFO ][node                     ] [Grasshopper II] stopping ...
+[2016-01-14 11:04:36,989][INFO ][node                     ] [Grasshopper II] stopped
+[2016-01-14 11:04:36,991][INFO ][node                     ] [Grasshopper II] closing ...
+[2016-01-14 11:04:37,170][INFO ][node                     ] [Grasshopper II] closed
+[2016-01-14 11:05:55,850][INFO ][transport                ] [Kem Horkus] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-14 11:05:56,116][INFO ][discovery                ] [Kem Horkus] elasticsearch/Wh4Q5hr9RiedRdJomQrY5w
+[2016-01-14 11:06:00,204][INFO ][cluster.service          ] [Kem Horkus] new_master [Kem Horkus][Wh4Q5hr9RiedRdJomQrY5w][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-14 11:06:00,468][INFO ][http                     ] [Kem Horkus] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/144.92.143.172:9201]}
+[2016-01-14 11:06:00,471][INFO ][node                     ] [Kem Horkus] started
+[2016-01-14 11:06:00,751][INFO ][gateway                  ] [Kem Horkus] recovered [0] indices into cluster_state
+[2016-01-14 11:08:48,167][INFO ][bootstrap                ] running graceful exit on windows
+[2016-01-14 11:08:48,177][INFO ][node                     ] [Warpath] stopping ...
+[2016-01-14 11:08:48,237][INFO ][node                     ] [Warpath] stopped
+[2016-01-14 11:08:48,237][INFO ][node                     ] [Warpath] closing ...
+[2016-01-14 11:08:48,379][INFO ][node                     ] [Warpath] closed
+15][INFO ][node                     ] [Warpath] starting ...
+[2016-01-14 11:07:44,230][INFO ][transport                ] [Warpath] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-14 11:07:44,506][INFO ][discovery                ] [Warpath] elasticsearch/zSyE8ONJRBSJqdOwRayaYQ
+[2016-01-14 11:07:48,515][INFO ][cluster.service          ] [Warpath] new_master [Warpath][zSyE8ONJRBSJqdOwRayaYQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-14 11:07:49,010][INFO ][http                     ] [Warpath] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/144.92.143.172:9201]}
+[2016-01-14 11:07:49,020][INFO ][node                     ] [Warpath] started
+[2016-01-14 11:07:49,198][INFO ][gateway                  ] [Warpath] recovered [0] indices into cluster_state
+[2016-01-14 11:08:18,624][INFO ][cluster.routing.allocation.decider] [Warpath] low disk watermark [15%] exceeded on [zSyE8ONJRBSJqdOwRayaYQ][Warpath] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:09:03,809][INFO ][node                     ] [Spectra] version[1.5.0], pid[3644], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-14 11:09:03,813][INFO ][node                     ] [Spectra] initializing ...
+[2016-01-14 11:09:03,864][INFO ][plugins                  ] [Spectra] loaded [], sites []
+[2016-01-14 11:09:35,725][INFO ][node                     ] [Spectra] initialized
+[2016-01-14 11:09:36,397][INFO ][node                     ] [Spectra] starting ...
+[2016-01-14 11:09:37,410][INFO ][transport                ] [Spectra] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-14 11:09:37,617][INFO ][discovery                ] [Spectra] elasticsearch/rcq9atn2SvW619XmCi8vpw
+[2016-01-14 11:09:41,684][INFO ][cluster.service          ] [Spectra] new_master [Spectra][rcq9atn2SvW619XmCi8vpw][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-14 11:09:42,104][INFO ][http                     ] [Spectra] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/144.92.143.172:9201]}
+[2016-01-14 11:09:42,108][INFO ][node                     ] [Spectra] started
+[2016-01-14 11:09:42,299][INFO ][gateway                  ] [Spectra] recovered [0] indices into cluster_state
+[2016-01-14 11:09:46,699][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0xfd71097a, /127.0.0.1:9961 => /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:09:46,720][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0xfd71097a, /127.0.0.1:9961 :> /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.cleanup(FrameDecoder.java:482)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.close(Channels.java:812)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.close(AbstractChannel.java:206)
+	at org.elasticsearch.transport.netty.NettyTransport.exceptionCaught(NettyTransport.java:611)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.exceptionCaught(MessageChannelHandler.java:239)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.elasticsearch.common.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:09:46,723][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0x3061bf74, /127.0.0.1:9962 => /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:09:46,769][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0x3061bf74, /127.0.0.1:9962 :> /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.cleanup(FrameDecoder.java:482)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.close(Channels.java:812)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.close(AbstractChannel.java:206)
+	at org.elasticsearch.transport.netty.NettyTransport.exceptionCaught(NettyTransport.java:611)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.exceptionCaught(MessageChannelHandler.java:239)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.elasticsearch.common.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:09:46,774][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0x900cc485, /127.0.0.1:9963 => /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:09:46,839][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0x900cc485, /127.0.0.1:9963 :> /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.cleanup(FrameDecoder.java:482)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.close(Channels.java:812)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.close(AbstractChannel.java:206)
+	at org.elasticsearch.transport.netty.NettyTransport.exceptionCaught(NettyTransport.java:611)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.exceptionCaught(MessageChannelHandler.java:239)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.elasticsearch.common.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:09:51,906][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0xd470ef59, /127.0.0.1:9964 => /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:09:51,915][WARN ][transport.netty          ] [Spectra] exception caught on transport layer [[id: 0xd470ef59, /127.0.0.1:9964 :> /127.0.0.1:9300]], closing connection
+java.io.StreamCorruptedException: invalid internal transport message format, got (47,45,54,20)
+	at org.elasticsearch.transport.netty.SizeHeaderFrameDecoder.decode(SizeHeaderFrameDecoder.java:47)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:425)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.cleanup(FrameDecoder.java:482)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:574)
+	at org.elasticsearch.common.netty.channel.Channels.close(Channels.java:812)
+	at org.elasticsearch.common.netty.channel.AbstractChannel.close(AbstractChannel.java:206)
+	at org.elasticsearch.transport.netty.NettyTransport.exceptionCaught(NettyTransport.java:611)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.exceptionCaught(MessageChannelHandler.java:239)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.elasticsearch.common.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-14 11:10:10,103][INFO ][bootstrap                ] running graceful exit on windows
+[2016-01-14 11:10:10,106][INFO ][node                     ] [Spectra] stopping ...
+[2016-01-14 11:10:10,173][INFO ][node                     ] [Spectra] stopped
+[2016-01-14 11:10:10,175][INFO ][node                     ] [Spectra] closing ...
+[2016-01-14 11:10:10,373][INFO ][node                     ] [Spectra] closed
+[2016-01-14 11:11:08,041][INFO ][node                     ] [Bella Donna] version[1.5.0], pid[1756], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-14 11:11:08,041][INFO ][node                     ] [Bella Donna] initializing ...
+[2016-01-14 11:11:08,101][INFO ][plugins                  ] [Bella Donna] loaded [], sites []
+[2016-01-14 11:11:40,041][INFO ][node                     ] [Bella Donna] initialized
+[2016-01-14 11:11:40,651][INFO ][node                     ] [Bella Donna] starting ...
+[2016-01-14 11:11:41,548][INFO ][transport                ] [Bella Donna] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-14 11:11:41,748][INFO ][discovery                ] [Bella Donna] elasticsearch/k4xAHvNsQCqarB4D_c9WFg
+[2016-01-14 11:11:45,798][INFO ][cluster.service          ] [Bella Donna] new_master [Bella Donna][k4xAHvNsQCqarB4D_c9WFg][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-14 11:11:46,235][INFO ][http                     ] [Bella Donna] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/144.92.143.172:9201]}
+[2016-01-14 11:11:46,235][INFO ][node                     ] [Bella Donna] started
+[2016-01-14 11:11:46,428][INFO ][gateway                  ] [Bella Donna] recovered [0] indices into cluster_state
+[2016-01-14 11:40:58,497][INFO ][cluster.metadata         ] [Bantam] [metadata] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2016-01-14 11:41:08,470][INFO ][cluster.metadata         ] [Bantam] [metadata] update_mapping [tables] (dynamic)
+[2016-01-14 11:41:14,095][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:41:43,748][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:42:13,622][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:42:43,595][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:42:56,993][DEBUG][action.search.type       ] [Bantam] [metadata][1], node[XeSM6JnyS--v95yvoeZvfQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@64fa0dae] lastShard [true]
+org.elasticsearch.search.SearchParseException: [metadata][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "query_string": {
+           "query": "type:misc OR type:data:*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [metadata] Failed to parse query [type:misc OR type:data:*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'type:misc OR type:data:*': Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:132)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:710)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:592)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:173)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2016-01-14 11:42:56,993][DEBUG][action.search.type       ] [Bantam] [metadata][3], node[XeSM6JnyS--v95yvoeZvfQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@64fa0dae] lastShard [true]
+org.elasticsearch.search.SearchParseException: [metadata][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "query_string": {
+           "query": "type:misc OR type:data:*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [metadata] Failed to parse query [type:misc OR type:data:*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'type:misc OR type:data:*': Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:132)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:710)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:592)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:173)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2016-01-14 11:42:56,993][DEBUG][action.search.type       ] [Bantam] [metadata][0], node[XeSM6JnyS--v95yvoeZvfQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@64fa0dae] lastShard [true]
+org.elasticsearch.search.SearchParseException: [metadata][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "query_string": {
+           "query": "type:misc OR type:data:*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [metadata] Failed to parse query [type:misc OR type:data:*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'type:misc OR type:data:*': Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:132)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:710)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:592)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:173)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2016-01-14 11:42:56,993][DEBUG][action.search.type       ] [Bantam] [metadata][4], node[XeSM6JnyS--v95yvoeZvfQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@64fa0dae]
+org.elasticsearch.search.SearchParseException: [metadata][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "query_string": {
+           "query": "type:misc OR type:data:*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [metadata] Failed to parse query [type:misc OR type:data:*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'type:misc OR type:data:*': Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:132)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:710)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:592)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:173)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2016-01-14 11:42:57,197][DEBUG][action.search.type       ] [Bantam] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [metadata][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "query_string": {
+           "query": "type:misc OR type:data:*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [metadata] Failed to parse query [type:misc OR type:data:*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'type:misc OR type:data:*': Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:132)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:710)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:592)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:173)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2016-01-14 11:42:56,993][DEBUG][action.search.type       ] [Bantam] [metadata][2], node[XeSM6JnyS--v95yvoeZvfQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@64fa0dae] lastShard [true]
+org.elasticsearch.search.SearchParseException: [metadata][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "query_string": {
+           "query": "type:misc OR type:data:*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [metadata] Failed to parse query [type:misc OR type:data:*]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'type:misc OR type:data:*': Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:132)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:887)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Encountered " ":" ": "" at line 1, column 22.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+	at org.apache.lucene.queryparser.classic.QueryParser.generateParseException(QueryParser.java:710)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_consume_token(QueryParser.java:592)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:173)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2016-01-14 11:43:13,802][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:43:43,659][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:44:13,768][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node
+[2016-01-14 11:44:43,579][INFO ][cluster.routing.allocation.decider] [Bantam] low disk watermark [15%] exceeded on [XeSM6JnyS--v95yvoeZvfQ][Bantam] free: 52.7gb[10.5%], replicas will not be assigned to this node

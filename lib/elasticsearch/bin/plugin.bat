@@ -1,10 +1,11 @@
-@echo off
+REM @echo off
 
 SETLOCAL
 
 if NOT DEFINED JAVA_HOME goto err
 
 set SCRIPT_DIR=%~dp0
+echo %SCRIPT_DIR%
 for %%I in ("%SCRIPT_DIR%..") do set ES_HOME=%%~dpfI
 
 TITLE Elasticsearch Plugin Manager 1.5.0

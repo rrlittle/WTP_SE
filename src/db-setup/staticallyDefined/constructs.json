@@ -1,912 +1,1292 @@
 {
-	"Readme":[
-		"This Document is used to specify all instrumnts the WTP has ever done.  It declares which instruments have been done. What the abbreviation is, which scales are included, and which respondents we have for each phase.",
-		"The structue of the document is as folows:",
-		"'Readme', which includes this how-to/what is this document",
-		"'Maps', which define what ages relate to each phase, as well as any acronyms used within this document such as 't' for twin",
-		"... 'phaseToAge' is a dict that maps the age ranges of respondents for each phase. each key is the name of a phase, the data is a string with syntax 'lowAge~exceptAge,exceptAge2,...~highAge,lowAge2~exceptAge,...~HighAge2,...' it can support mulitple groups and exceptions to each group.",
-		"... 'respToResp' relates shortcuts for each respondent to the full word. this is included so we don't have to hard code it in the parser.",
-		"'instruments', which defines all the instruments we've done.",
-		"... instrumets includes a number of dictionaries with the name of the instrument being the key for that dict.",
-		"... ... each dict has a number of keys within it. abbreviation*, scales, phase, resp, extensions, details, and memo. Only abbreviation is required to be in each.",
-        "... ... although all of these things must be represented within. because. each instrument need sto have these things.",
-		"... ... ... 'abbreviation' is the short name for the instrument. Which is used in table names. It is required for all instruments, and can be assumed to be there.",
-		"... ... ... if 'extensions' is present it means there are extensions/specializaions for this instrument. i.e. one version for the twin one veriosn for the parents. extensions are dicts exaclty analagous to instrument dicts. these can be potentially nested infinetly. abbreviations found within extension dicts should be appended to the outer abbreviation.",
-		"... ... ... ... 'scales' is a dict with keys the short name for each scale, used in column names. while the data for each key is the long name/description. The data should be made searchable. if you want details about that scale. This does not have to be there. If it's not. it means there are no scales within the instrumnt. 'NOT_DEFINED' is a keyword meaning that the definition of a key is not known for whatever reason. ",
-		"... ... ... ... 'phase' can either be a dict or an array. if it's a dict, that allows you to specify different arrays of respondents for each phase, if it's an array then all phases can be assumed to have the same set of resps. ",
-		"... ... ... ... 'resps' is an array of reespondents. either t,m,f,e1,e2,s,c,i; the defs can be found in maps->resps. This should only exist if phase is an array.",
-		"... ... ... ... 'details' is a string holding some extra information about the instrument name (the lowest extension i.e. the most specific)",
-		"... ... ... ... 'memo' is a string that holds some extra information about the current dict that doens't fit anywhere else."],
-    "Maps": {
-        "phase": {
-        	"1":"Phase 1",
-        	"2":"Phase 2",
-        	"3":"Phase 3",
-        	"4":"Phase 4",
-        	"5":"Phase 5",
-        	"c3":"Conte 3",
-        	"rd":"Rdoc",
-            "S":"Screener",
-            "s":"Screener",
-            "rdmr":"Rdoc Imaging"
-        },
-        "respondent":{
-        	"m":"mother",
-        	"f":"father",
-        	"e1":"experimenter 1",
-        	"e2":"experimenter 2",
-        	"c": "co-twin",
-        	"s":"Sibling",
-        	"i":"interviewer",
-            "t":"twin"
-        }
+  "Readme": [
+    "This Document is used to specify all instrumnts the WTP has ever done.  It declares which instruments have been done. What the abbreviation is, which scales are included, and which respondents we have for each phase.",
+    "The structue of the document is as folows:",
+    "'Readme', which includes this how-to/what is this document",
+    "'Maps', which define what ages relate to each phase, as well as any acronyms used within this document such as 't' for twin",
+    "... 'phaseToAge' is a dict that maps the age ranges of respondents for each phase. each key is the name of a phase, the data is a string with syntax 'lowAge~exceptAge,exceptAge2,...~highAge,lowAge2~exceptAge,...~HighAge2,...' it can support mulitple groups and exceptions to each group.",
+    "... 'respToResp' relates shortcuts for each respondent to the full word. this is included so we don't have to hard code it in the parser.",
+    "'instruments', which defines all the instruments we've done.",
+    "... instrumets includes a number of dictionaries with the name of the instrument being the key for that dict.",
+    "... ... each dict has a number of keys within it. abbreviation*, scales, phase, resp, extensions, details, and memo. Only abbreviation is required to be in each.",
+    "... ... although all of these things must be represented within. because. each instrument need sto have these things.",
+    "... ... ... 'abbreviation' is the short name for the instrument. Which is used in table names. It is required for all instruments, and can be assumed to be there.",
+    "... ... ... if 'extensions' is present it means there are extensions/specializaions for this instrument. i.e. one version for the twin one veriosn for the parents. extensions are dicts exaclty analagous to instrument dicts. these can be potentially nested infinetly. abbreviations found within extension dicts should be appended to the outer abbreviation.",
+    "... ... ... ... 'scales' is a dict with keys the short name for each scale, used in column names. while the data for each key is the long name/description. The data should be made searchable. if you want details about that scale. This does not have to be there. If it's not. it means there are no scales within the instrumnt. 'NOT_DEFINED' is a keyword meaning that the definition of a key is not known for whatever reason. ",
+    "... ... ... ... 'phase' can either be a dict or an array. if it's a dict, that allows you to specify different arrays of respondents for each phase, if it's an array then all phases can be assumed to have the same set of resps. ",
+    "... ... ... ... 'resps' is an array of reespondents. either t,m,f,e1,e2,s,c,i; the defs can be found in maps->resps. This should only exist if phase is an array.",
+    "... ... ... ... 'details' is a string holding some extra information about the instrument name (the lowest extension i.e. the most specific)",
+    "... ... ... ... 'memo' is a string that holds some extra information about the current dict that doens't fit anywhere else."
+  ],
+  "Maps": {
+    "phase": {
+      "1": "Phase 1",
+      "2": "Phase 2",
+      "3": "Phase 3",
+      "4": "Phase 4",
+      "5": "Phase 5",
+      "c3": "Conte 3",
+      "rd": "Rdoc",
+      "S": "Screener",
+      "s": "Screener",
+      "rdmr": "Rdoc Imaging"
     },
-    "Instruments": {
-        "Adult Sensory Profile": {
-            "abbreviation": "au",
-            "scales": {
-                "ap": "Auditory Processing",
-                "tp": "touch Processing"
-            },
-            "respondent": ["m", "f", "t"],
-            "phase": [4]
+    "respondent": {
+      "m": "mother",
+      "f": "father",
+      "e1": "experimenter 1",
+      "e2": "experimenter 2",
+      "c": "co-twin",
+      "s": "Sibling",
+      "i": "interviewer",
+      "t": "twin"
+    }
+  },
+  "Instruments": {
+    "Adult Sensory Profile": {
+      "abbreviation": "au",
+      "scales": {
+        "ap": "Auditory Processing",
+        "tp": "touch Processing"
+      },
+      "respondent": [
+        "m",
+        "f",
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "APES": {
+      "abbreviation": "ap",
+      "scales": {
+        "di": "negative daily event impact",
+        "de": "negative daily events",
+        "ne": "negative event",
+        "ni": "negative impact,",
+        "me": "negative major event",
+        "mi": "negative major event impact",
+        "ue": "neutral event",
+        "pe": "positive event",
+        "pi": "positive impact",
+        "te": "total event",
+        "ti": "total impact"
+      },
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "ASPD": {
+      "abbreviation": "ad",
+      "scales": {
+        "cu": "callous/unemotional",
+        "im": "impulsivity",
+        "na": "narcissism",
+        "to": "total"
+      },
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "Autism Screener": {
+      "abbreviation": "as",
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        1
+      ]
+    },
+    "Basal Cortisol": {
+      "abbreviation": "bc",
+      "extensions": {
+        "original": {
+          "abbreviation": "",
+          "respondent": [
+            "s",
+            "t",
+            "m"
+          ],
+          "phase": [
+            3
+          ]
         },
-        "APES": {
-            "abbreviation": "ap",
-            "scales": {
-                "di": "negative daily event impact",
-                "de": "negative daily events",
-                "ne": "negative event",
-                "ni": "negative impact,",
-                "me": "negative major event",
-                "mi": "negative major event impact",
-                "ue": "neutral event",
-                "pe": "positive event",
-                "pi": "positive impact",
-                "te": "total event",
-                "ti": "total impact"
-            },
-            "respondent": ["t"],
-            "phase": [4]
+        "Revised Protocol": {
+          "abbreviation": "_r1",
+          "memo": "Revised Protocol",
+          "phase": [
+            4
+          ],
+          "respondent": [
+            "s",
+            "t",
+            "m"
+          ]
+        }
+      }
+    },
+    "Bayley Ratings": {
+      "abbreviation": "br",
+      "respondent": [
+        "e1",
+        "e2"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "BDI": {
+      "abbreviation": "bd",
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        3
+      ]
+    },
+    "BISBAS": {
+      "abbreviation": "bb",
+      "scales": {
+        "bd": "bas drive",
+        "bf": "bas fun seeking",
+        "br": "bas reward responsiveness",
+        "bs": "bis"
+      },
+      "respondent": [
+        "m",
+        "f",
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "Bitsea": {
+      "abbreviation": "bi",
+      "scales": {
+        "co": "competence domain",
+        "pr": "problem domain"
+      },
+      "respondent": [
+        "m"
+      ],
+      "phase": [
+        1
+      ]
+    },
+    "Block": {
+      "details": "WISC-III",
+      "abbreviation": "bl",
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        3,
+        4
+      ]
+    },
+    "BMSA": {
+      "abbreviation": "b",
+      "extensions": {
+        "std": {
+          "abbreviation": "m",
+          "respondent": [
+            "m",
+            "f"
+          ],
+          "phase": [
+            3
+          ]
         },
-        "ASPD": {
-            "abbreviation": "ad",
-            "scales": {
-                "cu": "callous/unemotional",
-                "im": "impulsivity",
-                "na": "narcissism",
-                "to": "total"
-            },
-            "respondent": ["t"],
-            "phase": [4]
+        "short": {
+          "abbreviation": "s",
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            3
+          ]
+        }
+      }
+    },
+    "BPI": {
+      "abbreviation": "bp",
+      "extensions": {
+        "symptomatology": {
+          "abbreviation": "sy",
+          "scales": {
+            "cd": "conduct disorder",
+            "de": "depression",
+            "en": "enuresis",
+            "im": "impulsivity",
+            "at": "inattention",
+            "od": "opposition & defiance",
+            "oa": "overanxiousness",
+            "ag": "overt aggression",
+            "sa": "separation anxiety"
+          },
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            3
+          ]
         },
-        "Autism Screener": {
-            "abbreviation": "as",
-            "respondent": ["m", "f"],
-            "phase": [1]
-        },
-        "Basal Cortisol": {
-            "abbreviation": "bc",
-            "extensions": {
-                "original": {
-                    "abbreviation": "",
-                    "respondent": ["s", "t", "m"],
-                    "phase": [3]
-                },
-                "Revised Protocol": {
-                    "abbreviation": "_r1",
-                    "memo": "Revised Protocol",
-                    "phase": [4],
-                    "respondent": ["s", "t", "m"]
-                }
-            }
-        },
-        "Bayley Ratings": {
-            "abbreviation": "br",
-            "respondent": ["e1", "e2"],
-            "phase": [4]
-        },
-        "BDI": {
-            "abbreviation": "bd",
-            "respondent": ["m", "f"],
-            "phase": [3]
-        },
-        "BISBAS": {
-            "abbreviation": "bb",
-            "scales": {
-                "bd": "bas drive",
-                "bf": "bas fun seeking",
-                "br": "bas reward responsiveness",
-                "bs": "bis"
-            },
-            "respondent": ["m", "f", "t"],
-            "phase": [4]
-        },
-        "Bitsea": {
-            "abbreviation": "bi",
-            "scales": {
-                "co": "competence domain",
-                "pr": "problem domain"
-            },
-            "respondent": ["m"],
-            "phase": [1]
-        },
-        "Block": {
-            "details": "WISC-III",
-            "abbreviation": "bl",
-            "respondent": ["t"],
-            "phase": [3, 4]
-        },
-        "BMSA": {
-            "abbreviation": "b",
-            "extensions": {
-                "std": {
-                    "abbreviation": "m",
-                    "respondent": ["m", "f"],
-                    "phase": [3]
-                },
-                "short": {
-                    "abbreviation": "s",
-                    "respondent": ["t"],
-                    "phase": [3]
-                }
-            }
-        },
-        "BPI": {
-            "abbreviation": "bp",
-            "extensions": {
-                "symptomatology": {
-                    "abbreviation": "sy",
-                    "scales": {
-                        "cd": "conduct disorder",
-                        "de": "depression",
-                        "en": "enuresis",
-                        "im": "impulsivity",
-                        "at": "inattention",
-                        "od": "opposition & defiance",
-                        "oa": "overanxiousness",
-                        "ag": "overt aggression",
-                        "sa": "separation anxiety"
-                    },
-                    "respondent": ["t"],
-                    "phase": [3]
-                },
-                "peer scales": {
-                    "abbreviation": "_pp",
-                    "scales": {
-                        "bu": "bullied",
-                        "pa": "peer acceptance and rejection",
-                        "ps": "prosocial behaviors",
-                        "so": "social inhibition"
-                    },
-                    "respondent": ["t"],
-                    "phase": [3]
-                }
-            }
-        },
-        "CBQ": {
-            "abbreviation": "cb",
-            "scales": {
-                "al": "activity level",
-                "an": "anger",
-                "ap": "approach",
-                "af": "attention focusing",
-                "fe": "fear",
-                "hp": "high pleasure",
-                "ic": "inhibtiory control",
-                "im": "impulsivity",
-                "lp": "low pleasure",
-                "sh": "shyness",
-                "so": "soothability",
-                "sl": "smiling & laughter"
-            },
-            "respondent": ["m", "f"],
-            "phase": [2, 3]
-        },
-        "CDI": {
-            "abbreviation": "c",
-            "extensions": {
-                "Adolescent Child Report": {
-                    "abbreviation": "c",
-                    "scales": {
-                        "an": "anhedonia",
-                        "in": "ineffectiveness",
-                        "ip": "interpersonal problems",
-                        "nm": "negative mood",
-                        "ns": "negative self-esteem",
-                        "de": "total depression score"
-                    },
-                    "respondent": ["t"],
-                    "phase": [4]
-                },
-                "Depression": {
-                    "abbreviation": "d",
-                    "respondent": ["m", "f"],
-                    "phase": [2, 3]
-                },
-                "Adolescent Parent Report": {
-                    "abbreviation": "p",
-                    "respondent": ["m", "f"],
-                    "phase": [4]
-                },
-                "MacArthur Vocabulary": {
-                    "abbreviation": "cv",
-                    "respondent": ["m", "f"],
-                    "phase": [1]
-                }
-            }
-        },
-        "Chaos": {
-            "abbreviation": "ch",
-            "respondent": ["m"],
-            "phase": [3]
-        },
-        "CW Stroop": {
-            "abbreviation": "cw",
-            "extensions": {
-                "Published Instrument": {
-                    "abbreviation": "",
-                    "respondent": ["t"],
-                    "phase": [4]
-                },
-                "Newman Version": {
-                    "abbreviation": "_old",
-                    "memo": "Problems",
-                    "respondent": ["t"],
-                    "phase": [4]
-                }
-            }
-        },
-        "CRPR": {
-            "abbreviation": "cr",
-            "scales": {
-                "ac": "authoritarian control",
-                "ca": "control by anxiety induction",
-                "cg": "control by guilt induction",
-                "ei": "encourage independence",
-                "eo": "encourage openness",
-                "oa": "open aff. expression",
-                "rg": "rational guidance"
-            },
-            "respondent": ["m", "f"],
-            "phase": [1, 3, 4]
-        },
-        "CRSQ": {
-            "abbreviation": "cs",
-            "scales": {
-                "ge": "angry expectations of rejection",
-                "ne": "anxiety expectations of rejection"
-            },
-            "respondent": ["t"],
-            "phase": [4]
-        },
-        "DAS": {
-            "abbreviation": "da",
-            "scales": {
-                "ae": "affectional expression",
-                "da": "dyadic adjustment",
-                "dc": "dyadic cohesion",
-                "dn": "dyadic consensus",
-                "ds": "dyadic satisfaction"
-            },
-            "respondent": ["m"],
-            "phase": [3]
-        },
-        "DCPL": {
-            "abbreviation": "dc",
-            "respondent": ["m", "f"],
-            "phase": [3, 4]
-        },
-        "DEM": {
-            "abbreviation": "de",
-            "phase":{
-                "2":["m","f"],
-                "3":["m","f"],
-                "4":["m","f"],
-                "1":["m"],
-                "5":["m"]
-                }
-        },
-        "Digit": {
-            "details": "WISC-III",
-            "abbreviation": "di",
-            "scales": {
-                "db": "digits backward",
-                "df": "digits forward"
-            },
-            "phase": [4],
-            "respondent": ["t"]
-        },
-        "DTQ": {
-            "abbreviation": "dt",
-            "scales": {
-                "af": "affection",
-                "at": "attention",
-                "di": "discipline"
-            },
-            "phase": [3, 4],
-            "respondent": ["m", "f"]
-        },
-        "EATQ": {
-            "abbreviation": "e",
-            "extensions": {
-                "Child Report": {
-                    "abbreviation": "c",
-                    "scales": {
-                        "ac": "activation control",
-                        "af": "affiliation",
-                        "ag": "aggression",
-                        "at": "attention",
-                        "dm": "depressive mood",
-                        "fe": "fear",
-                        "fs": "frustration",
-                        "ic": "inhibitory control",
-                        "ps": "pleasure sensitivity",
-                        "sh": "shyness",
-                        "sg": "surgency"
-                    },
-                    "phase": [4],
-                    "respondent": ["t"]
-                },
-                "Parent Report": {
-                    "abbreviation": "ep",
-                    "scales": {
-                        "ac": "activation control",
-                        "af": "affiliation",
-                        "ag": "aggression",
-                        "at": "attention",
-                        "dm": "depressive mood",
-                        "fe": "fear",
-                        "fs": "frustration",
-                        "ic": "inhibitory control",
-                        "sh": "shyness",
-                        "sg": "surgency"
-                    },
-                    "phase": [4],
-                    "respondent": ["m", "f"]
-                }
-            }
-        },
-        "EPSI": {
-            "abbreviation": "ei",
-            "phase": [4],
-            "respondent": ["t"]
-        },
-        "FAD": {
-            "abbreviation": "fa",
-            "scales": {
-                "ai": "affectional involvement",
-                "ar": "affective responses",
-                "bc": "behavior control",
-                "cm": "communication",
-                "gf": "general functioning",
-                "ps": "problem solving",
-                "rl": "roles"
-            },
-            "phase": [3],
-            "respondent": ["m", "f"]
-        },
-        "FCS": {
-            "abbreviation": "fc",
-            "phase": [3, 4],
-            "respondent": ["m", "f"]
-        },
-        "FEQ": {
-            "abbreviation": "fe",
-            "scales": {
-                "nd": "negative dominance",
-                "ns": "negative submissive",
-                "pd": "positive dominance",
-                "ps": "positive submissive"
-            },
-            "phase": [4],
-            "respondent": ["m", "f"]
-        },
-        "Financial Stress": {
-            "abbreviation": "fs",
-            "phase": [4],
-            "respondent": ["m"]
-        },
-        "HBQ": {
-            "abbreviation": "hb",
-            "scales": {
-                "ac": "attention composite",
-                "cd": "conduct disorder",
-                "de": "depression",
-                "en": "enuresis",
-                "ec": "externalizing composite",
-                "hu": "health care utilization",
-                "if": "impact on family",
-                "is": "impact on self",
-                "im": "impulsivity",
-                "at": "inattention",
-                "ic": "internalizing composite",
-                "od": "opposition & defiance",
-                "ag": "overt aggression",
-                "oa": "overanxiousness",
-                "ph": "physical health",
-                "ps": "prosocial behavior",
-                "rc": "recreational activities",
-                "sa": "separation anxiety",
-                "sr": "social relations"
-            },
-            "phase": [2, 3, "S"],
-            "respondent": ["m", "f"]
-        },
-        "Parent Adolescent/Sibling Report": {
-            "abbreviation": "b",
-            "scales": {
-                "as": "asocial",
-                "cd": "conduct disorder",
-                "cx": "conduct disorder expanded",
-                "de": "depression",
-                "dx": "depression expanded",
-                "hu": "health care utilization",
-                "if": "impact on family",
-                "is": "impact on self (twin)",
-                "im": "impulsivity",
-                "at": "inattention",
-                "tx": "inattention expanded",
-                "in": "inhibition",
-                "nx": "inhibition expanded",
-                "od": "oppositional defiant dis.",
-                "oa": "overanxious",
-                "ox": "overanxious expanded",
-                "ag": "overt aggression",
-                "gx": "overt agg. expanded",
-                "ar": "peer acceptance-rejection",
-                "ph": "physical health",
-                "ps": "prosocial behaviors",
-                "ra": "recreational activities",
-                "pbra": "relational aggression",
-                "rx": "relational agg. expanded",
-                "rv": "relational victim",
-                "sa": "separation anxiety",
-                "so": "social anxiety",
-                "sp": "social perception skills",
-                "sr": "social relations"
-            },
-            "phase": [4, 5],
-            "respondent": ["m", "f"]
-        },
+        "peer scales": {
+          "abbreviation": "_pp",
+          "scales": {
+            "bu": "bullied",
+            "pa": "peer acceptance and rejection",
+            "ps": "prosocial behaviors",
+            "so": "social inhibition"
+          },
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            3
+          ]
+        }
+      }
+    },
+    "CBQ": {
+      "abbreviation": "cb",
+      "scales": {
+        "al": "activity level",
+        "an": "anger",
+        "ap": "approach",
+        "af": "attention focusing",
+        "fe": "fear",
+        "hp": "high pleasure",
+        "ic": "inhibtiory control",
+        "im": "impulsivity",
+        "lp": "low pleasure",
+        "sh": "shyness",
+        "so": "soothability",
+        "sl": "smiling & laughter"
+      },
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        2,
+        3
+      ]
+    },
+    "CDI": {
+      "abbreviation": "c",
+      "extensions": {
         "Adolescent Child Report": {
-            "abbreviation": "a",
-            "extensions": {
-                "Twin": {
-                    "abbreviation": "_pb",
-                    "scales": {
-                        "ap": "academic competence",
-                        "as": "asocial",
-                        "bu": "bullied",
-                        "cd": "conduct disorder",
-                        "de": "depression",
-                        "im": "impulsivity",
-                        "at": "inattention",
-                        "od": "oppositional defiant disorder",
-                        "oa": "overanxious",
-                        "ag": "overt aggression",
-                        "pa": "peer acceptance/rejection",
-                        "ph": "physical health",
-                        "ps": "prosocial behaviors",
-                        "ra": "relational aggression",
-                        "rv": "relational victim",
-                        "se": "school engagement",
-                        "sa": "separation anxiety",
-                        "sx": "social anxiety",
-                        "si": "social inhibition"
-                    },
-                    "phase": [4, 5],
-                    "respondent": ["t"]
-                },
-                "Co-Twin": {
-                    "abbreviation": "_sp",
-                    "scales": {
-                        "ap": "academic competence",
-                        "as": "asocial",
-                        "bu": "bullied",
-                        "ag": "overt aggression",
-                        "pa": "peer acceptance/rejection",
-                        "ps": "prosocial behaviors",
-                        "ra": "relational aggression",
-                        "rv": "relational victim",
-                        "si": "social inhibition"
-                    },
-                    "respondent": ["t"],
-                    "phase": [4]
-                }
-            }
+          "abbreviation": "c",
+          "scales": {
+            "an": "anhedonia",
+            "in": "ineffectiveness",
+            "ip": "interpersonal problems",
+            "nm": "negative mood",
+            "ns": "negative self-esteem",
+            "de": "total depression score"
+          },
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            4
+          ]
         },
-        "Home": {
-            "abbreviation": "ho",
-            "scales": {
-                "ac": "acceptance of child behavior",
-                "va": "opportunities for variety",
-                "or": "organization of environment",
-                "pi": "parental involvement",
-                "pl": "provisions of play materials",
-                "rp": "responsiveness"
-            },
-            "respondent": ["i"],
-            "phase": [3, 4]
+        "Depression": {
+          "abbreviation": "d",
+          "respondent": [
+            "m",
+            "f"
+          ],
+          "phase": [
+            2,
+            3
+          ]
         },
-        "Hostile Attributions": {
-            "abbreviation": "hs",
-            "scales": {
-                "di": "distress in instrument provocations",
-                "dr": "distress in relational provocations",
-                "is": "intent attri for instrument provocations",
-                "rs": "intent attri for relation provocations"
-            },
-            "respondent": ["t"],
-            "phase": [4]
+        "Adolescent Parent Report": {
+          "abbreviation": "p",
+          "respondent": [
+            "m",
+            "f"
+          ],
+          "phase": [
+            4
+          ]
         },
-        "HUQ": {
-            "abbreviation": "hu",
-            "phase": [4],
-            "respondent": ["t"]
+        "MacArthur Vocabulary": {
+          "abbreviation": "cv",
+          "respondent": [
+            "m",
+            "f"
+          ],
+          "phase": [
+            1
+          ]
+        }
+      }
+    },
+    "Chaos": {
+      "abbreviation": "ch",
+      "respondent": [
+        "m"
+      ],
+      "phase": [
+        3
+      ]
+    },
+    "CW Stroop": {
+      "abbreviation": "cw",
+      "extensions": {
+        "Published Instrument": {
+          "abbreviation": "",
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            4
+          ]
         },
-        "Interview": {
-            "abbreviation": "in",
-            "respondent": ["m", "f"],
-            "phase": [1, 3, 4, 5]
+        "Newman Version": {
+          "abbreviation": "_old",
+          "memo": "Problems",
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            4
+          ]
+        }
+      }
+    },
+    "CRPR": {
+      "abbreviation": "cr",
+      "scales": {
+        "ac": "authoritarian control",
+        "ca": "control by anxiety induction",
+        "cg": "control by guilt induction",
+        "ei": "encourage independence",
+        "eo": "encourage openness",
+        "oa": "open aff. expression",
+        "rg": "rational guidance"
+      },
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        1,
+        3,
+        4
+      ]
+    },
+    "CRSQ": {
+      "abbreviation": "cs",
+      "scales": {
+        "ge": "angry expectations of rejection",
+        "ne": "anxiety expectations of rejection"
+      },
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "DAS": {
+      "abbreviation": "da",
+      "scales": {
+        "ae": "affectional expression",
+        "da": "dyadic adjustment",
+        "dc": "dyadic cohesion",
+        "dn": "dyadic consensus",
+        "ds": "dyadic satisfaction"
+      },
+      "respondent": [
+        "m"
+      ],
+      "phase": [
+        3
+      ]
+    },
+    "DCPL": {
+      "abbreviation": "dc",
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        3,
+        4
+      ]
+    },
+    "DEM": {
+      "abbreviation": "de",
+      "phase": {
+        "2": [
+          "m",
+          "f"
+        ],
+        "3": [
+          "m",
+          "f"
+        ],
+        "4": [
+          "m",
+          "f"
+        ],
+        "1": [
+          "m"
+        ],
+        "5": [
+          "m"
+        ]
+      }
+    },
+    "Digit": {
+      "details": "WISC-III",
+      "abbreviation": "di",
+      "scales": {
+        "db": "digits backward",
+        "df": "digits forward"
+      },
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "t"
+      ]
+    },
+    "DTQ": {
+      "abbreviation": "dt",
+      "scales": {
+        "af": "affection",
+        "at": "attention",
+        "di": "discipline"
+      },
+      "phase": [
+        3,
+        4
+      ],
+      "respondent": [
+        "m",
+        "f"
+      ]
+    },
+    "EATQ": {
+      "abbreviation": "e",
+      "extensions": {
+        "Child Report": {
+          "abbreviation": "c",
+          "scales": {
+            "ac": "activation control",
+            "af": "affiliation",
+            "ag": "aggression",
+            "at": "attention",
+            "dm": "depressive mood",
+            "fe": "fear",
+            "fs": "frustration",
+            "ic": "inhibitory control",
+            "ps": "pleasure sensitivity",
+            "sh": "shyness",
+            "sg": "surgency"
+          },
+          "phase": [
+            4
+          ],
+          "respondent": [
+            "t"
+          ]
         },
-        "ITSEA": {
-            "abbreviation": "it",
-            "scales": {
-                "ac": "activity",
-                "ai": "activity/impulsivity",
-                "ad": "aggression/defiance",
-                "ac": "anxiety/obsessive compulsive",
-                "aw": "anxiety/worry",
-                "at": "attention",
-                "co": "competence",
-                "cm": "compliance",
-                "de": "defiance",
-                "dw": "depression withdrawal",
-                "da": "dispositional aggression",
-                "dy": "dysregulation",
-                "et": "eating",
-                "ea": "eating (group score)",
-                "ep": "eating pathology",
-                "es": "externalizing symptoms",
-                "ga": "general anxiety",
-                "ip": "imitation/play",
-                "im": "impulsivity",
-                "in": "inhibition to novelty",
-                "is": "internalizing symptoms",
-                "ma": "maladaptive",
-                "ne": "negative emotionality",
-                "od": "oppositional/defiant aggression",
-                "oa": "overt aggression",
-                "pa": "peer aggression",
-                "pi": "pica",
-                "pt": "ptsd",
-                "ra": "relational aggression",
-                "rd": "relational defiance",
-                "sd": "seperation distress",
-                "ss": "sensory sensitivity",
-                "sb": "sexualized behavior",
-                "sl": "sleep",
-                "to": "toileting",
-                "ts": "tourette symptoms"
-            },
-            "respondent": ["m", "f"],
-            "phase": [1]
+        "Parent Report": {
+          "abbreviation": "ep",
+          "scales": {
+            "ac": "activation control",
+            "af": "affiliation",
+            "ag": "aggression",
+            "at": "attention",
+            "dm": "depressive mood",
+            "fe": "fear",
+            "fs": "frustration",
+            "ic": "inhibitory control",
+            "sh": "shyness",
+            "sg": "surgency"
+          },
+          "phase": [
+            4
+          ],
+          "respondent": [
+            "m",
+            "f"
+          ]
+        }
+      }
+    },
+    "EPSI": {
+      "abbreviation": "ei",
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "t"
+      ]
+    },
+    "FAD": {
+      "abbreviation": "fa",
+      "scales": {
+        "ai": "affectional involvement",
+        "ar": "affective responses",
+        "bc": "behavior control",
+        "cm": "communication",
+        "gf": "general functioning",
+        "ps": "problem solving",
+        "rl": "roles"
+      },
+      "phase": [
+        3
+      ],
+      "respondent": [
+        "m",
+        "f"
+      ]
+    },
+    "FCS": {
+      "abbreviation": "fc",
+      "phase": [
+        3,
+        4
+      ],
+      "respondent": [
+        "m",
+        "f"
+      ]
+    },
+    "FEQ": {
+      "abbreviation": "fe",
+      "scales": {
+        "nd": "negative dominance",
+        "ns": "negative submissive",
+        "pd": "positive dominance",
+        "ps": "positive submissive"
+      },
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "m",
+        "f"
+      ]
+    },
+    "Financial Stress": {
+      "abbreviation": "fs",
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "m"
+      ]
+    },
+    "HBQ": {
+      "abbreviation": "hb",
+      "scales": {
+        "ac": "attention composite",
+        "cd": "conduct disorder",
+        "de": "depression",
+        "en": "enuresis",
+        "ec": "externalizing composite",
+        "hu": "health care utilization",
+        "if": "impact on family",
+        "is": "impact on self",
+        "im": "impulsivity",
+        "at": "inattention",
+        "ic": "internalizing composite",
+        "od": "opposition & defiance",
+        "ag": "overt aggression",
+        "oa": "overanxiousness",
+        "ph": "physical health",
+        "ps": "prosocial behavior",
+        "rc": "recreational activities",
+        "sa": "separation anxiety",
+        "sr": "social relations"
+      },
+      "phase": [
+        2,
+        3,
+        "S"
+      ],
+      "respondent": [
+        "m",
+        "f"
+      ]
+    },
+    "Parent Adolescent/Sibling Report": {
+      "abbreviation": "b",
+      "scales": {
+        "as": "asocial",
+        "cd": "conduct disorder",
+        "cx": "conduct disorder expanded",
+        "de": "depression",
+        "dx": "depression expanded",
+        "hu": "health care utilization",
+        "if": "impact on family",
+        "is": "impact on self (twin)",
+        "im": "impulsivity",
+        "at": "inattention",
+        "tx": "inattention expanded",
+        "in": "inhibition",
+        "nx": "inhibition expanded",
+        "od": "oppositional defiant dis.",
+        "oa": "overanxious",
+        "ox": "overanxious expanded",
+        "ag": "overt aggression",
+        "gx": "overt agg. expanded",
+        "ar": "peer acceptance-rejection",
+        "ph": "physical health",
+        "ps": "prosocial behaviors",
+        "ra": "recreational activities",
+        "pbra": "relational aggression",
+        "rx": "relational agg. expanded",
+        "rv": "relational victim",
+        "sa": "separation anxiety",
+        "so": "social anxiety",
+        "sp": "social perception skills",
+        "sr": "social relations"
+      },
+      "phase": [
+        4,
+        5
+      ],
+      "respondent": [
+        "m",
+        "f"
+      ]
+    },
+    "Adolescent Child Report": {
+      "abbreviation": "a",
+      "extensions": {
+        "Twin": {
+          "abbreviation": "_pb",
+          "scales": {
+            "ap": "academic competence",
+            "as": "asocial",
+            "bu": "bullied",
+            "cd": "conduct disorder",
+            "de": "depression",
+            "im": "impulsivity",
+            "at": "inattention",
+            "od": "oppositional defiant disorder",
+            "oa": "overanxious",
+            "ag": "overt aggression",
+            "pa": "peer acceptance/rejection",
+            "ph": "physical health",
+            "ps": "prosocial behaviors",
+            "ra": "relational aggression",
+            "rv": "relational victim",
+            "se": "school engagement",
+            "sa": "separation anxiety",
+            "sx": "social anxiety",
+            "si": "social inhibition"
+          },
+          "phase": [
+            4,
+            5
+          ],
+          "respondent": [
+            "t"
+          ]
         },
-        "LES": {
-            "abbreviation": "le",
-            "scales": {
-            	"ev": "event score",
-                "pi": "positive impact",
-                "ni": "negative impact",
-                "ti": "total impact"
-            },
-            "respondent": ["m"],
-            "phase": [3]
-        },
-        "MASC": {
-            "abbreviation": "ma",
-            "scales": {
-                "ad": "anxiety disorders index",
-                "ac": "anxious coping",
-                "ha": "harm avoidance",
-                "hf": "humiliation fears",
-                "pe": "perfectionism",
-                "pf": "performance fears",
-                "ph": "physical symptom",
-                "sp": "separation/panic",
-                "so": "somatic",
-                "an": "total anxiety"
-            },
-            "phase": [4, 5],
-            "respondent": ["t"]
-        },
-        "Measurements": {
-            "abbreviation": "ms",
-            "scales": {
-                "ht": "NOT_DEFINED",
-                "wt": "NOT_DEFINED"
-            },
-            "phase": [3, 4],
-            "respondent": ["m", "f"]
+        "Co-Twin": {
+          "abbreviation": "_sp",
+          "scales": {
+            "ap": "academic competence",
+            "as": "asocial",
+            "bu": "bullied",
+            "ag": "overt aggression",
+            "pa": "peer acceptance/rejection",
+            "ps": "prosocial behaviors",
+            "ra": "relational aggression",
+            "rv": "relational victim",
+            "si": "social inhibition"
+          },
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            4
+          ]
+        }
+      }
+    },
+    "Home": {
+      "abbreviation": "ho",
+      "scales": {
+        "ac": "acceptance of child behavior",
+        "va": "opportunities for variety",
+        "or": "organization of environment",
+        "pi": "parental involvement",
+        "pl": "provisions of play materials",
+        "rp": "responsiveness"
+      },
+      "respondent": [
+        "i"
+      ],
+      "phase": [
+        3,
+        4
+      ]
+    },
+    "Hostile Attributions": {
+      "abbreviation": "hs",
+      "scales": {
+        "di": "distress in instrument provocations",
+        "dr": "distress in relational provocations",
+        "is": "intent attri for instrument provocations",
+        "rs": "intent attri for relation provocations"
+      },
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "HUQ": {
+      "abbreviation": "hu",
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "t"
+      ]
+    },
+    "Interview": {
+      "abbreviation": "in",
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        1,
+        3,
+        4,
+        5
+      ]
+    },
+    "ITSEA": {
+      "abbreviation": "it",
+      "scales": {
+        "ac": "anxiety/obsessive compulsive",
+        "ai": "activity/impulsivity",
+        "ad": "aggression/defiance",
+        "aw": "anxiety/worry",
+        "at": "attention",
+        "co": "competence",
+        "cm": "compliance",
+        "de": "defiance",
+        "dw": "depression withdrawal",
+        "da": "dispositional aggression",
+        "dy": "dysregulation",
+        "et": "eating",
+        "ea": "eating (group score)",
+        "ep": "eating pathology",
+        "es": "externalizing symptoms",
+        "ga": "general anxiety",
+        "ip": "imitation/play",
+        "im": "impulsivity",
+        "in": "inhibition to novelty",
+        "is": "internalizing symptoms",
+        "ma": "maladaptive",
+        "ne": "negative emotionality",
+        "od": "oppositional/defiant aggression",
+        "oa": "overt aggression",
+        "pa": "peer aggression",
+        "pi": "pica",
+        "pt": "ptsd",
+        "ra": "relational aggression",
+        "rd": "relational defiance",
+        "sd": "seperation distress",
+        "ss": "sensory sensitivity",
+        "sb": "sexualized behavior",
+        "sl": "sleep",
+        "to": "toileting",
+        "ts": "tourette symptoms"
+      },
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        1
+      ]
+    },
+    "LES": {
+      "abbreviation": "le",
+      "scales": {
+        "ev": "event score",
+        "pi": "positive impact",
+        "ni": "negative impact",
+        "ti": "total impact"
+      },
+      "respondent": [
+        "m"
+      ],
+      "phase": [
+        3
+      ]
+    },
+    "MASC": {
+      "abbreviation": "ma",
+      "scales": {
+        "ad": "anxiety disorders index",
+        "ac": "anxious coping",
+        "ha": "harm avoidance",
+        "hf": "humiliation fears",
+        "pe": "perfectionism",
+        "pf": "performance fears",
+        "ph": "physical symptom",
+        "sp": "separation/panic",
+        "so": "somatic",
+        "an": "total anxiety"
+      },
+      "phase": [
+        4,
+        5
+      ],
+      "respondent": [
+        "t"
+      ]
+    },
+    "Measurements": {
+      "abbreviation": "ms",
+      "scales": {
+        "ht": "NOT_DEFINED",
+        "wt": "NOT_DEFINED"
+      },
+      "phase": [
+        3,
+        4
+      ],
+      "respondent": [
+        "m",
+        "f"
+      ]
+    },
+    "MPQ": {
+      "abbreviation": "m",
+      "extensions": {
+        "Short": {
+          "abbreviation": "q",
+          "respondent": [
+            "m",
+            "f"
+          ],
+          "phase": [
+            4
+          ],
+          "scales": {
+            "st": "stress reaction",
+            "wb": "well-being"
+          }
         },
         "MPQ": {
-            "abbreviation": "m",
-            "extensions": {
-                "Short": {
-                    "abbreviation": "q",
-                    "respondent": ["m", "f"],
-                    "phase": [4],
-                    "scales": {
-                        "st": "stress reaction",
-                        "wb": "well-being"
-                    }
-                },
-                "MPQ": {
-                    "abbreviation": "p",
-                    "respondent": ["m", "f"],
-                    "phase": "3",
-                    "scales": {
-                        "ab": "absorption",
-                        "ac": "achievement",
-                        "ag": "aggression",
-                        "al": "alienation",
-                        "cn": "control (vs impulsive)",
-                        "ha": "harm avoidance",
-                        "sc": "social closeness",
-                        "sp": "social potency",
-                        "sr": "stress reaction",
-                        "ss": "stress reaction (short version)",
-                        "tr": "traditionalism",
-                        "wb": "wellbeing",
-                        "ws": "well being (short version)"
-                    }
-                }
-            }
-        },
-        "MRI": {
-            "abbreviation": "mr",
-            "respondent": ["m"],
-            "phase": [5]
-        },
-        "NRI": {
-            "abbreviation": "nr",
-            "respondent": ["t"],
-            "phase": [4],
-            "scales": {
-                "ad": "admiration",
-                "af": "affection",
-                "co": "companionship",
-                "di": "disclosure",
-                "gu": "guidance",
-                "nu": "nurturance",
-                "rl": "reliable alliance"
-            }
-        },
-        "PANAS": {
-            "abbreviation": "pa",
-            "respondent": ["e1", "e2"],
-            "phase": [3],
-            "scales": {
-                "na": "negative affect",
-                "pa": "positive affect"
-            }
-        },
-        "PARENTAL MONITOR": {
-            "abbreviation": "pm",
-            "respondent": ["m", "f", "c", "t"],
-            "phase": [4]
-        },
-        "PA TASK": {
-            "abbreviation": "pt",
-            "respondent": ["t"],
-            "phase": [4]
-        },
-        "PDD": {
-            "abbreviation": "pd",
-            "details": "Twin/Sibling",
-            "respondent": ["m"],
-            "phase": [3, 4],
-            "memo": "Separate from pd = play-dough"
-        },
-        "PSI": {
-            "abbreviation": "ps",
-            "phase": [3],
-            "respondent": ["m"],
-            "scales": {
-                "la": "lack of attachment",
-                "rr": "role restriction",
-                "si": "sense of incompetence",
-                "is": "social isolation",
-                "sr": "spousal relationship"
-            }
-        },
-        "PPVT": {
-            "abbreviation": "pp",
-            "respondent": ["t"],
-            "phase": [3, 4]
-        },
-        "PW STROOP": {
-            "abbreviation": "pw",
-            "respondent": ["e2"],
-            "phase": [4]
-        },
-        "REACTIVE CORTISOL": {
-            "abbreviation": "rc",
-            "phase": [3],
-            "respondent": ["t"]
-        },
-        "RETRO. HOUSE. INFO": {
-            "abbreviation": "rh",
-            "phase": [4],
-            "respondent": ["m"]
-        },
-        "ROLE OVERLOAD": {
-            "abbreviation": "ro",
-            "phase": [4],
-            "respondent": ["m"]
-        },
-        "SD": {
-            "abbreviation": "sd",
-            "respondent": ["m"],
-            "phase": ["s"],
-            "scales": {
-                "au": "auditory",
-                "ba": "background",
-                "ex": "experiences",
-                "ga": "garment",
-                "lo": "loud",
-                "ma": "materials",
-                "sc": "self-care",
-                "so": "sounds",
-                "su": "surfaces",
-                "ta": "tactile"
-            }
-        },
-        "SI": {
-            "abbreviation": "si",
-            "respondent": ["m", "t"],
-            "phase": [3],
-            "scales": {
-                "au": "auditory",
-                "ta": "tactile"
-            }
-        },
-        "SELF ESTEEM": {
-            "abbreviation": "se",
-            "respondent": ["t"],
-            "phase": [4]
-        },
-        "SIPA": {
-            "abbreviation": "sa",
-            "respondent": ["m", "f"],
-            "phase": [4],
-            "scales": {
-                "ap": "adoles.-par. relation. domain",
-                "lr": "life restrictions",
-                "in": "incompetence/guilt",
-                "re": "relationship with spouse/partner",
-                "so": "social alienation"
-            }
-        },
-        "SQR": {
-            "abbreviation": "s",
-            "extensions": {
-                "Adolescent Child Report": {
-                    "abbreviation": "r",
-                    "respondent": ["t"],
-                    "phase": [4],
-                    "scales": {
-                        "ab": "admiration by sibling",
-                        "ao": "admiration of sibling",
-                        "af": "affection",
-                        "an": "antagonism",
-                        "cn": "companionship",
-                        "ct": "competition",
-                        "db": "dominance by sibling",
-                        "do": "dominance of sibling",
-                        "in": "intimacy",
-                        "mp": "maternal partiality",
-                        "nb": "nurturance by sibling",
-                        "no": "nurturance of sibling",
-                        "pp": "paternal partiality",
-                        "ps": "prosocial",
-                        "qu": "quarreling",
-                        "si": "similarity"
-                    }
-                },
-                "Chlid Report": {
-                    "abbreviation": "c",
-                    "phase": [3],
-                    "respondent": ["t"],
-                    "scales": {
-                        "af": "affection",
-                        "an": "antagonism",
-                        "cn": "companionship",
-                        "ct": "competition",
-                        "db": "dominance by sibling",
-                        "do": "dominance of sibling",
-                        "mp": "maternal partiality",
-                        "pp": "paternal partiality",
-                        "ps": "prosocial",
-                        "qu": "quarreling",
-                        "si": "similarity"
-                    }
-                },
-                "Parent Report": {
-                    "abbreviation": "p",
-                    "respondent": ["m"],
-                    "phase": [3, 4],
-                    "scales": {
-                        "ab": "admiration by sibling",
-                        "ao": "admiration of sibling",
-                        "af": "affection",
-                        "an": "antagonism",
-                        "cn": "companionship",
-                        "ct": "competition",
-                        "db": "dominance by sibling",
-                        "do": "dominance of sibling",
-                        "in": "intimacy",
-                        "mp": "maternal partiality",
-                        "nb": "nurturance by sibling",
-                        "no": "nurturance of sibling",
-                        "pp": "paternal partiality",
-                        "ps": "prosocial",
-                        "qu": "quarreling",
-                        "si": "similarity"
-                    }
-                }
-            }
-        },
-        "STUDENT INVENTORY": {
-            "abbreviation": "st",
-            "phase": [4],
-            "respondent": ["m"]
-        },
-        "TANNER STAGES": {
-            "abbreviation": "ts",
-            "respondent": ["t"],
-            "phase": [4]
-        },
-        "TBAQ": {
-            "abbreviation": "tb",
-            "respondent": ["m", "f"],
-            "phase": [1],
-            "scales": {
-                "al": "activity level",
-                "an": "anger",
-                "ic": "inhibitory control",
-                "in": "interest",
-                "pl": "pleasure",
-                "sd": "sadness",
-                "sf": "social fear"
-            }
-        },
-        "TIRE": {
-            "abbreviation": "ti",
-            "scales": {
-                "dp": "differential parental criticism",
-                "dc": "differ. twins' peers' cond. probs.",
-                "dt": "dominance between twins",
-                "fp": "father's preference",
-                "fs": "friends' vs. sub's conduct probs.",
-                "mp": "mother's preference",
-                "np": "negative parenting",
-                "pp": "positive parenting",
-                "tc": "twins' closeness",
-                "tq": "twins' quarrels and fights"
-            },
-            "phase": {
-                "4": ["m", "f", "t"],
-                "5": ["m", "t"],
-                "c3": ["m", "t"],
-                "rd": ["m", "t"]
-            }
-        },
-        "ZYGOSITY": {
-            "abbreviation": "zy",
-            "respondent": ["m", "e1", "e2"],
-            "phase": [1, 2, 3, 4, "S"]
+          "abbreviation": "p",
+          "respondent": [
+            "m",
+            "f"
+          ],
+          "phase": "3",
+          "scales": {
+            "ab": "absorption",
+            "ac": "achievement",
+            "ag": "aggression",
+            "al": "alienation",
+            "cn": "control (vs impulsive)",
+            "ha": "harm avoidance",
+            "sc": "social closeness",
+            "sp": "social potency",
+            "sr": "stress reaction",
+            "ss": "stress reaction (short version)",
+            "tr": "traditionalism",
+            "wb": "wellbeing",
+            "ws": "well being (short version)"
+          }
         }
+      }
+    },
+    "MRI": {
+      "abbreviation": "mr",
+      "respondent": [
+        "m"
+      ],
+      "phase": [
+        5
+      ]
+    },
+    "NRI": {
+      "abbreviation": "nr",
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ],
+      "scales": {
+        "ad": "admiration",
+        "af": "affection",
+        "co": "companionship",
+        "di": "disclosure",
+        "gu": "guidance",
+        "nu": "nurturance",
+        "rl": "reliable alliance"
+      }
+    },
+    "PANAS": {
+      "abbreviation": "pa",
+      "respondent": [
+        "e1",
+        "e2"
+      ],
+      "phase": [
+        3
+      ],
+      "scales": {
+        "na": "negative affect",
+        "pa": "positive affect"
+      }
+    },
+    "PARENTAL MONITOR": {
+      "abbreviation": "pm",
+      "respondent": [
+        "m",
+        "f",
+        "c",
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "PA TASK": {
+      "abbreviation": "pt",
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "PDD": {
+      "abbreviation": "pd",
+      "details": "Twin/Sibling",
+      "respondent": [
+        "m"
+      ],
+      "phase": [
+        3,
+        4
+      ],
+      "memo": "Separate from pd = play-dough"
+    },
+    "PSI": {
+      "abbreviation": "ps",
+      "phase": [
+        3
+      ],
+      "respondent": [
+        "m"
+      ],
+      "scales": {
+        "la": "lack of attachment",
+        "rr": "role restriction",
+        "si": "sense of incompetence",
+        "is": "social isolation",
+        "sr": "spousal relationship"
+      }
+    },
+    "PPVT": {
+      "abbreviation": "pp",
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        3,
+        4
+      ]
+    },
+    "PW STROOP": {
+      "abbreviation": "pw",
+      "respondent": [
+        "e2"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "REACTIVE CORTISOL": {
+      "abbreviation": "rc",
+      "phase": [
+        3
+      ],
+      "respondent": [
+        "t"
+      ]
+    },
+    "RETRO. HOUSE. INFO": {
+      "abbreviation": "rh",
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "m"
+      ]
+    },
+    "ROLE OVERLOAD": {
+      "abbreviation": "ro",
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "m"
+      ]
+    },
+    "SD": {
+      "abbreviation": "sd",
+      "respondent": [
+        "m"
+      ],
+      "phase": [
+        "s"
+      ],
+      "scales": {
+        "au": "auditory",
+        "ba": "background",
+        "ex": "experiences",
+        "ga": "garment",
+        "lo": "loud",
+        "ma": "materials",
+        "sc": "self-care",
+        "so": "sounds",
+        "su": "surfaces",
+        "ta": "tactile"
+      }
+    },
+    "SI": {
+      "abbreviation": "si",
+      "respondent": [
+        "m",
+        "t"
+      ],
+      "phase": [
+        3
+      ],
+      "scales": {
+        "au": "auditory",
+        "ta": "tactile"
+      }
+    },
+    "SELF ESTEEM": {
+      "abbreviation": "se",
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "SIPA": {
+      "abbreviation": "sa",
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        4
+      ],
+      "scales": {
+        "ap": "adoles.-par. relation. domain",
+        "lr": "life restrictions",
+        "in": "incompetence/guilt",
+        "re": "relationship with spouse/partner",
+        "so": "social alienation"
+      }
+    },
+    "SQR": {
+      "abbreviation": "s",
+      "extensions": {
+        "Adolescent Child Report": {
+          "abbreviation": "r",
+          "respondent": [
+            "t"
+          ],
+          "phase": [
+            4
+          ],
+          "scales": {
+            "ab": "admiration by sibling",
+            "ao": "admiration of sibling",
+            "af": "affection",
+            "an": "antagonism",
+            "cn": "companionship",
+            "ct": "competition",
+            "db": "dominance by sibling",
+            "do": "dominance of sibling",
+            "in": "intimacy",
+            "mp": "maternal partiality",
+            "nb": "nurturance by sibling",
+            "no": "nurturance of sibling",
+            "pp": "paternal partiality",
+            "ps": "prosocial",
+            "qu": "quarreling",
+            "si": "similarity"
+          }
+        },
+        "Chlid Report": {
+          "abbreviation": "c",
+          "phase": [
+            3
+          ],
+          "respondent": [
+            "t"
+          ],
+          "scales": {
+            "af": "affection",
+            "an": "antagonism",
+            "cn": "companionship",
+            "ct": "competition",
+            "db": "dominance by sibling",
+            "do": "dominance of sibling",
+            "mp": "maternal partiality",
+            "pp": "paternal partiality",
+            "ps": "prosocial",
+            "qu": "quarreling",
+            "si": "similarity"
+          }
+        },
+        "Parent Report": {
+          "abbreviation": "p",
+          "respondent": [
+            "m"
+          ],
+          "phase": [
+            3,
+            4
+          ],
+          "scales": {
+            "ab": "admiration by sibling",
+            "ao": "admiration of sibling",
+            "af": "affection",
+            "an": "antagonism",
+            "cn": "companionship",
+            "ct": "competition",
+            "db": "dominance by sibling",
+            "do": "dominance of sibling",
+            "in": "intimacy",
+            "mp": "maternal partiality",
+            "nb": "nurturance by sibling",
+            "no": "nurturance of sibling",
+            "pp": "paternal partiality",
+            "ps": "prosocial",
+            "qu": "quarreling",
+            "si": "similarity"
+          }
+        }
+      }
+    },
+    "STUDENT INVENTORY": {
+      "abbreviation": "st",
+      "phase": [
+        4
+      ],
+      "respondent": [
+        "m"
+      ]
+    },
+    "TANNER STAGES": {
+      "abbreviation": "ts",
+      "respondent": [
+        "t"
+      ],
+      "phase": [
+        4
+      ]
+    },
+    "TBAQ": {
+      "abbreviation": "tb",
+      "respondent": [
+        "m",
+        "f"
+      ],
+      "phase": [
+        1
+      ],
+      "scales": {
+        "al": "activity level",
+        "an": "anger",
+        "ic": "inhibitory control",
+        "in": "interest",
+        "pl": "pleasure",
+        "sd": "sadness",
+        "sf": "social fear"
+      }
+    },
+    "TIRE": {
+      "abbreviation": "ti",
+      "scales": {
+        "dp": "differential parental criticism",
+        "dc": "differ. twins' peers' cond. probs.",
+        "dt": "dominance between twins",
+        "fp": "father's preference",
+        "fs": "friends' vs. sub's conduct probs.",
+        "mp": "mother's preference",
+        "np": "negative parenting",
+        "pp": "positive parenting",
+        "tc": "twins' closeness",
+        "tq": "twins' quarrels and fights"
+      },
+      "phase": {
+        "4": [
+          "m",
+          "f",
+          "t"
+        ],
+        "5": [
+          "m",
+          "t"
+        ],
+        "c3": [
+          "m",
+          "t"
+        ],
+        "rd": [
+          "m",
+          "t"
+        ]
+      }
+    },
+    "ZYGOSITY": {
+      "abbreviation": "zy",
+      "respondent": [
+        "m",
+        "e1",
+        "e2"
+      ],
+      "phase": [
+        1,
+        2,
+        3,
+        4,
+        "S"
+      ]
     }
+  }
 }

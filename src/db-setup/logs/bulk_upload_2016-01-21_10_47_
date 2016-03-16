@@ -1,0 +1,1830 @@
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "aaatable", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_1_de_m", "responses": "2228", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_3_de_f", "responses": "393", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_3_de_m", "responses": "515", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_cbqm", "responses": "682", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_dates", "responses": "1116", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_demographics", "responses": "320", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_familyid", "responses": "6260", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ibq_respondent1", "responses": "542", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ibq_respondent2", "responses": "442", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ibq_respondent3", "responses": "4", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bci", "responses": "541", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bfi_respondent1", "responses": "702", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bfi_respondent2", "responses": "601", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bfi_respondent3", "responses": "601", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_cbq_respondent1", "responses": "678", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_cbq_respondent2", "responses": "583", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_ccare", "responses": "1133", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_cbq", "responses": "656", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_icq", "responses": "1096", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_pcq", "responses": "1086", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_tbaq", "responses": "186", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_feq_respondent1", "responses": "695", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_feq_respondent2", "responses": "599", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_feq_respondent3", "responses": "3", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_icq", "responses": "1123", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_paq_respondent1", "responses": "700", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_paq_respondent2", "responses": "604", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_paq_respondent3", "responses": "3", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_pcq", "responses": "1106", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_psi", "responses": "557", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_bci", "responses": "560", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_bfi", "responses": "678", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_ccare", "responses": "1042", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_feq", "responses": "682", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_paq", "responses": "680", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_scq", "responses": "561", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_ses", "responses": "1112", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_zyg", "responses": "498", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_scq", "responses": "548", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_tbaq_respondent1", "responses": "191", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_tbaq_respondent2", "responses": "156", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_interview 1 response tracker", "responses": "1116", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_interview 3 response tracker", "responses": "117", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_interview 4 response tracker", "responses": "310", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ph2", "responses": "550", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_s_de_m", "responses": "916", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_siblings", "responses": "1342", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_twins", "responses": "14282", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_zyg", "responses": "1136", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_zyg_follow up", "responses": "3", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_bi_f", "respondent": "father", "instrument abbreviation": "bi", "phase": "Phase 1", "responses": "98", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_bi_m", "respondent": "mother", "instrument abbreviation": "bi", "phase": "Phase 1", "responses": "2608", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_cr_f", "respondent": "father", "instrument abbreviation": "cr", "phase": "Phase 1", "responses": "521", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 1", "responses": "851", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 1", "responses": "2307", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_it_f", "respondent": "father", "instrument abbreviation": "it", "phase": "Phase 1", "responses": "1230", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_it_m", "respondent": "mother", "instrument abbreviation": "it", "phase": "Phase 1", "responses": "1630", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_tb_00_f", "respondent": "father", "instrument abbreviation": "tb_00", "phase": "Phase 1", "responses": "558", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_tb_00_m", "respondent": "mother", "instrument abbreviation": "tb_00", "phase": "Phase 1", "responses": "2130", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_tb_99_m", "respondent": "mother", "instrument abbreviation": "tb_99", "phase": "Phase 1", "responses": "429", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cb_f", "respondent": "father", "instrument abbreviation": "cb", "phase": "Phase 2", "responses": "546", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cb_m", "respondent": "mother", "instrument abbreviation": "cb", "phase": "Phase 2", "responses": "492", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cd_f", "respondent": "father", "instrument abbreviation": "cd", "phase": "Phase 2", "responses": "399", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cd_m", "respondent": "mother", "instrument abbreviation": "cd", "phase": "Phase 2", "responses": "492", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_groups", "responses": "460", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_hb_f", "respondent": "father", "instrument abbreviation": "hb", "phase": "Phase 2", "responses": "400", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_hb_m", "respondent": "mother", "instrument abbreviation": "hb", "phase": "Phase 2", "responses": "460", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 2", "responses": "237", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_oc_f", "respondent": "father", "instrument abbreviation": "oc", "phase": "Phase 2", "responses": "400", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_oc_m", "respondent": "mother", "instrument abbreviation": "oc", "phase": "Phase 2", "responses": "492", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_address_tractcode", "respondent": "tractcode", "instrument abbreviation": "address", "phase": "Phase 3", "responses": "701", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bc_f", "respondent": "father", "instrument abbreviation": "bc", "phase": "Phase 3", "responses": "204", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bc_m", "respondent": "mother", "instrument abbreviation": "bc", "phase": "Phase 3", "responses": "235", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bc_t", "respondent": "twin", "instrument abbreviation": "bc", "phase": "Phase 3", "responses": "1346", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bd_f", "respondent": "father", "instrument abbreviation": "bd", "phase": "Phase 3", "responses": "637", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bd_m", "respondent": "mother", "instrument abbreviation": "bd", "phase": "Phase 3", "responses": "775", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bl_t", "respondent": "twin", "instrument abbreviation": "bl", "phase": "Phase 3", "responses": "1405", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bm_f", "respondent": "father", "instrument abbreviation": "bm", "phase": "Phase 3", "responses": "632", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bm_m", "respondent": "mother", "instrument abbreviation": "bm", "phase": "Phase 3", "responses": "796", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bp_pp_t", "respondent": "twin", "instrument abbreviation": "bp_pp", "phase": "Phase 3", "responses": "1404", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bp_sy_t", "respondent": "twin", "instrument abbreviation": "bp_sy", "phase": "Phase 3", "responses": "1404", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_br", "responses": "1390", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cb_f", "respondent": "father", "instrument abbreviation": "cb", "phase": "Phase 3", "responses": "1266", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cb_m", "respondent": "mother", "instrument abbreviation": "cb", "phase": "Phase 3", "responses": "1554", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cd_f", "respondent": "father", "instrument abbreviation": "cd", "phase": "Phase 3", "responses": "1266", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cd_m", "respondent": "mother", "instrument abbreviation": "cd", "phase": "Phase 3", "responses": "1554", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_ch_m", "respondent": "mother", "instrument abbreviation": "ch", "phase": "Phase 3", "responses": "783", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cr_f", "respondent": "father", "instrument abbreviation": "cr", "phase": "Phase 3", "responses": "632", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 3", "responses": "811", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_da_m", "respondent": "mother", "instrument abbreviation": "da", "phase": "Phase 3", "responses": "811", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dc_f", "respondent": "father", "instrument abbreviation": "dc", "phase": "Phase 3", "responses": "1263", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dc_m", "respondent": "mother", "instrument abbreviation": "dc", "phase": "Phase 3", "responses": "1625", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dt_f", "respondent": "father", "instrument abbreviation": "dt", "phase": "Phase 3", "responses": "632", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dt_m", "respondent": "mother", "instrument abbreviation": "dt", "phase": "Phase 3", "responses": "811", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_fa_f", "respondent": "father", "instrument abbreviation": "fa", "phase": "Phase 3", "responses": "633", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_fa_m", "respondent": "mother", "instrument abbreviation": "fa", "phase": "Phase 3", "responses": "812", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_fc_m", "respondent": "mother", "instrument abbreviation": "fc", "phase": "Phase 3", "responses": "811", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hb_f", "respondent": "father", "instrument abbreviation": "hb", "phase": "Phase 3", "responses": "1258", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hb_m", "respondent": "mother", "instrument abbreviation": "hb", "phase": "Phase 3", "responses": "1623", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hb_sib_m", "respondent": "mother", "instrument abbreviation": "hb_sib", "phase": "Phase 3", "responses": "544", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hc_f", "respondent": "father", "instrument abbreviation": "hc", "phase": "Phase 3", "responses": "488", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 3", "responses": "842", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_io", "responses": "1390", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_le_m", "respondent": "mother", "instrument abbreviation": "le", "phase": "Phase 3", "responses": "784", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_mp_f", "respondent": "father", "instrument abbreviation": "mp", "phase": "Phase 3", "responses": "633", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_mp_m", "respondent": "mother", "instrument abbreviation": "mp", "phase": "Phase 3", "responses": "779", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_oc_f", "respondent": "father", "instrument abbreviation": "oc", "phase": "Phase 3", "responses": "1263", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_oc_m", "respondent": "mother", "instrument abbreviation": "oc", "phase": "Phase 3", "responses": "1627", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_pa_e1", "respondent": "experimenter 1", "instrument abbreviation": "pa", "phase": "Phase 3", "responses": "1399", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_pa_e2", "respondent": "experimenter 2", "instrument abbreviation": "pa", "phase": "Phase 3", "responses": "1404", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_ps_m", "respondent": "mother", "instrument abbreviation": "ps", "phase": "Phase 3", "responses": "784", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_sc_t", "respondent": "twin", "instrument abbreviation": "sc", "phase": "Phase 3", "responses": "1404", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_sp_m", "respondent": "mother", "instrument abbreviation": "sp", "phase": "Phase 3", "responses": "784", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_st", "responses": "1044", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_ta_t", "respondent": "twin", "instrument abbreviation": "ta", "phase": "Phase 3", "responses": "1404", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_tp", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ad_c", "respondent": "co-twin", "instrument abbreviation": "ad", "phase": "Phase 4", "responses": "773", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ad_t", "respondent": "twin", "instrument abbreviation": "ad", "phase": "Phase 4", "responses": "773", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ap_t", "respondent": "twin", "instrument abbreviation": "ap", "phase": "Phase 4", "responses": "762", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_au_f", "respondent": "father", "instrument abbreviation": "au", "phase": "Phase 4", "responses": "293", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "Phase 4", "responses": "368", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_au_t", "respondent": "twin", "instrument abbreviation": "au", "phase": "Phase 4", "responses": "759", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bb_f", "respondent": "father", "instrument abbreviation": "bb", "phase": "Phase 4", "responses": "224", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bb_m", "respondent": "mother", "instrument abbreviation": "bb", "phase": "Phase 4", "responses": "226", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bb_t", "respondent": "twin", "instrument abbreviation": "bb", "phase": "Phase 4", "responses": "854", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bd_f", "respondent": "father", "instrument abbreviation": "bd", "phase": "Phase 4", "responses": "293", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bd_m", "respondent": "mother", "instrument abbreviation": "bd", "phase": "Phase 4", "responses": "368", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bl_t", "respondent": "twin", "instrument abbreviation": "bl", "phase": "Phase 4", "responses": "631", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_br", "responses": "440", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bs_f", "respondent": "father", "instrument abbreviation": "bs", "phase": "Phase 4", "responses": "189", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_bs_m", "respondent": "mother", "instrument abbreviation": "bs", "phase": "Phase 4", "responses": "241", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_cc_t", "respondent": "twin", "instrument abbreviation": "cc", "phase": "Phase 4", "responses": "763", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_cleanup", "responses": "101", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_cp_f", "respondent": "father", "instrument abbreviation": "cp", "phase": "Phase 4", "responses": "586", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_cp_m", "respondent": "mother", "instrument abbreviation": "cp", "phase": "Phase 4", "responses": "736", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_cr_f", "respondent": "father", "instrument abbreviation": "cr", "phase": "Phase 4", "responses": "303", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 4", "responses": "388", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_cs_t", "respondent": "twin", "instrument abbreviation": "cs", "phase": "Phase 4", "responses": "773", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_da_f", "respondent": "father", "instrument abbreviation": "da", "phase": "Phase 4", "responses": "301", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_da_m", "respondent": "mother", "instrument abbreviation": "da", "phase": "Phase 4", "responses": "388", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_dc_int_f", "respondent": "father", "instrument abbreviation": "dc_int", "phase": "Phase 4", "responses": "193", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_dc_int_m", "respondent": "mother", "instrument abbreviation": "dc_int", "phase": "Phase 4", "responses": "100", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_dc_ques_f", "respondent": "father", "instrument abbreviation": "dc_ques", "phase": "Phase 4", "responses": "41", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_dc_ques_m", "respondent": "mother", "instrument abbreviation": "dc_ques", "phase": "Phase 4", "responses": "51", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_dt_f", "respondent": "father", "instrument abbreviation": "dt", "phase": "Phase 4", "responses": "303", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_dt_m", "respondent": "mother", "instrument abbreviation": "dt", "phase": "Phase 4", "responses": "388", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ec_t", "respondent": "twin", "instrument abbreviation": "ec", "phase": "Phase 4", "responses": "756", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ei_t", "respondent": "twin", "instrument abbreviation": "ei", "phase": "Phase 4", "responses": "467", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ep_f", "respondent": "father", "instrument abbreviation": "ep", "phase": "Phase 4", "responses": "584", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ep_m", "respondent": "mother", "instrument abbreviation": "ep", "phase": "Phase 4", "responses": "736", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_fc_f", "respondent": "father", "instrument abbreviation": "fc", "phase": "Phase 4", "responses": "303", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_fc_m", "respondent": "mother", "instrument abbreviation": "fc", "phase": "Phase 4", "responses": "388", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_fe_f", "respondent": "father", "instrument abbreviation": "fe", "phase": "Phase 4", "responses": "180", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_fe_m", "respondent": "mother", "instrument abbreviation": "fe", "phase": "Phase 4", "responses": "219", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_fs_m", "respondent": "mother", "instrument abbreviation": "fs", "phase": "Phase 4", "responses": "226", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ha_pb_t", "respondent": "twin", "instrument abbreviation": "ha_pb", "phase": "Phase 4", "responses": "985", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ha_sp_c", "respondent": "co-twin", "instrument abbreviation": "ha_sp", "phase": "Phase 4", "responses": "996", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ha_sp_t", "respondent": "twin", "instrument abbreviation": "ha_sp", "phase": "Phase 4", "responses": "996", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hb_f", "respondent": "father", "instrument abbreviation": "hb", "phase": "Phase 4", "responses": "705", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hb_m", "respondent": "mother", "instrument abbreviation": "hb", "phase": "Phase 4", "responses": "950", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hb_pb_f", "respondent": "father", "instrument abbreviation": "hb_pb", "phase": "Phase 4", "responses": "748", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Phase 4", "responses": "1014", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hc_f", "respondent": "father", "instrument abbreviation": "hc", "phase": "Phase 4", "responses": "369", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 4", "responses": "505", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hs_t", "respondent": "twin", "instrument abbreviation": "hs", "phase": "Phase 4", "responses": "773", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_hu_t", "respondent": "twin", "instrument abbreviation": "hu", "phase": "Phase 4", "responses": "767", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_le_m", "respondent": "mother", "instrument abbreviation": "le", "phase": "Phase 4", "responses": "369", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ma_t", "respondent": "twin", "instrument abbreviation": "ma", "phase": "Phase 4", "responses": "775", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_mq_f", "respondent": "father", "instrument abbreviation": "mq", "phase": "Phase 4", "responses": "293", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_mq_m", "respondent": "mother", "instrument abbreviation": "mq", "phase": "Phase 4", "responses": "368", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_nr_t", "respondent": "twin", "instrument abbreviation": "nr", "phase": "Phase 4", "responses": "402", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_pi", "responses": "677", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_pi_m", "respondent": "mother", "instrument abbreviation": "pi", "phase": "Phase 4", "responses": "712", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_pi_t", "respondent": "twin", "instrument abbreviation": "pi", "phase": "Phase 4", "responses": "703", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_pm_c", "respondent": "co-twin", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "481", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_pm_f", "respondent": "father", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "477", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_pm_m", "respondent": "mother", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "587", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_pm_t", "respondent": "twin", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "481", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ro_m", "respondent": "mother", "instrument abbreviation": "ro", "phase": "Phase 4", "responses": "226", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_rs_t", "respondent": "twin", "instrument abbreviation": "rs", "phase": "Phase 4", "responses": "773", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_sa_f", "respondent": "father", "instrument abbreviation": "sa", "phase": "Phase 4", "responses": "369", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_sa_m", "respondent": "mother", "instrument abbreviation": "sa", "phase": "Phase 4", "responses": "451", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_sa_p_f", "respondent": "father", "instrument abbreviation": "sa_p", "phase": "Phase 4", "responses": "185", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_sa_p_m", "respondent": "mother", "instrument abbreviation": "sa_p", "phase": "Phase 4", "responses": "226", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_se_t", "respondent": "twin", "instrument abbreviation": "se", "phase": "Phase 4", "responses": "435", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_sp_m", "respondent": "mother", "instrument abbreviation": "sp", "phase": "Phase 4", "responses": "368", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_sr_t", "respondent": "twin", "instrument abbreviation": "sr", "phase": "Phase 4", "responses": "762", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ti_f", "respondent": "father", "instrument abbreviation": "ti", "phase": "Phase 4", "responses": "722", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ti_m", "respondent": "mother", "instrument abbreviation": "ti", "phase": "Phase 4", "responses": "958", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_ti_t", "respondent": "twin", "instrument abbreviation": "ti", "phase": "Phase 4", "responses": "880", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_4_visit_age", "respondent": "age", "instrument abbreviation": "visit", "phase": "Phase 4", "responses": "770", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_ap_t", "respondent": "twin", "instrument abbreviation": "ap", "phase": "Phase 5", "responses": "209", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "Phase 5", "responses": "111", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_au_t", "respondent": "twin", "instrument abbreviation": "au", "phase": "Phase 5", "responses": "219", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_bb_t", "respondent": "twin", "instrument abbreviation": "bb", "phase": "Phase 5", "responses": "209", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 5", "responses": "111", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_cs_t", "respondent": "twin", "instrument abbreviation": "cs", "phase": "Phase 5", "responses": "209", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_ec_t", "respondent": "twin", "instrument abbreviation": "ec", "phase": "Phase 5", "responses": "209", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_ep_m", "respondent": "mother", "instrument abbreviation": "ep", "phase": "Phase 5", "responses": "216", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_ha_pb_t", "respondent": "twin", "instrument abbreviation": "ha_pb", "phase": "Phase 5", "responses": "1149", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_hb_m", "respondent": "mother", "instrument abbreviation": "hb", "phase": "Phase 5", "responses": "1145", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "Phase 5", "tablename": "calc_5_hb_pb_m", "respondent": "mother", "type": "calc", "instrument abbreviation": "hb_pb"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 5", "responses": "561", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_hu_t", "respondent": "twin", "instrument abbreviation": "hu", "phase": "Phase 5", "responses": "209", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_ma_t", "respondent": "twin", "instrument abbreviation": "ma", "phase": "Phase 5", "responses": "930", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_pm_t", "respondent": "twin", "instrument abbreviation": "pm", "phase": "Phase 5", "responses": "209", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_rs_t", "respondent": "twin", "instrument abbreviation": "rs", "phase": "Phase 5", "responses": "209", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "Phase 5", "tablename": "calc_5_sd_t", "respondent": "twin", "type": "calc", "instrument abbreviation": "sd"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_5_ti_m", "respondent": "mother", "instrument abbreviation": "ti", "phase": "Phase 5", "responses": "329", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "Phase 5", "tablename": "calc_5_ti_t", "respondent": "twin", "type": "calc", "instrument abbreviation": "ti"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_a_ba", "responses": "1446", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "Conte 3", "responses": "38", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Conte 3", "responses": "22", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_dc_m", "respondent": "mother", "instrument abbreviation": "dc", "phase": "Conte 3", "responses": "45", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_ep_m", "respondent": "mother", "instrument abbreviation": "ep", "phase": "Conte 3", "responses": "133", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_hb_m", "respondent": "mother", "instrument abbreviation": "hb", "phase": "Conte 3", "responses": "45", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Conte 3", "responses": "133", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Conte 3", "responses": "19", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_c3_ti_m", "respondent": "mother", "instrument abbreviation": "ti", "phase": "Conte 3", "responses": "45", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_chronicity", "responses": "1807", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_concordance", "responses": "908", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_de_ethnicity", "responses": "7976", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_de_ethnicity_s", "respondent": "Sibling", "instrument abbreviation": "ethnicity", "phase": "de", "responses": "3783", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_early_measure", "responses": "2566", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_idtwinstore", "responses": "3497", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_jane_ages", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_mintarget", "responses": "11939", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_mr_ai_t", "respondent": "twin", "instrument abbreviation": "ai", "phase": "mr", "responses": "4", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_mr_dp_t", "respondent": "twin", "instrument abbreviation": "dp", "phase": "mr", "responses": "4", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "mr", "tablename": "calc_mr_pb_t", "respondent": "twin", "type": "calc", "instrument abbreviation": "pb"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_mr_so_t", "respondent": "twin", "instrument abbreviation": "so", "phase": "mr", "responses": "3", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_mr_ta_in_t", "respondent": "twin", "instrument abbreviation": "ta_in", "phase": "mr", "responses": "4", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_mr_ta_po_t", "respondent": "twin", "instrument abbreviation": "ta_po", "phase": "mr", "responses": "4", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_nc_t", "responses": "1596", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_nc_t_tap", "respondent": "tap", "instrument abbreviation": "t", "phase": "nc", "responses": "126", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_nm_t", "responses": "1608", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_nm_t_tap", "respondent": "tap", "instrument abbreviation": "t", "phase": "nm", "responses": "126", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_oc_birth_m", "respondent": "mother", "instrument abbreviation": "birth", "phase": "oc", "responses": "63", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_oc_m", "responses": "797", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_oc_m_tap", "respondent": "tap", "instrument abbreviation": "m", "phase": "oc", "responses": "63", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_oc_prenatal_m", "respondent": "mother", "instrument abbreviation": "prenatal", "phase": "oc", "responses": "63", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_oc_t", "responses": "1594", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_oc_t_tap", "respondent": "tap", "instrument abbreviation": "t", "phase": "oc", "responses": "126", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_palmprints", "responses": "1382", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_project_participation", "responses": "6824", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_s_groups", "responses": "3422", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_s_hb_m", "respondent": "mother", "instrument abbreviation": "hb", "phase": "Screener", "responses": "3425", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_s_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Screener", "responses": "1472", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_s_sd_m", "respondent": "mother", "instrument abbreviation": "sd", "phase": "Screener", "responses": "2454", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_di_m", "respondent": "mother", "instrument abbreviation": "di", "phase": "sd", "responses": "78", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_hb_m", "respondent": "mother", "instrument abbreviation": "hb", "phase": "sd", "responses": "150", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_it_m", "respondent": "mother", "instrument abbreviation": "it", "phase": "sd", "responses": "283", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_sa_c", "respondent": "co-twin", "instrument abbreviation": "sa", "phase": "sd", "responses": "157", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_sa_o", "respondent": "o", "instrument abbreviation": "sa", "phase": "sd", "responses": "153", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_si_m", "respondent": "mother", "instrument abbreviation": "si", "phase": "sd", "responses": "79", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_si_t", "respondent": "twin", "instrument abbreviation": "si", "phase": "sd", "responses": "157", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_sp", "responses": "79", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_ss", "responses": "157", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sd_tb_m", "respondent": "mother", "instrument abbreviation": "tb", "phase": "sd", "responses": "283", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_sib_age", "responses": "198", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_zy_tgendna", "responses": "505", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_as_f", "respondent": "father", "instrument abbreviation": "as", "phase": "Phase 1", "responses": "806", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_as_m", "respondent": "mother", "instrument abbreviation": "as", "phase": "Phase 1", "responses": "3576", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_bi_f", "respondent": "father", "instrument abbreviation": "bi", "phase": "Phase 1", "responses": "98", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_bi_m", "respondent": "mother", "instrument abbreviation": "bi", "phase": "Phase 1", "responses": "2608", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_cr_f", "respondent": "father", "instrument abbreviation": "cr", "phase": "Phase 1", "responses": "521", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 1", "responses": "851", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_cv_f", "respondent": "father", "instrument abbreviation": "cv", "phase": "Phase 1", "responses": "181", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_cv_m", "respondent": "mother", "instrument abbreviation": "cv", "phase": "Phase 1", "responses": "2824", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_dates", "responses": "5115", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Phase 1", "responses": "2313", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 1", "responses": "2307", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_in_m", "respondent": "mother", "instrument abbreviation": "in", "phase": "Phase 1", "responses": "2392", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_a1_f", "respondent": "father", "instrument abbreviation": "it_a1", "phase": "Phase 1", "responses": "1326", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_a1_m", "respondent": "mother", "instrument abbreviation": "it_a1", "phase": "Phase 1", "responses": "1634", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_b1_f", "respondent": "father", "instrument abbreviation": "it_b1", "phase": "Phase 1", "responses": "1232", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_b1_m", "respondent": "mother", "instrument abbreviation": "it_b1", "phase": "Phase 1", "responses": "1632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_c1_f", "respondent": "father", "instrument abbreviation": "it_c1", "phase": "Phase 1", "responses": "1232", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_c1_m", "respondent": "mother", "instrument abbreviation": "it_c1", "phase": "Phase 1", "responses": "1632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_d1_f", "respondent": "father", "instrument abbreviation": "it_d1", "phase": "Phase 1", "responses": "1232", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_d1_m", "respondent": "mother", "instrument abbreviation": "it_d1", "phase": "Phase 1", "responses": "1632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_e1_f", "respondent": "father", "instrument abbreviation": "it_e1", "phase": "Phase 1", "responses": "1232", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_e1_m", "respondent": "mother", "instrument abbreviation": "it_e1", "phase": "Phase 1", "responses": "1632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_f1_f", "respondent": "father", "instrument abbreviation": "it_f1", "phase": "Phase 1", "responses": "1232", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_it_f1_m", "respondent": "mother", "instrument abbreviation": "it_f1", "phase": "Phase 1", "responses": "1632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_tb_00_f", "respondent": "father", "instrument abbreviation": "tb_00", "phase": "Phase 1", "responses": "558", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_tb_00_m", "respondent": "mother", "instrument abbreviation": "tb_00", "phase": "Phase 1", "responses": "2130", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_tb_03_f", "respondent": "father", "instrument abbreviation": "tb_03", "phase": "Phase 1", "responses": "674", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_tb_03_m", "respondent": "mother", "instrument abbreviation": "tb_03", "phase": "Phase 1", "responses": "934", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_tb_99_f", "respondent": "father", "instrument abbreviation": "tb_99", "phase": "Phase 1", "responses": "100", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_tb_99_m", "respondent": "mother", "instrument abbreviation": "tb_99", "phase": "Phase 1", "responses": "331", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_tr", "responses": "4612", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_1_zy", "responses": "3263", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_cb_f", "respondent": "father", "instrument abbreviation": "cb", "phase": "Phase 2", "responses": "546", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_cb_m", "respondent": "mother", "instrument abbreviation": "cb", "phase": "Phase 2", "responses": "492", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_cd_f", "respondent": "father", "instrument abbreviation": "cd", "phase": "Phase 2", "responses": "399", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_cd_m", "respondent": "mother", "instrument abbreviation": "cd", "phase": "Phase 2", "responses": "492", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_dates", "responses": "927", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Phase 2", "responses": "731", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_if_f", "respondent": "father", "instrument abbreviation": "hb_if", "phase": "Phase 2", "responses": "400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_if_m", "respondent": "mother", "instrument abbreviation": "hb_if", "phase": "Phase 2", "responses": "466", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_is_f", "respondent": "father", "instrument abbreviation": "hb_is", "phase": "Phase 2", "responses": "400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_is_m", "respondent": "mother", "instrument abbreviation": "hb_is", "phase": "Phase 2", "responses": "466", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_pb_f", "respondent": "father", "instrument abbreviation": "hb_pb", "phase": "Phase 2", "responses": "409", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Phase 2", "responses": "3888", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_ph_f", "respondent": "father", "instrument abbreviation": "hb_ph", "phase": "Phase 2", "responses": "400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_ph_m", "respondent": "mother", "instrument abbreviation": "hb_ph", "phase": "Phase 2", "responses": "493", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_ps_f", "respondent": "father", "instrument abbreviation": "hb_ps", "phase": "Phase 2", "responses": "400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_ps_m", "respondent": "mother", "instrument abbreviation": "hb_ps", "phase": "Phase 2", "responses": "497", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_ra_f", "respondent": "father", "instrument abbreviation": "hb_ra", "phase": "Phase 2", "responses": "400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_ra_m", "respondent": "mother", "instrument abbreviation": "hb_ra", "phase": "Phase 2", "responses": "497", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_sr_f", "respondent": "father", "instrument abbreviation": "hb_sr", "phase": "Phase 2", "responses": "400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hb_sr_m", "respondent": "mother", "instrument abbreviation": "hb_sr", "phase": "Phase 2", "responses": "492", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 2", "responses": "242", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_oc_f", "respondent": "father", "instrument abbreviation": "oc", "phase": "Phase 2", "responses": "400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_oc_m", "respondent": "mother", "instrument abbreviation": "oc", "phase": "Phase 2", "responses": "492", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_tr", "responses": "963", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_2_zy", "responses": "490", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_address_tractcode", "respondent": "tractcode", "instrument abbreviation": "address", "phase": "Phase 3", "responses": "701", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bb", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_f", "respondent": "father", "instrument abbreviation": "bc", "phase": "Phase 3", "responses": "204", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_f_r1", "respondent": "r1", "instrument abbreviation": "bc_f", "phase": "Phase 3", "responses": "429", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_m", "respondent": "mother", "instrument abbreviation": "bc", "phase": "Phase 3", "responses": "235", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_m_r1", "respondent": "r1", "instrument abbreviation": "bc_m", "phase": "Phase 3", "responses": "438", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_s", "respondent": "Sibling", "instrument abbreviation": "bc", "phase": "Phase 3", "responses": "202", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_s_r1", "respondent": "r1", "instrument abbreviation": "bc_s", "phase": "Phase 3", "responses": "245", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_t", "respondent": "twin", "instrument abbreviation": "bc", "phase": "Phase 3", "responses": "472", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bc_t_r1", "respondent": "r1", "instrument abbreviation": "bc_t", "phase": "Phase 3", "responses": "875", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bd_f", "respondent": "father", "instrument abbreviation": "bd", "phase": "Phase 3", "responses": "637", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bd_m", "respondent": "mother", "instrument abbreviation": "bd", "phase": "Phase 3", "responses": "775", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bl_st_t", "respondent": "twin", "instrument abbreviation": "bl_st", "phase": "Phase 3", "responses": "102", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bl_t", "respondent": "twin", "instrument abbreviation": "bl", "phase": "Phase 3", "responses": "1405", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bm_f", "respondent": "father", "instrument abbreviation": "bm", "phase": "Phase 3", "responses": "632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bm_m", "respondent": "mother", "instrument abbreviation": "bm", "phase": "Phase 3", "responses": "796", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bp_e1", "respondent": "experimenter 1", "instrument abbreviation": "bp", "phase": "Phase 3", "responses": "1403", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bp_e2", "respondent": "experimenter 2", "instrument abbreviation": "bp", "phase": "Phase 3", "responses": "1406", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bp_pp_t", "respondent": "twin", "instrument abbreviation": "bp_pp", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_bp_sy_t", "respondent": "twin", "instrument abbreviation": "bp_sy", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_br_e1", "respondent": "experimenter 1", "instrument abbreviation": "br", "phase": "Phase 3", "responses": "1401", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_br_e2", "respondent": "experimenter 2", "instrument abbreviation": "br", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cb_f", "respondent": "father", "instrument abbreviation": "cb", "phase": "Phase 3", "responses": "1266", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cb_m", "respondent": "mother", "instrument abbreviation": "cb", "phase": "Phase 3", "responses": "1555", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cd_f", "respondent": "father", "instrument abbreviation": "cd", "phase": "Phase 3", "responses": "1421", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cd_m", "respondent": "mother", "instrument abbreviation": "cd", "phase": "Phase 3", "responses": "1555", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cg_tw_beh", "respondent": "beh", "instrument abbreviation": "cg_tw", "phase": "Phase 3", "responses": "1410", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cg_tw_emo", "respondent": "emo", "instrument abbreviation": "cg_tw", "phase": "Phase 3", "responses": "1410", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ch_m", "respondent": "mother", "instrument abbreviation": "ch", "phase": "Phase 3", "responses": "783", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cortid", "responses": "22127", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cr_f", "respondent": "father", "instrument abbreviation": "cr", "phase": "Phase 3", "responses": "632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 3", "responses": "811", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_da_m", "respondent": "mother", "instrument abbreviation": "da", "phase": "Phase 3", "responses": "811", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_dates", "responses": "1063", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_dc_f", "respondent": "father", "instrument abbreviation": "dc", "phase": "Phase 3", "responses": "1264", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_dc_m", "respondent": "mother", "instrument abbreviation": "dc", "phase": "Phase 3", "responses": "1625", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_de_f", "respondent": "father", "instrument abbreviation": "de", "phase": "Phase 3", "responses": "671", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Phase 3", "responses": "1017", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_dis_f", "respondent": "father", "instrument abbreviation": "dis", "phase": "Phase 3", "responses": "182", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_dis_m", "respondent": "mother", "instrument abbreviation": "dis", "phase": "Phase 3", "responses": "235", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_dt_f", "respondent": "father", "instrument abbreviation": "dt", "phase": "Phase 3", "responses": "632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_dt_m", "respondent": "mother", "instrument abbreviation": "dt", "phase": "Phase 3", "responses": "811", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_em", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_fa_f", "respondent": "father", "instrument abbreviation": "fa", "phase": "Phase 3", "responses": "633", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_fa_m", "respondent": "mother", "instrument abbreviation": "fa", "phase": "Phase 3", "responses": "812", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_fc_m", "respondent": "mother", "instrument abbreviation": "fc", "phase": "Phase 3", "responses": "811", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_fp", "responses": "448", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_fp_new", "respondent": "new", "instrument abbreviation": "fp", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_fp_old", "respondent": "old", "instrument abbreviation": "fp", "phase": "Phase 3", "responses": "441", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_if_f", "respondent": "father", "instrument abbreviation": "hb_if", "phase": "Phase 3", "responses": "1263", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_if_sib_m", "respondent": "mother", "instrument abbreviation": "hb_if_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_is_f", "respondent": "father", "instrument abbreviation": "hb_is", "phase": "Phase 3", "responses": "1263", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_is_sib_m", "respondent": "mother", "instrument abbreviation": "hb_is_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_pb_f", "respondent": "father", "instrument abbreviation": "hb_pb", "phase": "Phase 3", "responses": "1258", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_pb_sib_m", "respondent": "mother", "instrument abbreviation": "hb_pb_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_ph_m", "respondent": "mother", "instrument abbreviation": "hb_ph", "phase": "Phase 3", "responses": "1625", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_ph_sib_m", "respondent": "mother", "instrument abbreviation": "hb_ph_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_ps_f", "respondent": "father", "instrument abbreviation": "hb_ps", "phase": "Phase 3", "responses": "1262", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_ps_m", "respondent": "mother", "instrument abbreviation": "hb_ps", "phase": "Phase 3", "responses": "1624", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_ps_sib_m", "respondent": "mother", "instrument abbreviation": "hb_ps_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_ra_m", "respondent": "mother", "instrument abbreviation": "hb_ra", "phase": "Phase 3", "responses": "1632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_ra_sib_m", "respondent": "mother", "instrument abbreviation": "hb_ra_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_sr_f", "respondent": "father", "instrument abbreviation": "hb_sr", "phase": "Phase 3", "responses": "1262", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_sr_m", "respondent": "mother", "instrument abbreviation": "hb_sr", "phase": "Phase 3", "responses": "1632", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hb_sr_sib_m", "respondent": "mother", "instrument abbreviation": "hb_sr_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hc_f", "respondent": "father", "instrument abbreviation": "hc", "phase": "Phase 3", "responses": "498", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 3", "responses": "851", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_hh", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ho_i", "respondent": "interviewer", "instrument abbreviation": "ho", "phase": "Phase 3", "responses": "695", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ia_e1", "respondent": "experimenter 1", "instrument abbreviation": "ia", "phase": "Phase 3", "responses": "1405", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ia_e2", "respondent": "experimenter 2", "instrument abbreviation": "ia", "phase": "Phase 3", "responses": "1407", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_in_f", "respondent": "father", "instrument abbreviation": "in", "phase": "Phase 3", "responses": "492", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_in_m", "respondent": "mother", "instrument abbreviation": "in", "phase": "Phase 3", "responses": "804", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_io_e1", "respondent": "experimenter 1", "instrument abbreviation": "io", "phase": "Phase 3", "responses": "1406", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_io_e2", "respondent": "experimenter 2", "instrument abbreviation": "io", "phase": "Phase 3", "responses": "1408", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_is", "responses": "684", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_is_new", "respondent": "new", "instrument abbreviation": "is", "phase": "Phase 3", "responses": "720", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_le_m", "respondent": "mother", "instrument abbreviation": "le", "phase": "Phase 3", "responses": "786", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_mp_f", "respondent": "father", "instrument abbreviation": "mp", "phase": "Phase 3", "responses": "633", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_mp_m", "respondent": "mother", "instrument abbreviation": "mp", "phase": "Phase 3", "responses": "779", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ms_t", "respondent": "twin", "instrument abbreviation": "ms", "phase": "Phase 3", "responses": "1398", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_new_ns", "respondent": "ns", "instrument abbreviation": "new", "phase": "Phase 3", "responses": "1", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ns", "responses": "685", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ns_r1", "respondent": "r1", "instrument abbreviation": "ns", "phase": "Phase 3", "responses": "1392", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_oc_f", "respondent": "father", "instrument abbreviation": "oc", "phase": "Phase 3", "responses": "1264", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_oc_m", "respondent": "mother", "instrument abbreviation": "oc", "phase": "Phase 3", "responses": "1627", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_oc_sib_m", "respondent": "mother", "instrument abbreviation": "oc_sib", "phase": "Phase 3", "responses": "547", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_pa_e1", "respondent": "experimenter 1", "instrument abbreviation": "pa", "phase": "Phase 3", "responses": "1403", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_pa_e2", "respondent": "experimenter 2", "instrument abbreviation": "pa", "phase": "Phase 3", "responses": "1407", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_pd_beh", "respondent": "beh", "instrument abbreviation": "pd", "phase": "Phase 3", "responses": "1410", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_pd_emo", "respondent": "emo", "instrument abbreviation": "pd", "phase": "Phase 3", "responses": "990", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_pp_t", "respondent": "twin", "instrument abbreviation": "pp", "phase": "Phase 3", "responses": "1400", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_pr", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ps_m", "respondent": "mother", "instrument abbreviation": "ps", "phase": "Phase 3", "responses": "786", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_pt_short", "respondent": "short", "instrument abbreviation": "pt", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_rc_t", "respondent": "twin", "instrument abbreviation": "rc", "phase": "Phase 3", "responses": "1402", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_sc_t", "respondent": "twin", "instrument abbreviation": "sc", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_sd", "responses": "117", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_sm", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_sn_beh", "respondent": "beh", "instrument abbreviation": "sn", "phase": "Phase 3", "responses": "1415", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_sn_emo", "respondent": "emo", "instrument abbreviation": "sn", "phase": "Phase 3", "responses": "1415", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_sp_m", "respondent": "mother", "instrument abbreviation": "sp", "phase": "Phase 3", "responses": "786", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_span_cb_m", "respondent": "mother", "instrument abbreviation": "span_cb", "phase": "Phase 3", "responses": "12", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_span_de_m", "respondent": "mother", "instrument abbreviation": "span_de", "phase": "Phase 3", "responses": "7", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_span_hc_m", "respondent": "mother", "instrument abbreviation": "span_hc", "phase": "Phase 3", "responses": "6", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_span_in_m", "respondent": "mother", "instrument abbreviation": "span_in", "phase": "Phase 3", "responses": "6", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_span_mp_m", "respondent": "mother", "instrument abbreviation": "span_mp", "phase": "Phase 3", "responses": "6", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_st1", "responses": "1045", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_st1r", "responses": "362", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_st2", "responses": "1045", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_st2r", "responses": "362", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_ta", "responses": "1406", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_tb", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_tg", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_tp", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_tr", "responses": "1392", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_wg_1", "respondent": "1", "instrument abbreviation": "wg", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_wg_2", "respondent": "2", "instrument abbreviation": "wg", "phase": "Phase 3", "responses": "1404", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_yt", "responses": "1404", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_zy", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_zy_e1", "respondent": "experimenter 1", "instrument abbreviation": "zy", "phase": "Phase 3", "responses": "706", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_3_zy_e2", "respondent": "experimenter 2", "instrument abbreviation": "zy", "phase": "Phase 3", "responses": "707", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ad_c", "respondent": "co-twin", "instrument abbreviation": "ad", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ad_t", "respondent": "twin", "instrument abbreviation": "ad", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_addresses", "responses": "515", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ap_t", "respondent": "twin", "instrument abbreviation": "ap", "phase": "Phase 4", "responses": "764", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_au_f", "respondent": "father", "instrument abbreviation": "au", "phase": "Phase 4", "responses": "294", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_au_t", "respondent": "twin", "instrument abbreviation": "au", "phase": "Phase 4", "responses": "760", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bb_f", "respondent": "father", "instrument abbreviation": "bb", "phase": "Phase 4", "responses": "294", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bb_m", "respondent": "mother", "instrument abbreviation": "bb", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bb_t", "respondent": "twin", "instrument abbreviation": "bb", "phase": "Phase 4", "responses": "996", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bc_f_r1", "respondent": "r1", "instrument abbreviation": "bc_f", "phase": "Phase 4", "responses": "312", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bc_m_r1", "respondent": "r1", "instrument abbreviation": "bc_m", "phase": "Phase 4", "responses": "358", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bc_s_r1", "respondent": "r1", "instrument abbreviation": "bc_s", "phase": "Phase 4", "responses": "238", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bc_t_r1", "respondent": "r1", "instrument abbreviation": "bc_t", "phase": "Phase 4", "responses": "709", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bd_f", "respondent": "father", "instrument abbreviation": "bd", "phase": "Phase 4", "responses": "294", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bd_m", "respondent": "mother", "instrument abbreviation": "bd", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bl_t", "respondent": "twin", "instrument abbreviation": "bl", "phase": "Phase 4", "responses": "764", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bo", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bp_e1", "respondent": "experimenter 1", "instrument abbreviation": "bp", "phase": "Phase 4", "responses": "762", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bp_e2", "respondent": "experimenter 2", "instrument abbreviation": "bp", "phase": "Phase 4", "responses": "755", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_br_e1", "respondent": "experimenter 1", "instrument abbreviation": "br", "phase": "Phase 4", "responses": "759", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_br_e2", "respondent": "experimenter 2", "instrument abbreviation": "br", "phase": "Phase 4", "responses": "749", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bs_f", "respondent": "father", "instrument abbreviation": "bs", "phase": "Phase 4", "responses": "303", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_bs_m", "respondent": "mother", "instrument abbreviation": "bs", "phase": "Phase 4", "responses": "388", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cc_t", "respondent": "twin", "instrument abbreviation": "cc", "phase": "Phase 4", "responses": "764", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cg1_qu_respondent", "respondent": "respondent", "instrument abbreviation": "cg1_qu", "phase": "Phase 4", "responses": "481", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cg2_qu_respondent", "respondent": "respondent", "instrument abbreviation": "cg2_qu", "phase": "Phase 4", "responses": "362", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cortid", "responses": "6", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cp_f", "respondent": "father", "instrument abbreviation": "cp", "phase": "Phase 4", "responses": "586", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cp_m", "respondent": "mother", "instrument abbreviation": "cp", "phase": "Phase 4", "responses": "739", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cr_f", "respondent": "father", "instrument abbreviation": "cr", "phase": "Phase 4", "responses": "303", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 4", "responses": "388", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cs_t", "respondent": "twin", "instrument abbreviation": "cs", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cw_old_t", "respondent": "twin", "instrument abbreviation": "cw_old", "phase": "Phase 4", "responses": "122", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_cw_t", "respondent": "twin", "instrument abbreviation": "cw", "phase": "Phase 4", "responses": "653", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_da_f", "respondent": "father", "instrument abbreviation": "da", "phase": "Phase 4", "responses": "303", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_da_m", "respondent": "mother", "instrument abbreviation": "da", "phase": "Phase 4", "responses": "388", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_dc_f", "respondent": "father", "instrument abbreviation": "dc", "phase": "Phase 4", "responses": "644", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_dc_m", "respondent": "mother", "instrument abbreviation": "dc", "phase": "Phase 4", "responses": "786", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_de_f", "respondent": "father", "instrument abbreviation": "de", "phase": "Phase 4", "responses": "378", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Phase 4", "responses": "509", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_di_t", "respondent": "twin", "instrument abbreviation": "di", "phase": "Phase 4", "responses": "767", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_dt_f", "respondent": "father", "instrument abbreviation": "dt", "phase": "Phase 4", "responses": "303", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_dt_m", "respondent": "mother", "instrument abbreviation": "dt", "phase": "Phase 4", "responses": "388", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ec_t", "respondent": "twin", "instrument abbreviation": "ec", "phase": "Phase 4", "responses": "756", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ei_t", "respondent": "twin", "instrument abbreviation": "ei", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ep_f", "respondent": "father", "instrument abbreviation": "ep", "phase": "Phase 4", "responses": "584", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ep_m", "respondent": "mother", "instrument abbreviation": "ep", "phase": "Phase 4", "responses": "736", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_fc_f", "respondent": "father", "instrument abbreviation": "fc", "phase": "Phase 4", "responses": "303", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_fc_m", "respondent": "mother", "instrument abbreviation": "fc", "phase": "Phase 4", "responses": "388", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_fe_f", "respondent": "father", "instrument abbreviation": "fe", "phase": "Phase 4", "responses": "294", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_fe_m", "respondent": "mother", "instrument abbreviation": "fe", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_fs_m", "respondent": "mother", "instrument abbreviation": "fs", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ha_pb_t", "respondent": "twin", "instrument abbreviation": "ha_pb", "phase": "Phase 4", "responses": "985", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ha_sp_c", "respondent": "co-twin", "instrument abbreviation": "ha_sp", "phase": "Phase 4", "responses": "998", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ha_sp_t", "respondent": "twin", "instrument abbreviation": "ha_sp", "phase": "Phase 4", "responses": "998", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_hu_m", "respondent": "mother", "instrument abbreviation": "hb_hu", "phase": "Phase 4", "responses": "1018", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_hu_sib_m", "respondent": "mother", "instrument abbreviation": "hb_hu_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_if_f", "respondent": "father", "instrument abbreviation": "hb_if", "phase": "Phase 4", "responses": "759", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_if_m", "respondent": "mother", "instrument abbreviation": "hb_if", "phase": "Phase 4", "responses": "1023", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_if_sib_m", "respondent": "mother", "instrument abbreviation": "hb_if_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_is_f", "respondent": "father", "instrument abbreviation": "hb_is", "phase": "Phase 4", "responses": "759", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_is_m", "respondent": "mother", "instrument abbreviation": "hb_is", "phase": "Phase 4", "responses": "1023", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_is_sib_m", "respondent": "mother", "instrument abbreviation": "hb_is_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_pb_f", "respondent": "father", "instrument abbreviation": "hb_pb", "phase": "Phase 4", "responses": "756", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Phase 4", "responses": "1014", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_pb_sib_m", "respondent": "mother", "instrument abbreviation": "hb_pb_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_ph_m", "respondent": "mother", "instrument abbreviation": "hb_ph", "phase": "Phase 4", "responses": "977", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_ph_sib_m", "respondent": "mother", "instrument abbreviation": "hb_ph_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_pr_f", "respondent": "father", "instrument abbreviation": "hb_pr", "phase": "Phase 4", "responses": "722", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_pr_m", "respondent": "mother", "instrument abbreviation": "hb_pr", "phase": "Phase 4", "responses": "961", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_pr_sib_m", "respondent": "mother", "instrument abbreviation": "hb_pr_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_ps_f", "respondent": "father", "instrument abbreviation": "hb_ps", "phase": "Phase 4", "responses": "722", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_ps_m", "respondent": "mother", "instrument abbreviation": "hb_ps", "phase": "Phase 4", "responses": "961", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_ps_sib_m", "respondent": "mother", "instrument abbreviation": "hb_ps_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_ra_m", "respondent": "mother", "instrument abbreviation": "hb_ra", "phase": "Phase 4", "responses": "977", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_ra_sib_m", "respondent": "mother", "instrument abbreviation": "hb_ra_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_sr_f", "respondent": "father", "instrument abbreviation": "hb_sr", "phase": "Phase 4", "responses": "722", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_sr_m", "respondent": "mother", "instrument abbreviation": "hb_sr", "phase": "Phase 4", "responses": "961", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hb_sr_sib_m", "respondent": "mother", "instrument abbreviation": "hb_sr_sib", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hc_f", "respondent": "father", "instrument abbreviation": "hc", "phase": "Phase 4", "responses": "399", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 4", "responses": "513", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ho_i", "respondent": "interviewer", "instrument abbreviation": "ho", "phase": "Phase 4", "responses": "382", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hs_t", "respondent": "twin", "instrument abbreviation": "hs", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hu_t", "respondent": "twin", "instrument abbreviation": "hu", "phase": "Phase 4", "responses": "778", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_hw", "responses": "168", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ia_e1", "respondent": "experimenter 1", "instrument abbreviation": "ia", "phase": "Phase 4", "responses": "775", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ia_e2", "respondent": "experimenter 2", "instrument abbreviation": "ia", "phase": "Phase 4", "responses": "755", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_in_f", "respondent": "father", "instrument abbreviation": "in", "phase": "Phase 4", "responses": "380", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_in_m", "respondent": "mother", "instrument abbreviation": "in", "phase": "Phase 4", "responses": "521", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_io_e1", "respondent": "experimenter 1", "instrument abbreviation": "io", "phase": "Phase 4", "responses": "763", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_io_e2", "respondent": "experimenter 2", "instrument abbreviation": "io", "phase": "Phase 4", "responses": "755", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_le_m", "respondent": "mother", "instrument abbreviation": "le", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ma_t", "respondent": "twin", "instrument abbreviation": "ma", "phase": "Phase 4", "responses": "776", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_mq_f", "respondent": "father", "instrument abbreviation": "mq", "phase": "Phase 4", "responses": "294", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_mq_m", "respondent": "mother", "instrument abbreviation": "mq", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ms_t", "respondent": "twin", "instrument abbreviation": "ms", "phase": "Phase 4", "responses": "758", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_nr_t", "respondent": "twin", "instrument abbreviation": "nr", "phase": "Phase 4", "responses": "764", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pd", "responses": "1023", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pd_sib", "respondent": "sib", "instrument abbreviation": "pd", "phase": "Phase 4", "responses": "343", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pi_m", "respondent": "mother", "instrument abbreviation": "pi", "phase": "Phase 4", "responses": "754", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pi_t", "respondent": "twin", "instrument abbreviation": "pi", "phase": "Phase 4", "responses": "748", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pm_c", "respondent": "co-twin", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pm_f", "respondent": "father", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "644", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pm_m", "respondent": "mother", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "786", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pm_t", "respondent": "twin", "instrument abbreviation": "pm", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pp_t", "respondent": "twin", "instrument abbreviation": "pp", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pt_11_2007", "respondent": "2007", "instrument abbreviation": "pt_11", "phase": "Phase 4", "responses": "99", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_pw_t", "respondent": "twin", "instrument abbreviation": "pw", "phase": "Phase 4", "responses": "773", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_re_f", "respondent": "father", "instrument abbreviation": "re", "phase": "Phase 4", "responses": "294", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_re_m", "respondent": "mother", "instrument abbreviation": "re", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_re_t", "respondent": "twin", "instrument abbreviation": "re", "phase": "Phase 4", "responses": "764", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_rh_m", "respondent": "mother", "instrument abbreviation": "rh", "phase": "Phase 4", "responses": "379", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ro_m", "respondent": "mother", "instrument abbreviation": "ro", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_rs_t", "respondent": "twin", "instrument abbreviation": "rs", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_sa_f", "respondent": "father", "instrument abbreviation": "sa", "phase": "Phase 4", "responses": "586", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_sa_m", "respondent": "mother", "instrument abbreviation": "sa", "phase": "Phase 4", "responses": "739", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_sa_p_f", "respondent": "father", "instrument abbreviation": "sa_p", "phase": "Phase 4", "responses": "294", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_sa_p_m", "respondent": "mother", "instrument abbreviation": "sa_p", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_se_t", "respondent": "twin", "instrument abbreviation": "se", "phase": "Phase 4", "responses": "774", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_sib_qu_respondent", "respondent": "respondent", "instrument abbreviation": "sib_qu", "phase": "Phase 4", "responses": "293", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_sp_m", "respondent": "mother", "instrument abbreviation": "sp", "phase": "Phase 4", "responses": "369", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_sr_t", "respondent": "twin", "instrument abbreviation": "sr", "phase": "Phase 4", "responses": "764", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_st_m", "respondent": "mother", "instrument abbreviation": "st", "phase": "Phase 4", "responses": "766", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ti_f", "respondent": "father", "instrument abbreviation": "ti", "phase": "Phase 4", "responses": "722", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ti_m", "respondent": "mother", "instrument abbreviation": "ti", "phase": "Phase 4", "responses": "961", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ti_t", "respondent": "twin", "instrument abbreviation": "ti", "phase": "Phase 4", "responses": "988", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_tr", "responses": "690", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_ts_t", "respondent": "twin", "instrument abbreviation": "ts", "phase": "Phase 4", "responses": "749", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_zy", "responses": "59", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_zy_e1", "respondent": "experimenter 1", "instrument abbreviation": "zy", "phase": "Phase 4", "responses": "387", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_zy_e2", "respondent": "experimenter 2", "instrument abbreviation": "zy", "phase": "Phase 4", "responses": "384", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_ap_t", "respondent": "twin", "instrument abbreviation": "ap", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "Phase 5", "responses": "112", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_au_t", "respondent": "twin", "instrument abbreviation": "au", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_bb_t", "respondent": "twin", "instrument abbreviation": "bb", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Phase 5", "responses": "112", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_cs_t", "respondent": "twin", "instrument abbreviation": "cs", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_dates", "responses": "589", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_dc_m", "respondent": "mother", "instrument abbreviation": "dc", "phase": "Phase 5", "responses": "217", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Phase 5", "responses": "578", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_ec_t", "respondent": "twin", "instrument abbreviation": "ec", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_ep_m", "respondent": "mother", "instrument abbreviation": "ep", "phase": "Phase 5", "responses": "217", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_ha_pb_t", "respondent": "twin", "instrument abbreviation": "ha_pb", "phase": "Phase 5", "responses": "1149", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hb_hu_m", "respondent": "mother", "instrument abbreviation": "hb_hu", "phase": "Phase 5", "responses": "217", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hb_if_m", "respondent": "mother", "instrument abbreviation": "hb_if", "phase": "Phase 5", "responses": "1145", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hb_is_m", "respondent": "mother", "instrument abbreviation": "hb_is", "phase": "Phase 5", "responses": "1145", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Phase 5", "responses": "1145", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hb_ph_m", "respondent": "mother", "instrument abbreviation": "hb_ph", "phase": "Phase 5", "responses": "217", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Phase 5", "responses": "579", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hu_t", "respondent": "twin", "instrument abbreviation": "hu", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hw_m", "respondent": "mother", "instrument abbreviation": "hw", "phase": "Phase 5", "responses": "104", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_hw_t", "respondent": "twin", "instrument abbreviation": "hw", "phase": "Phase 5", "responses": "217", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_in_m", "respondent": "mother", "instrument abbreviation": "in", "phase": "Phase 5", "responses": "377", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_ma_t", "respondent": "twin", "instrument abbreviation": "ma", "phase": "Phase 5", "responses": "934", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_mr", "responses": "690", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_mu_t", "respondent": "twin", "instrument abbreviation": "mu", "phase": "Phase 5", "responses": "216", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_pd", "responses": "217", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_pi_m", "respondent": "mother", "instrument abbreviation": "pi", "phase": "Phase 5", "responses": "217", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_pi_t", "respondent": "twin", "instrument abbreviation": "pi", "phase": "Phase 5", "responses": "216", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_pm_t", "respondent": "twin", "instrument abbreviation": "pm", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_rs_t", "respondent": "twin", "instrument abbreviation": "rs", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_sd_t", "respondent": "twin", "instrument abbreviation": "sd", "phase": "Phase 5", "responses": "219", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_ti_m", "respondent": "mother", "instrument abbreviation": "ti", "phase": "Phase 5", "responses": "1145", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_ti_t", "respondent": "twin", "instrument abbreviation": "ti", "phase": "Phase 5", "responses": "1152", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_5_tr", "responses": "962", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_6_ks1", "responses": "48", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_6_ks2", "responses": "49", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_6_ks3", "responses": "49", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_6_tr", "responses": "45", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_a_ba", "responses": "2886", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_at_dates", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_at_dem", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_at_hb_pb", "respondent": "pb", "instrument abbreviation": "hb", "phase": "at", "responses": "328", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_at_in", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_at_ph", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_at_sl", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_at_sp", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_birthrecord_tr", "responses": "809", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ap_t", "respondent": "twin", "instrument abbreviation": "ap", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "Conte 3", "responses": "67", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_au_t", "respondent": "twin", "instrument abbreviation": "au", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_bb_t", "respondent": "twin", "instrument abbreviation": "bb", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_cg_zy", "respondent": "zy", "instrument abbreviation": "cg", "phase": "Conte 3", "responses": "59", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Conte 3", "responses": "67", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_dates", "responses": "102", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_dc_m", "respondent": "mother", "instrument abbreviation": "dc", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Conte 3", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_disc_dr_p", "respondent": "p", "instrument abbreviation": "disc_dr", "phase": "Conte 3", "responses": "96", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_disc_dr_y", "respondent": "y", "instrument abbreviation": "disc_dr", "phase": "Conte 3", "responses": "106", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ec_t", "respondent": "twin", "instrument abbreviation": "ec", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ep_m", "respondent": "mother", "instrument abbreviation": "ep", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ha_pb_t", "respondent": "twin", "instrument abbreviation": "ha_pb", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ha_sp_c", "respondent": "co-twin", "instrument abbreviation": "ha_sp", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ha_sp_t", "respondent": "twin", "instrument abbreviation": "ha_sp", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hb_hu_m", "respondent": "mother", "instrument abbreviation": "hb_hu", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hb_if_m", "respondent": "mother", "instrument abbreviation": "hb_if", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hb_is_m", "respondent": "mother", "instrument abbreviation": "hb_is", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hb_ph_m", "respondent": "mother", "instrument abbreviation": "hb_ph", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Conte 3", "responses": "62", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hu_t", "respondent": "twin", "instrument abbreviation": "hu", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hw_m", "respondent": "mother", "instrument abbreviation": "hw", "phase": "Conte 3", "responses": "73", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_hw_t", "respondent": "twin", "instrument abbreviation": "hw", "phase": "Conte 3", "responses": "32", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_in_m", "respondent": "mother", "instrument abbreviation": "in", "phase": "Conte 3", "responses": "4", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "Conte 3", "tablename": "data_c3_ma_t", "respondent": "twin", "type": "data", "instrument abbreviation": "ma"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_mu_t", "respondent": "twin", "instrument abbreviation": "mu", "phase": "Conte 3", "responses": "133", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_pd", "responses": "136", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_pi_m", "respondent": "mother", "instrument abbreviation": "pi", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_pi_t", "respondent": "twin", "instrument abbreviation": "pi", "phase": "Conte 3", "responses": "133", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_pm_t", "respondent": "twin", "instrument abbreviation": "pm", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_rs_t", "respondent": "twin", "instrument abbreviation": "rs", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_sd_t", "respondent": "twin", "instrument abbreviation": "sd", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ti_m", "respondent": "mother", "instrument abbreviation": "ti", "phase": "Conte 3", "responses": "136", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_ti_t", "respondent": "twin", "instrument abbreviation": "ti", "phase": "Conte 3", "responses": "138", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_tr", "responses": "142", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_c3_zy_t", "respondent": "twin", "instrument abbreviation": "zy", "phase": "Conte 3", "responses": "132", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_dna", "responses": "428", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ai_t", "respondent": "twin", "instrument abbreviation": "ai", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_at_t", "respondent": "twin", "instrument abbreviation": "at", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "mr", "tablename": "data_mr_bd_f", "respondent": "father", "type": "data", "instrument abbreviation": "bd"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_bd_m", "respondent": "mother", "instrument abbreviation": "bd", "phase": "mr", "responses": "8", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_bd_t", "respondent": "twin", "instrument abbreviation": "bd", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_dates", "responses": "9", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_dp_t", "respondent": "twin", "instrument abbreviation": "dp", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_er_t", "respondent": "twin", "instrument abbreviation": "er", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "mr", "tablename": "data_mr_fe_f", "respondent": "father", "type": "data", "instrument abbreviation": "fe"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_fe_m", "respondent": "mother", "instrument abbreviation": "fe", "phase": "mr", "responses": "8", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "mr", "tablename": "data_mr_fs_f", "respondent": "father", "type": "data", "instrument abbreviation": "fs"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_fs_m", "respondent": "mother", "instrument abbreviation": "fs", "phase": "mr", "responses": "8", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ir_t", "respondent": "twin", "instrument abbreviation": "ir", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ls_e", "respondent": "e", "instrument abbreviation": "ls", "phase": "mr", "responses": "1", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_mc_t", "respondent": "twin", "instrument abbreviation": "mc", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ms_t", "respondent": "twin", "instrument abbreviation": "ms", "phase": "mr", "responses": "1", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_pa_gen_t", "respondent": "twin", "instrument abbreviation": "pa_gen", "phase": "mr", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_pa_in_t", "respondent": "twin", "instrument abbreviation": "pa_in", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_pa_po_t", "respondent": "twin", "instrument abbreviation": "pa_po", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_pa_pr_t", "respondent": "twin", "instrument abbreviation": "pa_pr", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_pb_t", "respondent": "twin", "instrument abbreviation": "pb", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_pq_t", "respondent": "twin", "instrument abbreviation": "pq", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "mr", "tablename": "data_mr_ps_f", "respondent": "father", "type": "data", "instrument abbreviation": "ps"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ps_m", "respondent": "mother", "instrument abbreviation": "ps", "phase": "mr", "responses": "8", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_rc_t", "respondent": "twin", "instrument abbreviation": "rc", "phase": "mr", "responses": "2", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"phase": "mr", "tablename": "data_mr_ro_f", "respondent": "father", "type": "data", "instrument abbreviation": "ro"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ro_m", "respondent": "mother", "instrument abbreviation": "ro", "phase": "mr", "responses": "8", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_so_t", "respondent": "twin", "instrument abbreviation": "so", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ta_in_t", "respondent": "twin", "instrument abbreviation": "ta_in", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_ta_po_t", "respondent": "twin", "instrument abbreviation": "ta_po", "phase": "mr", "responses": "74", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_mr_tr", "responses": "28", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_nc", "responses": "1598", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_nc_old", "responses": "278", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_nc_tap", "responses": "250", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_nm", "responses": "1610", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_nm_old", "responses": "279", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_nm_tap", "responses": "251", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_oc_m", "responses": "798", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_oc_m_tap", "respondent": "tap", "instrument abbreviation": "m", "phase": "oc", "responses": "126", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_oc_old", "responses": "278", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_oc_t", "responses": "1594", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_oc_t_tap", "respondent": "tap", "instrument abbreviation": "t", "phase": "oc", "responses": "248", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_palmprint_tr", "responses": "3003", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_palmprints", "responses": "1382", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_r1_tr", "responses": "204", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ad_c", "respondent": "co-twin", "instrument abbreviation": "ad", "phase": "Rdoc", "responses": "89", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ad_t", "respondent": "twin", "instrument abbreviation": "ad", "phase": "Rdoc", "responses": "89", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ap_t", "respondent": "twin", "instrument abbreviation": "ap", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "Rdoc", "responses": "36", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_au_t", "respondent": "twin", "instrument abbreviation": "au", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_bb_t", "respondent": "twin", "instrument abbreviation": "bb", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_cg_zy", "respondent": "zy", "instrument abbreviation": "cg", "phase": "Rdoc", "responses": "9", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_cr_m", "respondent": "mother", "instrument abbreviation": "cr", "phase": "Rdoc", "responses": "36", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_dates", "responses": "90", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_dc_m", "respondent": "mother", "instrument abbreviation": "dc", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Rdoc", "responses": "34", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ec_t", "respondent": "twin", "instrument abbreviation": "ec", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ep_m", "respondent": "mother", "instrument abbreviation": "ep", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ha_pb_t", "respondent": "twin", "instrument abbreviation": "ha_pb", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ha_sp_c", "respondent": "co-twin", "instrument abbreviation": "ha_sp", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ha_sp_t", "respondent": "twin", "instrument abbreviation": "ha_sp", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hb_hu_m", "respondent": "mother", "instrument abbreviation": "hb_hu", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hb_if_m", "respondent": "mother", "instrument abbreviation": "hb_if", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hb_is_m", "respondent": "mother", "instrument abbreviation": "hb_is", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hb_ph_m", "respondent": "mother", "instrument abbreviation": "hb_ph", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Rdoc", "responses": "35", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hs_t", "respondent": "twin", "instrument abbreviation": "hs", "phase": "Rdoc", "responses": "89", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hu_t", "respondent": "twin", "instrument abbreviation": "hu", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_hw_m", "respondent": "mother", "instrument abbreviation": "hw", "phase": "Rdoc", "responses": "33", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_in_m", "respondent": "mother", "instrument abbreviation": "in", "phase": "Rdoc", "responses": "2", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_mu_t", "respondent": "twin", "instrument abbreviation": "mu", "phase": "Rdoc", "responses": "95", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_pa_t", "respondent": "twin", "instrument abbreviation": "pa", "phase": "Rdoc", "responses": "89", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_pd", "responses": "75", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_pi_m", "respondent": "mother", "instrument abbreviation": "pi", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_pi_t", "respondent": "twin", "instrument abbreviation": "pi", "phase": "Rdoc", "responses": "95", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_pm_t", "respondent": "twin", "instrument abbreviation": "pm", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_rs_t", "respondent": "twin", "instrument abbreviation": "rs", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_sd_t", "respondent": "twin", "instrument abbreviation": "sd", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_se_t", "respondent": "twin", "instrument abbreviation": "se", "phase": "Rdoc", "responses": "89", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ti_m", "respondent": "mother", "instrument abbreviation": "ti", "phase": "Rdoc", "responses": "75", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_ti_t", "respondent": "twin", "instrument abbreviation": "ti", "phase": "Rdoc", "responses": "90", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rd_zy_t", "respondent": "twin", "instrument abbreviation": "zy", "phase": "Rdoc", "responses": "13", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rdmr_agn_t", "respondent": "twin", "instrument abbreviation": "agn", "phase": "Rdoc Imaging", "responses": "46518", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rdmr_hdt_t", "respondent": "twin", "instrument abbreviation": "hdt", "phase": "Rdoc Imaging", "responses": "40071", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rdmr_psap_t", "respondent": "twin", "instrument abbreviation": "psap", "phase": "Rdoc Imaging", "responses": "312000", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_rdmr_tr", "responses": "74", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_dates", "responses": "1757", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "Screener", "responses": "1487", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_hb_hu_m", "respondent": "mother", "instrument abbreviation": "hb_hu", "phase": "Screener", "responses": "2657", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_hb_if_m", "respondent": "mother", "instrument abbreviation": "hb_if", "phase": "Screener", "responses": "3485", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_hb_is_m", "respondent": "mother", "instrument abbreviation": "hb_is", "phase": "Screener", "responses": "3485", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "Screener", "responses": "3429", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_hc_m", "respondent": "mother", "instrument abbreviation": "hc", "phase": "Screener", "responses": "1522", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_in_m", "respondent": "mother", "instrument abbreviation": "in", "phase": "Screener", "responses": "1724", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_pd_m", "respondent": "mother", "instrument abbreviation": "pd", "phase": "Screener", "responses": "2666", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_sd_m", "respondent": "mother", "instrument abbreviation": "sd", "phase": "Screener", "responses": "2462", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_dates", "responses": "7", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_de_m", "respondent": "mother", "instrument abbreviation": "span_de", "phase": "Screener", "responses": "7", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_hb_hu_m", "respondent": "mother", "instrument abbreviation": "span_hb_hu", "phase": "Screener", "responses": "14", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_hb_if_m", "respondent": "mother", "instrument abbreviation": "span_hb_if", "phase": "Screener", "responses": "14", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_hb_is_m", "respondent": "mother", "instrument abbreviation": "span_hb_is", "phase": "Screener", "responses": "14", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_hb_pb_m", "respondent": "mother", "instrument abbreviation": "span_hb_pb", "phase": "Screener", "responses": "14", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_hc_m", "respondent": "mother", "instrument abbreviation": "span_hc", "phase": "Screener", "responses": "7", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_in_m", "respondent": "mother", "instrument abbreviation": "span_in", "phase": "Screener", "responses": "7", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_pd_m", "respondent": "mother", "instrument abbreviation": "span_pd", "phase": "Screener", "responses": "14", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_sd_m", "respondent": "mother", "instrument abbreviation": "span_sd", "phase": "Screener", "responses": "14", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_span_zy", "respondent": "zy", "instrument abbreviation": "span", "phase": "Screener", "responses": "7", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_tr", "responses": "3129", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_s_zy", "responses": "1539", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_as_m", "respondent": "mother", "instrument abbreviation": "as", "phase": "sd", "responses": "283", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_bi_m", "respondent": "mother", "instrument abbreviation": "bi", "phase": "sd", "responses": "283", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_dates", "responses": "141", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_de_m", "respondent": "mother", "instrument abbreviation": "de", "phase": "sd", "responses": "78", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_di_m", "respondent": "mother", "instrument abbreviation": "di", "phase": "sd", "responses": "78", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_if_m", "respondent": "mother", "instrument abbreviation": "hb_if", "phase": "sd", "responses": "151", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_is_m", "respondent": "mother", "instrument abbreviation": "hb_is", "phase": "sd", "responses": "152", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_oc_m", "respondent": "mother", "instrument abbreviation": "hb_oc", "phase": "sd", "responses": "150", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_pb_m", "respondent": "mother", "instrument abbreviation": "hb_pb", "phase": "sd", "responses": "151", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_ph_m", "respondent": "mother", "instrument abbreviation": "hb_ph", "phase": "sd", "responses": "152", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_ps_m", "respondent": "mother", "instrument abbreviation": "hb_ps", "phase": "sd", "responses": "152", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_ra_m", "respondent": "mother", "instrument abbreviation": "hb_ra", "phase": "sd", "responses": "152", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_hb_sr_m", "respondent": "mother", "instrument abbreviation": "hb_sr", "phase": "sd", "responses": "152", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_ho_i", "respondent": "interviewer", "instrument abbreviation": "ho", "phase": "sd", "responses": "79", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_mp_m", "respondent": "mother", "instrument abbreviation": "mp", "phase": "sd", "responses": "76", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sa_ad_c", "respondent": "co-twin", "instrument abbreviation": "sa_ad", "phase": "sd", "responses": "158", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sa_ad_o", "respondent": "o", "instrument abbreviation": "sa_ad", "phase": "sd", "responses": "153", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sa_td_c", "respondent": "co-twin", "instrument abbreviation": "sa_td", "phase": "sd", "responses": "158", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sa_td_o", "respondent": "o", "instrument abbreviation": "sa_td", "phase": "sd", "responses": "153", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sh_m", "respondent": "mother", "instrument abbreviation": "sh", "phase": "sd", "responses": "79", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sh_t", "respondent": "twin", "instrument abbreviation": "sh", "phase": "sd", "responses": "157", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_si_m", "respondent": "mother", "instrument abbreviation": "si", "phase": "sd", "responses": "79", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_si_t", "respondent": "twin", "instrument abbreviation": "si", "phase": "sd", "responses": "157", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sp_m", "respondent": "mother", "instrument abbreviation": "sp", "phase": "sd", "responses": "79", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_sr_m", "respondent": "mother", "instrument abbreviation": "sr", "phase": "sd", "responses": "283", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_ss_m", "respondent": "mother", "instrument abbreviation": "ss", "phase": "sd", "responses": "157", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_tb_m", "respondent": "mother", "instrument abbreviation": "tb", "phase": "sd", "responses": "283", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_sd_tr", "responses": "138", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_tr_throw", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_w14_au_f", "respondent": "father", "instrument abbreviation": "au", "phase": "w14", "responses": "12", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_w14_au_m", "respondent": "mother", "instrument abbreviation": "au", "phase": "w14", "responses": "16", "type": "data"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_w14_tr", "responses": "16", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_zy_tgendna", "responses": "1010", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_zyg_tap", "responses": "86", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "fake", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_de_state", "responses": "6384", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_family", "responses": "11953", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_family_alt", "responses": "2", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_family_autism", "responses": "1449", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_family_geo", "responses": "786", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_family_not_wtp", "responses": "3", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_family_tap", "responses": "118", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_family_twinautism", "responses": "56", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_geo_zips", "responses": "228", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_household", "responses": "80", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_jforms_users", "responses": "196", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_milwaukee_zips", "responses": "13", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_no_recruit", "responses": "2633", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_no_recruit_sort", "responses": "51", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_parentdates", "responses": "11521", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_project_participation", "responses": "11924", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_secondary_contact", "responses": "9334", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_siblings", "responses": "5546", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_social_security", "responses": "8212", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_staff", "responses": "324", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_states", "responses": "54", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "gen_twins", "responses": "23082", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "no_recruit_helper", "responses": "56", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "tables", "responses": "1266", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_fjasdkjfl", "responses": "1266", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_fsdf", "responses": "81", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_hhg_sd interventions", "responses": "90", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_jlb_ph4call_97to99", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_jlb_ph4call_missingdata_04_09", "responses": "603", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_finalhtwtid", "responses": "1238", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_geiq_10", "responses": "1091", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_jg39", "responses": "2183", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_jgidlist8", "responses": "6042", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_jz12", "responses": "139", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_kathy6", "responses": "1193", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_names4", "responses": "3226", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_sb20", "responses": "302", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_mkv_sw39", "responses": "628", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_emoregpapersample_0711", "responses": "1130", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_geno2idlist_2010", "responses": "68", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_genoidlist", "responses": "926", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_geo_br_4_25", "responses": "115", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_geozyg_2008_0914", "responses": "166", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_imagingrecruit_20100215", "responses": "28", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_minimage_2010_03", "responses": "52", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_nls_p3address_2009", "responses": "929", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "trash_trahs", "responses": "1266", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_1_bit_f_2008_02", "responses": "1230", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_1_bit_m_2008_02", "responses": "1630", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_3_disc_012509", "responses": "1416", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_3_disc_091509", "responses": "1613", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_colorword", "responses": "102", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_cort_dhea_t", "responses": "893", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_datasetwithvisit_2009_0108", "responses": "300", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_disc_011109_parent", "responses": "438", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_disc_091809_parent", "responses": "524", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_disc_091809_twin", "responses": "578", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_disc_121908_twin", "responses": "448", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_4_picword", "responses": "102", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_5_dps_041609", "responses": "1468", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_5_dps_p_12_15_2010", "responses": "560", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_5_dps_p_2010_0210", "responses": "329", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_5_dps_p_2010_0218", "responses": "528", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_5_dps_t_12_15_2010", "responses": "533", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_5_dps_t_2010_0208", "responses": "330", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_5_dps_t_2010_0218", "responses": "533", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_allscreener_groupmembership_2007_08_24", "responses": "2940", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_allscreener_rawdata_2008_01", "responses": "3226", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_allscreeners_2008_02_07", "responses": "3238", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_cidi_data_short_dad_3_17_06", "responses": "289", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_cidi_data_short_mom_3_17_06", "responses": "398", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_cla_complete sd screener data", "responses": "283", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_cla_extended milw zips", "responses": "34", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_cla_sd mpq by twin", "responses": "156", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_cla_sd tracker dates spc flag", "responses": "141", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_dna_2009conflist", "responses": "429", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_fsv", "responses": "382", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_geo participation dates", "responses": "989", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_geo_98_births_12_2004", "responses": "114", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_geo_demo_2009", "responses": "1850", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_geo_participation_with_wtp_ids", "responses": "779", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_geo_zyg", "responses": "822", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_geodemo_2009", "responses": "1802", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_is_hand", "responses": "442", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_jane_discage", "responses": "862", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_jk_dad final 1", "responses": "738", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_jk_mom final 1", "responses": "2054", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_jlb_cort4", "responses": "7104", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_jlb_ph4call_2_23_07", "responses": "267", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_jlb_ph4call_list_04_2009", "responses": "328", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_ka_pd", "responses": "1", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_michvol_thesis_sample_2008_01", "responses": "242", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_milwaukee_site_list_final", "responses": "87", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_mz_thesis_02_02_07", "responses": "862", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_nls_3_tr_update", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_nls_geo_wtp_br_4_25", "responses": "115", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_nls_kk_thesis_sample_save_2_3", "responses": "862", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_nls_ph4disc", "responses": "64", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_nls_recruitment_2007_04_01", "responses": "92", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_nls_spdcontrols_2009_0203", "responses": "187", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_sample_anxietypaper_2007", "responses": "766", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_sd_auditory original lists", "responses": "69", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_sd_control selection list", "responses": "872", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_sd_randomization", "responses": "154", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_sd_sd", "responses": "1366", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_sd_sd with dropped tb item", "responses": "1366", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_sd_tactile original lists", "responses": "71", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_tap 5 percent", "responses": "4", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_wallace09sample_2009_0131", "responses": "253", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_zyg_dna_results", "responses": "83", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "user_zyg_final_qu_observation", "responses": "4271", "type": "misc"}

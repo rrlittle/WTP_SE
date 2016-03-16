@@ -1,0 +1,110 @@
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "tablename": "aaatable"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "2228", "tablename": "arch_1_de_m"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "393", "tablename": "arch_3_de_f"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "515", "tablename": "arch_3_de_m"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "682", "tablename": "arch_cbqm"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1116", "tablename": "arch_dates"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "320", "tablename": "arch_demographics"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "6260", "tablename": "arch_familyid"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "542", "tablename": "arch_ibq_respondent1"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "442", "tablename": "arch_ibq_respondent2"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "4", "tablename": "arch_ibq_respondent3"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "541", "tablename": "arch_int1_bci"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "702", "tablename": "arch_int1_bfi_respondent1"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "601", "tablename": "arch_int1_bfi_respondent2"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "601", "tablename": "arch_int1_bfi_respondent3"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "678", "tablename": "arch_int1_cbq_respondent1"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "583", "tablename": "arch_int1_cbq_respondent2"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1133", "tablename": "arch_int1_ccare"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "656", "tablename": "arch_int1_d_cbq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1096", "tablename": "arch_int1_d_icq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1086", "tablename": "arch_int1_d_pcq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "186", "tablename": "arch_int1_d_tbaq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "695", "tablename": "arch_int1_feq_respondent1"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "599", "tablename": "arch_int1_feq_respondent2"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "3", "tablename": "arch_int1_feq_respondent3"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1123", "tablename": "arch_int1_icq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "700", "tablename": "arch_int1_paq_respondent1"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "604", "tablename": "arch_int1_paq_respondent2"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "3", "tablename": "arch_int1_paq_respondent3"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1106", "tablename": "arch_int1_pcq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "557", "tablename": "arch_int1_psi"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "560", "tablename": "arch_int1_s_bci"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "678", "tablename": "arch_int1_s_bfi"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1042", "tablename": "arch_int1_s_ccare"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "682", "tablename": "arch_int1_s_feq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "680", "tablename": "arch_int1_s_paq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "561", "tablename": "arch_int1_s_scq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1112", "tablename": "arch_int1_s_ses"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "498", "tablename": "arch_int1_s_zyg"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "548", "tablename": "arch_int1_scq"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "191", "tablename": "arch_int1_tbaq_respondent1"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "156", "tablename": "arch_int1_tbaq_respondent2"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1116", "tablename": "arch_interview 1 response tracker"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "117", "tablename": "arch_interview 3 response tracker"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "310", "tablename": "arch_interview 4 response tracker"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "550", "tablename": "arch_ph2"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "916", "tablename": "arch_s_de_m"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1342", "tablename": "arch_siblings"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "14282", "tablename": "arch_twins"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "1136", "tablename": "arch_zyg"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"type": "misc", "responses": "3", "tablename": "arch_zyg_follow up"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "98", "instrument_abbreviation": "bi", "scales": [{"abbreviation": "co", "description": "competence domain"}, {"abbreviation": "pr", "description": "problem domain"}], "type": "calc", "respondent": "father", "instrument_name": "Bitsea", "phase": "Phase 1", "tablename": "calc_1_bi_f"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "2608", "instrument_abbreviation": "bi", "scales": [{"abbreviation": "co", "description": "competence domain"}, {"abbreviation": "pr", "description": "problem domain"}], "type": "calc", "respondent": "mother", "instrument_name": "Bitsea", "phase": "Phase 1", "tablename": "calc_1_bi_m"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "521", "instrument_abbreviation": "cr", "scales": [{"abbreviation": "eo", "description": "encourage openness"}, {"abbreviation": "ei", "description": "encourage independence"}, {"abbreviation": "rg", "description": "rational guidance"}, {"abbreviation": "ca", "description": "control by anxiety induction"}, {"abbreviation": "oa", "description": "open aff. expression"}, {"abbreviation": "cg", "description": "control by guilt induction"}, {"abbreviation": "ac", "description": "authoritarian control"}], "type": "calc", "respondent": "father", "instrument_name": "CRPR", "phase": "Phase 1", "tablename": "calc_1_cr_f"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "851", "instrument_abbreviation": "cr", "scales": [{"abbreviation": "eo", "description": "encourage openness"}, {"abbreviation": "ei", "description": "encourage independence"}, {"abbreviation": "rg", "description": "rational guidance"}, {"abbreviation": "ca", "description"

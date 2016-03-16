@@ -1,27 +1,574 @@
-[2016-01-07 12:40:21,494][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:40:51,542][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:41:21,492][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:41:51,606][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:42:21,519][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:42:51,409][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:43:21,418][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:43:51,476][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:44:21,572][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:44:51,450][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:45:21,562][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:45:51,631][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:46:21,592][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:46:51,619][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:47:21,582][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:47:51,678][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:48:21,683][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:48:51,867][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:49:21,663][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:49:51,498][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:50:21,475][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:50:51,602][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:51:21,362][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:51:51,511][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:52:21,434][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:52:51,561][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
-[2016-01-07 12:53:21,386][INFO ][cluster.routing.allocation.decider] [Krystalin] low disk watermark [15%] exceeded on [gSlzjcclQ0qAmL3vy6-qlw][Krystalin] free: 54gb[10.8%], replicas will not be assigned to this node
+[2016-03-11 13:22:34,275][INFO ][node                     ] [Stephen Colbert] version[1.5.0], pid[3056], build[5448160/2015-03-23T14:30:58Z]
+[2016-03-11 13:22:34,333][INFO ][node                     ] [Stephen Colbert] initializing ...
+[2016-03-11 13:22:37,905][INFO ][plugins                  ] [Stephen Colbert] loaded [mapper-attachments], sites []
+[2016-03-11 13:23:14,084][INFO ][node                     ] [Stephen Colbert] initialized
+[2016-03-11 13:23:15,257][INFO ][node                     ] [Stephen Colbert] starting ...
+[2016-03-11 13:23:16,305][INFO ][transport                ] [Stephen Colbert] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-03-11 13:23:16,521][INFO ][discovery                ] [Stephen Colbert] elasticsearch/7KekMk3xQDKrfMGc0Qz_hw
+[2016-03-11 13:23:20,514][INFO ][cluster.service          ] [Stephen Colbert] new_master [Stephen Colbert][7KekMk3xQDKrfMGc0Qz_hw][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-03-11 13:23:21,187][INFO ][http                     ] [Stephen Colbert] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2016-03-11 13:23:21,189][INFO ][node                     ] [Stephen Colbert] started
+[2016-03-11 13:23:32,313][INFO ][gateway                  ] [Stephen Colbert] recovered [1] indices into cluster_state
+[2016-03-11 13:23:35,175][DEBUG][action.search.type       ] [Stephen Colbert] All shards failed for phase: [query]
+org.elasticsearch.index.shard.IllegalIndexShardStateException: [metadata][4] CurrentState[RECOVERING] operations only allowed when started/relocated
+	at org.elasticsearch.index.shard.IndexShard.readAllowed(IndexShard.java:893)
+	at org.elasticsearch.index.shard.IndexShard.acquireSearcher(IndexShard.java:697)
+	at org.elasticsearch.index.shard.IndexShard.acquireSearcher(IndexShard.java:693)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:549)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-03-11 13:23:51,183][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:23:51,185][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:24:21,318][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:24:51,374][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:24:51,377][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:25:21,344][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:25:51,062][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:26:21,184][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:26:21,187][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:26:51,148][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:27:21,089][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:27:51,073][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:27:51,075][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:28:21,354][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:28:51,113][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:28:51,115][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:29:20,987][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:29:51,142][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:29:51,144][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:30:21,143][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:30:51,161][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:30:51,164][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:31:21,123][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:31:51,123][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:32:21,099][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:32:21,101][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:32:51,273][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:33:21,110][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:33:21,113][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:33:51,216][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:34:21,120][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:34:21,122][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:34:51,181][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:35:21,193][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:35:21,195][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:35:51,085][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:36:21,510][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:36:21,513][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:36:51,256][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:37:21,277][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:37:51,156][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:37:51,159][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:38:21,110][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:38:51,109][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:39:21,014][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:39:21,016][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:39:51,186][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:40:21,247][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:40:21,250][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:40:51,457][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:41:21,473][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:41:21,476][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:41:51,325][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:42:21,332][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:42:51,304][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:42:51,306][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:43:21,287][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:43:51,334][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:43:51,336][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:44:21,190][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:44:51,038][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:45:20,994][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:45:20,996][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:45:51,058][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:46:21,535][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:46:21,538][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:46:51,139][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:47:21,006][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:47:51,081][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:47:51,084][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:48:21,117][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:48:51,203][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:48:51,205][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:49:21,431][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:49:51,085][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:50:21,139][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 13:50:21,141][INFO ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 13:50:51,136][WARN ][cluster.routing.allocation.decider] [Stephen Colbert] high disk watermark [10%] exceeded on [7KekMk3xQDKrfMGc0Qz_hw][Stephen Colbert] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:04:13,414][INFO ][node                     ] [Dorma] version[1.5.0], pid[5680], build[5448160/2015-03-23T14:30:58Z]
+[2016-03-11 14:04:13,428][INFO ][node                     ] [Dorma] initializing ...
+[2016-03-11 14:04:17,366][INFO ][plugins                  ] [Dorma] loaded [mapper-attachments], sites []
+[2016-03-11 14:04:49,082][INFO ][node                     ] [Dorma] initialized
+[2016-03-11 14:04:49,569][INFO ][node                     ] [Dorma] starting ...
+[2016-03-11 14:04:50,405][INFO ][transport                ] [Dorma] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-03-11 14:04:50,583][INFO ][discovery                ] [Dorma] elasticsearch/mdGzMvMxTBux_dTau9Ho-Q
+[2016-03-11 14:04:54,571][INFO ][cluster.service          ] [Dorma] new_master [Dorma][mdGzMvMxTBux_dTau9Ho-Q][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-03-11 14:04:55,257][INFO ][http                     ] [Dorma] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2016-03-11 14:04:55,259][INFO ][node                     ] [Dorma] started
+[2016-03-11 14:05:06,581][INFO ][gateway                  ] [Dorma] recovered [1] indices into cluster_state
+[2016-03-11 14:05:25,587][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:05:25,590][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:05:55,548][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:06:25,546][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:06:55,570][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:06:55,573][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:07:25,482][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:07:55,290][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:08:25,279][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:08:25,281][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:08:55,184][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:09:25,328][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:09:25,330][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:09:55,208][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:10:25,300][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:10:55,375][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:10:55,377][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:11:25,512][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:11:55,460][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:11:55,462][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:12:25,449][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:12:55,506][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:12:55,508][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:13:25,449][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:13:55,548][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:13:55,551][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:14:25,458][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:14:55,246][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:15:25,197][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:15:25,200][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:15:55,314][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:16:25,326][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:16:25,328][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:16:55,279][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:17:25,351][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:17:25,353][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:17:55,206][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:18:25,282][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:18:55,239][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:18:55,241][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:19:25,372][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:19:56,316][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:19:56,319][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:20:25,634][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:20:55,624][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:21:25,549][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:21:25,553][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:21:55,661][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:22:25,562][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:22:25,567][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:22:55,548][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:23:25,541][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:23:55,551][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:23:55,554][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:24:25,564][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:24:55,528][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:25:25,541][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:25:25,548][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:25:55,569][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:26:25,631][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:26:25,636][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:26:55,533][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:27:25,680][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:27:25,685][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:27:55,582][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:28:25,573][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:28:55,607][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:28:55,611][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:29:25,558][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:29:55,569][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:30:25,342][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:30:25,344][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:30:55,372][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:31:25,384][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:31:25,386][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:31:55,347][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:32:25,498][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:32:25,502][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:32:55,226][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:33:25,283][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:33:55,347][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:33:55,350][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:34:25,303][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:34:55,288][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:35:25,289][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:35:25,292][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:35:55,290][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:36:25,333][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:36:25,335][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:36:55,480][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:37:25,559][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:37:25,561][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:37:55,622][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:38:25,701][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:38:25,703][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:38:55,715][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:39:25,579][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:39:55,482][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:39:55,484][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:40:25,403][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:40:55,452][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:41:25,348][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:41:25,351][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:41:55,476][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:42:25,386][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:42:25,388][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:42:55,431][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:43:25,536][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:43:25,538][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:43:55,699][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:44:25,719][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:44:25,721][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:44:55,684][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:45:25,689][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:45:55,409][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:45:55,411][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:46:25,465][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:46:55,350][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:47:25,430][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:47:25,433][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:47:55,362][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:48:25,431][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:48:55,301][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:48:55,303][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:49:25,587][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:49:55,668][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:49:55,670][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:50:25,614][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:50:56,018][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:50:56,020][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:51:25,834][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:51:55,637][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:52:25,673][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:52:25,675][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:52:55,606][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:53:25,633][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:53:55,559][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:53:55,561][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:54:25,722][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:54:55,707][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:54:55,709][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:55:25,676][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:55:55,641][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:56:25,566][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:56:25,568][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:56:55,584][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:57:25,658][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:57:25,660][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:57:55,538][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:58:25,575][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:58:55,565][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:58:55,567][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 14:59:25,711][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 14:59:55,530][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:00:25,645][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:00:25,647][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:00:55,597][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:01:25,622][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:01:55,699][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:01:55,701][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:02:25,576][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:02:55,797][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:02:55,800][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:03:25,662][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:03:55,546][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:04:25,752][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:04:25,754][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:04:55,724][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:05:25,618][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:05:55,528][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:05:55,530][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:06:25,429][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:06:55,461][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:07:25,505][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:07:25,507][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:07:55,468][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:08:25,471][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:08:55,473][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:08:55,475][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:09:25,570][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:09:55,492][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:09:55,495][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:10:25,426][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:10:55,467][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:11:25,599][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:11:25,602][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:11:55,490][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:12:25,560][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:12:55,660][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:12:55,662][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:13:25,514][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:13:55,600][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:14:25,524][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:14:25,526][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:14:55,614][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:15:25,661][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:15:25,664][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:15:55,573][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:16:25,624][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:16:55,544][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:16:55,546][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:17:25,548][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:17:55,752][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:17:55,754][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:18:25,554][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:18:55,589][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:19:25,600][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:19:25,603][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:19:55,801][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:20:25,661][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:20:25,663][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:20:55,588][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:21:25,602][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:21:55,540][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:21:55,542][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:22:25,525][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:22:55,814][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:22:55,817][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:23:25,547][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:23:55,845][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:23:55,847][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:24:25,988][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:24:55,653][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:25:25,599][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:25:25,601][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:25:55,525][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:26:25,551][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:26:55,557][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:26:55,559][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:27:25,583][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:27:55,586][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:27:55,588][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:28:25,603][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:28:55,679][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:28:55,711][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:29:25,559][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:29:55,766][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:29:55,769][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:30:25,678][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:30:55,763][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:31:25,704][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:31:25,707][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:31:55,698][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:32:25,685][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:32:55,711][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:32:55,714][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:33:25,721][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:33:55,903][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:33:55,906][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:34:25,738][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:34:55,890][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:35:25,623][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:35:25,626][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:35:55,710][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:36:25,714][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:36:25,717][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:36:55,704][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:37:25,797][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:37:25,800][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:37:55,930][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:38:25,865][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:38:25,868][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:38:55,852][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:39:26,116][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:39:26,120][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:39:55,893][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:40:25,927][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:40:55,853][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:40:55,856][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:41:25,819][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:41:55,539][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:42:25,543][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:42:25,547][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:42:55,538][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:43:25,479][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:43:55,508][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:43:55,511][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:44:25,564][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:44:55,573][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:44:55,575][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:45:25,652][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:45:55,584][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:45:55,587][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:46:25,836][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:46:55,955][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:46:55,958][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:47:26,066][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:47:55,979][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:47:55,981][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:48:26,030][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:48:56,071][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:48:56,074][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:49:25,901][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:49:56,224][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:49:56,227][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:50:26,149][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:50:56,085][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:51:25,938][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:51:25,941][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:51:56,074][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:52:25,479][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:52:55,634][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:52:55,637][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:53:25,514][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:53:55,646][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:53:55,649][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:54:25,531][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:54:55,898][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:54:55,901][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:55:26,007][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:55:55,902][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:55:55,905][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:56:25,986][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:56:55,788][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:57:25,980][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:57:25,983][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:57:55,893][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:58:26,075][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:58:26,078][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 15:58:55,833][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:59:25,882][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:59:55,982][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 15:59:55,985][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:00:26,076][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:00:55,957][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:01:26,276][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:01:26,279][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:01:55,956][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:02:25,934][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:02:55,805][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:02:55,808][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:03:26,104][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:03:55,828][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:03:55,831][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:04:25,596][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:04:55,542][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:05:25,683][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:05:25,687][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:05:55,491][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:06:25,496][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:06:55,453][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:06:55,456][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:07:25,499][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:07:55,542][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:07:55,545][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:08:25,558][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:08:55,527][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:09:25,583][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:09:25,587][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:09:55,691][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:10:25,514][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:10:55,559][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:10:55,563][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:11:25,555][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:11:55,513][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:12:25,519][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:12:25,522][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:12:55,513][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:13:25,576][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:13:25,579][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:13:55,560][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:14:25,571][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:14:55,555][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:14:55,559][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:15:25,565][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:15:55,468][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:16:25,510][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:16:25,513][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:16:55,592][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:17:25,615][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:17:25,619][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:17:55,741][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:18:25,614][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:18:55,602][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:18:55,605][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:19:25,497][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:19:55,667][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:19:55,672][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:20:25,431][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:20:55,620][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:21:25,708][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:21:25,712][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:21:55,621][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:22:25,922][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:22:25,927][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:22:55,900][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:23:25,948][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:23:25,952][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:23:55,872][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:24:26,238][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:24:26,241][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:24:56,110][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:25:25,973][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:25:55,571][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:25:55,575][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:26:25,612][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:26:55,681][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:26:55,685][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:27:25,636][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:27:55,633][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:28:25,484][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:28:25,487][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:28:55,513][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:29:25,609][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:29:25,612][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:29:55,517][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:30:25,458][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:30:55,462][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:30:55,465][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:31:25,479][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:31:55,606][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:31:55,610][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:32:25,648][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:32:55,657][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:32:55,660][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:33:25,595][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:33:55,592][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:34:25,940][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:34:25,943][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:34:55,669][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:35:25,663][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:35:55,508][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:35:55,511][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:36:25,694][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:36:55,681][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:36:55,685][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:37:25,501][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:37:55,673][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:38:25,739][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:38:25,742][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:38:55,606][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:39:25,708][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:39:55,956][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:39:55,961][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:40:25,910][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:40:55,955][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:41:25,806][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:41:25,809][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:41:56,049][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:42:25,919][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:42:25,923][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:42:55,965][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:43:25,855][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:43:55,818][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:43:55,822][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:44:25,882][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:44:55,903][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:44:55,907][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:45:25,957][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:45:56,046][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:45:56,050][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:46:25,924][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:46:55,647][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:47:25,831][WARN ][cluster.routing.allocation.decider] [Dorma] high disk watermark [10%] exceeded on [mdGzMvMxTBux_dTau9Ho-Q][Dorma] free: 43gb[8.6%], shards will be relocated away from this node
+[2016-03-11 16:47:25,834][INFO ][cluster.routing.allocation.decider] [Dorma] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-03-11 16:47:38,247][INFO ][bootstrap                ] running graceful exit on windows
+[2016-03-11 16:47:38,277][INFO ][node                     ] [Dorma] stopping ...
+[2016-03-11 16:47:41,732][INFO ][node                     ] [Dorma] stopped
+[2016-03-11 16:47:41,737][INFO ][node                     ] [Dorma] closing ...
+[2016-03-11 16:47:41,916][INFO ][node                     ] [Dorma] closed

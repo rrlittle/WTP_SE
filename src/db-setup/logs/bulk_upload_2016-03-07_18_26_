@@ -1,0 +1,204 @@
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "aaatable", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_1_de_m", "responses": "2228", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_3_de_f", "responses": "393", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_3_de_m", "responses": "515", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_cbqm", "responses": "682", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_dates", "responses": "1116", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_demographics", "responses": "320", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_familyid", "responses": "6260", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ibq_respondent1", "responses": "542", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ibq_respondent2", "responses": "442", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ibq_respondent3", "responses": "4", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bci", "responses": "541", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bfi_respondent1", "responses": "702", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bfi_respondent2", "responses": "601", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_bfi_respondent3", "responses": "601", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_cbq_respondent1", "responses": "678", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_cbq_respondent2", "responses": "583", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_ccare", "responses": "1133", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_cbq", "responses": "656", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_icq", "responses": "1096", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_pcq", "responses": "1086", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_d_tbaq", "responses": "186", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_feq_respondent1", "responses": "695", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_feq_respondent2", "responses": "599", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_feq_respondent3", "responses": "3", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_icq", "responses": "1123", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_paq_respondent1", "responses": "700", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_paq_respondent2", "responses": "604", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_paq_respondent3", "responses": "3", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_pcq", "responses": "1106", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_psi", "responses": "557", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_bci", "responses": "560", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_bfi", "responses": "678", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_ccare", "responses": "1042", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_feq", "responses": "682", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_paq", "responses": "680", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_scq", "responses": "561", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_ses", "responses": "1112", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_s_zyg", "responses": "498", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_scq", "responses": "548", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_tbaq_respondent1", "responses": "191", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_int1_tbaq_respondent2", "responses": "156", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_interview 1 response tracker", "responses": "1116", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_interview 3 response tracker", "responses": "117", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_interview 4 response tracker", "responses": "310", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_ph2", "responses": "550", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_s_de_m", "responses": "916", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_siblings", "responses": "1342", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_twins", "responses": "14282", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_zyg", "responses": "1136", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_zyg_follow up", "responses": "3", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_bi_f", "respondent": "father", "instrument_abbreviation": "bi", "instrument_name": "Bitsea", "phase": "Phase 1", "responses": "98", "type": "calc", "scales": [{"abbreviation": "co", "description": "competence domain"}, {"abbreviation": "pr", "description": "problem domain"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_bi_m", "respondent": "mother", "instrument_abbreviation": "bi", "instrument_name": "Bitsea", "phase": "Phase 1", "responses": "2608", "type": "calc", "scales": [{"abbreviation": "co", "description": "competence domain"}, {"abbreviation": "pr", "description": "problem domain"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_cr_f", "respondent": "father", "instrument_abbreviation": "cr", "instrument_name": "CRPR", "phase": "Phase 1", "responses": "521", "type": "calc", "scales": [{"abbreviation": "eo", "description": "encourage openness"}, {"abbreviation": "ca", "description": "control by anxiety induction"}, {"abbreviation": "ac", "description": "authoritarian control"}, {"abbreviation": "ei", "description": "encourage independence"}, {"abbreviation": "cg", "description": "control by guilt induction"}, {"abbreviation": "rg", "description": "rational guidance"}, {"abbreviation": "oa", "description": "open aff. expression"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_cr_m", "respondent": "mother", "instrument_abbreviation": "cr", "instrument_name": "CRPR", "phase": "Phase 1", "responses": "851", "type": "calc", "scales": [{"abbreviation": "eo", "description": "encourage openness"}, {"abbreviation": "ca", "description": "control by anxiety induction"}, {"abbreviation": "ac", "description": "authoritarian control"}, {"abbreviation": "ei", "description": "encourage independence"}, {"abbreviation": "cg", "description": "control by guilt induction"}, {"abbreviation": "rg", "description": "rational guidance"}, {"abbreviation": "oa", "description": "open aff. expression"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_hc_m", "respondent": "mother", "instrument_abbreviation": "hc", "phase": "Phase 1", "responses": "2307", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_it_f", "respondent": "father", "instrument_abbreviation": "it", "instrument_name": "ITSEA", "phase": "Phase 1", "responses": "1230", "type": "calc", "scales": [{"abbreviation": "et", "description": "eating"}, {"abbreviation": "ne", "description": "negative emotionality"}, {"abbreviation": "dy", "description": "dysregulation"}, {"abbreviation": "ad", "description": "aggression/defiance"}, {"abbreviation": "cm", "description": "compliance"}, {"abbreviation": "in", "description": "inhibition to novelty"}, {"abbreviation": "dw", "description": "depression withdrawal"}, {"abbreviation": "sb", "description": "sexualized behavior"}, {"abbreviation": "sl", "description": "sleep"}, {"abbreviation": "co", "description": "competence"}, {"abbreviation": "ac", "description": "anxiety/obsessive compulsive"}, {"abbreviation": "ga", "description": "general anxiety"}, {"abbreviation": "ma", "description": "maladaptive"}, {"abbreviation": "to", "description": "toileting"}, {"abbreviation": "pt", "description": "ptsd"}, {"abbreviation": "oa", "description": "overt aggression"}, {"abbreviation": "sd", "description": "seperation distress"}, {"abbreviation": "is", "description": "internalizing symptoms"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "ss", "description": "sensory sensitivity"}, {"abbreviation": "da", "description": "dispositional aggression"}, {"abbreviation": "pa", "description": "peer aggression"}, {"abbreviation": "at", "description": "attention"}, {"abbreviation": "ai", "description": "activity/impulsivity"}, {"abbreviation": "rd", "description": "relational defiance"}, {"abbreviation": "pi", "description": "pica"}, {"abbreviation": "es", "description": "externalizing symptoms"}, {"abbreviation": "ea", "description": "eating (group score)"}, {"abbreviation": "aw", "description": "anxiety/worry"}, {"abbreviation": "ep", "description": "eating pathology"}, {"abbreviation": "de", "description": "defiance"}, {"abbreviation": "ts", "description": "tourette symptoms"}, {"abbreviation": "ra", "description": "relational aggression"}, {"abbreviation": "ip", "description": "imitation/play"}, {"abbreviation": "od", "description": "oppositional/defiant aggression"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_it_m", "respondent": "mother", "instrument_abbreviation": "it", "instrument_name": "ITSEA", "phase": "Phase 1", "responses": "1630", "type": "calc", "scales": [{"abbreviation": "et", "description": "eating"}, {"abbreviation": "ne", "description": "negative emotionality"}, {"abbreviation": "dy", "description": "dysregulation"}, {"abbreviation": "ad", "description": "aggression/defiance"}, {"abbreviation": "cm", "description": "compliance"}, {"abbreviation": "in", "description": "inhibition to novelty"}, {"abbreviation": "dw", "description": "depression withdrawal"}, {"abbreviation": "sb", "description": "sexualized behavior"}, {"abbreviation": "sl", "description": "sleep"}, {"abbreviation": "co", "description": "competence"}, {"abbreviation": "ac", "description": "anxiety/obsessive compulsive"}, {"abbreviation": "ga", "description": "general anxiety"}, {"abbreviation": "ma", "description": "maladaptive"}, {"abbreviation": "to", "description": "toileting"}, {"abbreviation": "pt", "description": "ptsd"}, {"abbreviation": "oa", "description": "overt aggression"}, {"abbreviation": "sd", "description": "seperation distress"}, {"abbreviation": "is", "description": "internalizing symptoms"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "ss", "description": "sensory sensitivity"}, {"abbreviation": "da", "description": "dispositional aggression"}, {"abbreviation": "pa", "description": "peer aggression"}, {"abbreviation": "at", "description": "attention"}, {"abbreviation": "ai", "description": "activity/impulsivity"}, {"abbreviation": "rd", "description": "relational defiance"}, {"abbreviation": "pi", "description": "pica"}, {"abbreviation": "es", "description": "externalizing symptoms"}, {"abbreviation": "ea", "description": "eating (group score)"}, {"abbreviation": "aw", "description": "anxiety/worry"}, {"abbreviation": "ep", "description": "eating pathology"}, {"abbreviation": "de", "description": "defiance"}, {"abbreviation": "ts", "description": "tourette symptoms"}, {"abbreviation": "ra", "description": "relational aggression"}, {"abbreviation": "ip", "description": "imitation/play"}, {"abbreviation": "od", "description": "oppositional/defiant aggression"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_tb_00_f", "respondent": "father", "instrument_abbreviation": "tb_00", "phase": "Phase 1", "responses": "558", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_tb_00_m", "respondent": "mother", "instrument_abbreviation": "tb_00", "phase": "Phase 1", "responses": "2130", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_1_tb_99_m", "respondent": "mother", "instrument_abbreviation": "tb_99", "phase": "Phase 1", "responses": "429", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cb_f", "respondent": "father", "instrument_abbreviation": "cb", "instrument_name": "CBQ", "phase": "Phase 2", "responses": "546", "type": "calc", "scales": [{"abbreviation": "af", "description": "attention focusing"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "al", "description": "activity level"}, {"abbreviation": "sh", "description": "shyness"}, {"abbreviation": "lp", "description": "low pleasure"}, {"abbreviation": "so", "description": "soothability"}, {"abbreviation": "sl", "description": "smiling & laughter"}, {"abbreviation": "ic", "description": "inhibtiory control"}, {"abbreviation": "ap", "description": "approach"}, {"abbreviation": "fe", "description": "fear"}, {"abbreviation": "hp", "description": "high pleasure"}, {"abbreviation": "an", "description": "anger"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cb_m", "respondent": "mother", "instrument_abbreviation": "cb", "instrument_name": "CBQ", "phase": "Phase 2", "responses": "492", "type": "calc", "scales": [{"abbreviation": "af", "description": "attention focusing"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "al", "description": "activity level"}, {"abbreviation": "sh", "description": "shyness"}, {"abbreviation": "lp", "description": "low pleasure"}, {"abbreviation": "so", "description": "soothability"}, {"abbreviation": "sl", "description": "smiling & laughter"}, {"abbreviation": "ic", "description": "inhibtiory control"}, {"abbreviation": "ap", "description": "approach"}, {"abbreviation": "fe", "description": "fear"}, {"abbreviation": "hp", "description": "high pleasure"}, {"abbreviation": "an", "description": "anger"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cd_f", "respondent": "father", "instrument_abbreviation": "cd", "instrument_name": "CDI Depression", "phase": "Phase 2", "responses": "399", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_cd_m", "respondent": "mother", "instrument_abbreviation": "cd", "instrument_name": "CDI Depression", "phase": "Phase 2", "responses": "492", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_groups", "responses": "460", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_hb_f", "respondent": "father", "instrument_abbreviation": "hb", "instrument_name": "HBQ", "phase": "Phase 2", "responses": "400", "type": "calc", "scales": [{"abbreviation": "is", "description": "impact on self"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "sr", "description": "social relations"}, {"abbreviation": "ec", "description": "externalizing composite"}, {"abbreviation": "ps", "description": "prosocial behavior"}, {"abbreviation": "ag", "description": "overt aggression"}, {"abbreviation": "ph", "description": "physical health"}, {"abbreviation": "rc", "description": "recreational activities"}, {"abbreviation": "at", "description": "inattention"}, {"abbreviation": "ic", "description": "internalizing composite"}, {"abbreviation": "ac", "description": "attention composite"}, {"abbreviation": "od", "description": "opposition & defiance"}, {"abbreviation": "cd", "description": "conduct disorder"}, {"abbreviation": "de", "description": "depression"}, {"abbreviation": "if", "description": "impact on family"}, {"abbreviation": "sa", "description": "separation anxiety"}, {"abbreviation": "en", "description": "enuresis"}, {"abbreviation": "hu", "description": "health care utilization"}, {"abbreviation": "oa", "description": "overanxiousness"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_hb_m", "respondent": "mother", "instrument_abbreviation": "hb", "instrument_name": "HBQ", "phase": "Phase 2", "responses": "460", "type": "calc", "scales": [{"abbreviation": "is", "description": "impact on self"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "sr", "description": "social relations"}, {"abbreviation": "ec", "description": "externalizing composite"}, {"abbreviation": "ps", "description": "prosocial behavior"}, {"abbreviation": "ag", "description": "overt aggression"}, {"abbreviation": "ph", "description": "physical health"}, {"abbreviation": "rc", "description": "recreational activities"}, {"abbreviation": "at", "description": "inattention"}, {"abbreviation": "ic", "description": "internalizing composite"}, {"abbreviation": "ac", "description": "attention composite"}, {"abbreviation": "od", "description": "opposition & defiance"}, {"abbreviation": "cd", "description": "conduct disorder"}, {"abbreviation": "de", "description": "depression"}, {"abbreviation": "if", "description": "impact on family"}, {"abbreviation": "sa", "description": "separation anxiety"}, {"abbreviation": "en", "description": "enuresis"}, {"abbreviation": "hu", "description": "health care utilization"}, {"abbreviation": "oa", "description": "overanxiousness"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_hc_m", "respondent": "mother", "instrument_abbreviation": "hc", "phase": "Phase 2", "responses": "237", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_oc_f", "respondent": "father", "instrument_abbreviation": "oc", "phase": "Phase 2", "responses": "400", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_2_oc_m", "respondent": "mother", "instrument_abbreviation": "oc", "phase": "Phase 2", "responses": "492", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_address_tractcode", "respondent": "tractcode", "instrument_abbreviation": "address", "phase": "Phase 3", "responses": "701", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bc_f", "respondent": "father", "instrument_abbreviation": "bc", "instrument_name": "Basal Cortisol original", "phase": "Phase 3", "responses": "204", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bc_m", "respondent": "mother", "instrument_abbreviation": "bc", "instrument_name": "Basal Cortisol original", "phase": "Phase 3", "responses": "235", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bc_t", "respondent": "twin", "instrument_abbreviation": "bc", "instrument_name": "Basal Cortisol original", "phase": "Phase 3", "responses": "1346", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bd_f", "respondent": "father", "instrument_abbreviation": "bd", "instrument_name": "BDI", "phase": "Phase 3", "responses": "637", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bd_m", "respondent": "mother", "instrument_abbreviation": "bd", "instrument_name": "BDI", "phase": "Phase 3", "responses": "775", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bl_t", "respondent": "twin", "instrument_abbreviation": "bl", "instrument_name": "Block", "phase": "Phase 3", "responses": "1405", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bm_f", "respondent": "father", "instrument_abbreviation": "bm", "instrument_name": "BMSA std", "phase": "Phase 3", "responses": "632", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bm_m", "respondent": "mother", "instrument_abbreviation": "bm", "instrument_name": "BMSA std", "phase": "Phase 3", "responses": "796", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bp_pp_t", "respondent": "twin", "instrument_abbreviation": "bp_pp", "instrument_name": "BPI peer scales", "phase": "Phase 3", "responses": "1404", "type": "calc", "scales": [{"abbreviation": "bu", "description": "bullied"}, {"abbreviation": "ps", "description": "prosocial behaviors"}, {"abbreviation": "so", "description": "social inhibition"}, {"abbreviation": "pa", "description": "peer acceptance and rejection"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_bp_sy_t", "respondent": "twin", "instrument_abbreviation": "bp_sy", "phase": "Phase 3", "responses": "1404", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_br", "responses": "1390", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cb_f", "respondent": "father", "instrument_abbreviation": "cb", "instrument_name": "CBQ", "phase": "Phase 3", "responses": "1266", "type": "calc", "scales": [{"abbreviation": "af", "description": "attention focusing"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "al", "description": "activity level"}, {"abbreviation": "sh", "description": "shyness"}, {"abbreviation": "lp", "description": "low pleasure"}, {"abbreviation": "so", "description": "soothability"}, {"abbreviation": "sl", "description": "smiling & laughter"}, {"abbreviation": "ic", "description": "inhibtiory control"}, {"abbreviation": "ap", "description": "approach"}, {"abbreviation": "fe", "description": "fear"}, {"abbreviation": "hp", "description": "high pleasure"}, {"abbreviation": "an", "description": "anger"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cb_m", "respondent": "mother", "instrument_abbreviation": "cb", "instrument_name": "CBQ", "phase": "Phase 3", "responses": "1554", "type": "calc", "scales": [{"abbreviation": "af", "description": "attention focusing"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "al", "description": "activity level"}, {"abbreviation": "sh", "description": "shyness"}, {"abbreviation": "lp", "description": "low pleasure"}, {"abbreviation": "so", "description": "soothability"}, {"abbreviation": "sl", "description": "smiling & laughter"}, {"abbreviation": "ic", "description": "inhibtiory control"}, {"abbreviation": "ap", "description": "approach"}, {"abbreviation": "fe", "description": "fear"}, {"abbreviation": "hp", "description": "high pleasure"}, {"abbreviation": "an", "description": "anger"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cd_f", "respondent": "father", "instrument_abbreviation": "cd", "instrument_name": "CDI Depression", "phase": "Phase 3", "responses": "1266", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cd_m", "respondent": "mother", "instrument_abbreviation": "cd", "instrument_name": "CDI Depression", "phase": "Phase 3", "responses": "1554", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_ch_m", "respondent": "mother", "instrument_abbreviation": "ch", "instrument_name": "Chaos", "phase": "Phase 3", "responses": "783", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cr_f", "respondent": "father", "instrument_abbreviation": "cr", "instrument_name": "CRPR", "phase": "Phase 3", "responses": "632", "type": "calc", "scales": [{"abbreviation": "eo", "description": "encourage openness"}, {"abbreviation": "ca", "description": "control by anxiety induction"}, {"abbreviation": "ac", "description": "authoritarian control"}, {"abbreviation": "ei", "description": "encourage independence"}, {"abbreviation": "cg", "description": "control by guilt induction"}, {"abbreviation": "rg", "description": "rational guidance"}, {"abbreviation": "oa", "description": "open aff. expression"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_cr_m", "respondent": "mother", "instrument_abbreviation": "cr", "instrument_name": "CRPR", "phase": "Phase 3", "responses": "811", "type": "calc", "scales": [{"abbreviation": "eo", "description": "encourage openness"}, {"abbreviation": "ca", "description": "control by anxiety induction"}, {"abbreviation": "ac", "description": "authoritarian control"}, {"abbreviation": "ei", "description": "encourage independence"}, {"abbreviation": "cg", "description": "control by guilt induction"}, {"abbreviation": "rg", "description": "rational guidance"}, {"abbreviation": "oa", "description": "open aff. expression"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_da_m", "respondent": "mother", "instrument_abbreviation": "da", "instrument_name": "DAS", "phase": "Phase 3", "responses": "811", "type": "calc", "scales": [{"abbreviation": "ds", "description": "dyadic satisfaction"}, {"abbreviation": "dc", "description": "dyadic cohesion"}, {"abbreviation": "ae", "description": "affectional expression"}, {"abbreviation": "da", "description": "dyadic adjustment"}, {"abbreviation": "dn", "description": "dyadic consensus"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dc_f", "respondent": "father", "instrument_abbreviation": "dc", "instrument_name": "DCPL", "phase": "Phase 3", "responses": "1263", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dc_m", "respondent": "mother", "instrument_abbreviation": "dc", "instrument_name": "DCPL", "phase": "Phase 3", "responses": "1625", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dt_f", "respondent": "father", "instrument_abbreviation": "dt", "instrument_name": "DTQ", "phase": "Phase 3", "responses": "632", "type": "calc", "scales": [{"abbreviation": "at", "description": "attention"}, {"abbreviation": "af", "description": "affection"}, {"abbreviation": "di", "description": "discipline"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_dt_m", "respondent": "mother", "instrument_abbreviation": "dt", "instrument_name": "DTQ", "phase": "Phase 3", "responses": "811", "type": "calc", "scales": [{"abbreviation": "at", "description": "attention"}, {"abbreviation": "af", "description": "affection"}, {"abbreviation": "di", "description": "discipline"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_fa_f", "respondent": "father", "instrument_abbreviation": "fa", "instrument_name": "FAD", "phase": "Phase 3", "responses": "633", "type": "calc", "scales": [{"abbreviation": "bc", "description": "behavior control"}, {"abbreviation": "rl", "description": "roles"}, {"abbreviation": "ar", "description": "affective responses"}, {"abbreviation": "cm", "description": "communication"}, {"abbreviation": "ai", "description": "affectional involvement"}, {"abbreviation": "gf", "description": "general functioning"}, {"abbreviation": "ps", "description": "problem solving"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_fa_m", "respondent": "mother", "instrument_abbreviation": "fa", "instrument_name": "FAD", "phase": "Phase 3", "responses": "812", "type": "calc", "scales": [{"abbreviation": "bc", "description": "behavior control"}, {"abbreviation": "rl", "description": "roles"}, {"abbreviation": "ar", "description": "affective responses"}, {"abbreviation": "cm", "description": "communication"}, {"abbreviation": "ai", "description": "affectional involvement"}, {"abbreviation": "gf", "description": "general functioning"}, {"abbreviation": "ps", "description": "problem solving"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_fc_m", "respondent": "mother", "instrument_abbreviation": "fc", "instrument_name": "FCS", "phase": "Phase 3", "responses": "811", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hb_f", "respondent": "father", "instrument_abbreviation": "hb", "instrument_name": "HBQ", "phase": "Phase 3", "responses": "1258", "type": "calc", "scales": [{"abbreviation": "is", "description": "impact on self"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "sr", "description": "social relations"}, {"abbreviation": "ec", "description": "externalizing composite"}, {"abbreviation": "ps", "description": "prosocial behavior"}, {"abbreviation": "ag", "description": "overt aggression"}, {"abbreviation": "ph", "description": "physical health"}, {"abbreviation": "rc", "description": "recreational activities"}, {"abbreviation": "at", "description": "inattention"}, {"abbreviation": "ic", "description": "internalizing composite"}, {"abbreviation": "ac", "description": "attention composite"}, {"abbreviation": "od", "description": "opposition & defiance"}, {"abbreviation": "cd", "description": "conduct disorder"}, {"abbreviation": "de", "description": "depression"}, {"abbreviation": "if", "description": "impact on family"}, {"abbreviation": "sa", "description": "separation anxiety"}, {"abbreviation": "en", "description": "enuresis"}, {"abbreviation": "hu", "description": "health care utilization"}, {"abbreviation": "oa", "description": "overanxiousness"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hb_m", "respondent": "mother", "instrument_abbreviation": "hb", "instrument_name": "HBQ", "phase": "Phase 3", "responses": "1623", "type": "calc", "scales": [{"abbreviation": "is", "description": "impact on self"}, {"abbreviation": "im", "description": "impulsivity"}, {"abbreviation": "sr", "description": "social relations"}, {"abbreviation": "ec", "description": "externalizing composite"}, {"abbreviation": "ps", "description": "prosocial behavior"}, {"abbreviation": "ag", "description": "overt aggression"}, {"abbreviation": "ph", "description": "physical health"}, {"abbreviation": "rc", "description": "recreational activities"}, {"abbreviation": "at", "description": "inattention"}, {"abbreviation": "ic", "description": "internalizing composite"}, {"abbreviation": "ac", "description": "attention composite"}, {"abbreviation": "od", "description": "opposition & defiance"}, {"abbreviation": "cd", "description": "conduct disorder"}, {"abbreviation": "de", "description": "depression"}, {"abbreviation": "if", "description": "impact on family"}, {"abbreviation": "sa", "description": "separation anxiety"}, {"abbreviation": "en", "description": "enuresis"}, {"abbreviation": "hu", "description": "health care utilization"}, {"abbreviation": "oa", "description": "overanxiousness"}]}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hb_sib_m", "respondent": "mother", "instrument_abbreviation": "hb_sib", "phase": "Phase 3", "responses": "544", "type": "calc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "calc_3_hc_f", "respondent": "father", "instrument_abbreviation": "hc", "phase": "Phase 3", "responses": "488", 

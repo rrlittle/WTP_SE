@@ -1,0 +1,50 @@
+[2016-02-15 18:20:00,339][INFO ][node                     ] [Stygyro] version[1.5.0], pid[4624], build[5448160/2015-03-23T14:30:58Z]
+[2016-02-15 18:20:00,401][INFO ][node                     ] [Stygyro] initializing ...
+[2016-02-15 18:20:04,113][INFO ][plugins                  ] [Stygyro] loaded [mapper-attachments], sites []
+[2016-02-15 18:20:38,374][INFO ][node                     ] [Stygyro] initialized
+[2016-02-15 18:20:39,245][INFO ][node                     ] [Stygyro] starting ...
+[2016-02-15 18:20:41,925][INFO ][transport                ] [Stygyro] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-02-15 18:20:42,160][INFO ][discovery                ] [Stygyro] elasticsearch/Re7ZgCZAQYyVHgl1wUK8RA
+[2016-02-15 18:20:46,161][INFO ][cluster.service          ] [Stygyro] new_master [Stygyro][Re7ZgCZAQYyVHgl1wUK8RA][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-02-15 18:20:46,866][INFO ][http                     ] [Stygyro] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2016-02-15 18:20:46,868][INFO ][node                     ] [Stygyro] started
+[2016-02-15 18:20:59,225][INFO ][gateway                  ] [Stygyro] recovered [1] indices into cluster_state
+[2016-02-15 18:21:16,729][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:21:16,731][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:21:47,790][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:22:16,854][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:22:16,859][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:22:46,964][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:23:16,975][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:23:16,981][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:23:46,980][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:24:17,131][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:24:17,134][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:24:47,027][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:25:16,971][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:25:46,974][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:25:46,978][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:26:16,961][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:26:47,001][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:26:47,006][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:27:17,017][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:27:46,978][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:28:16,965][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:28:16,968][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:28:46,971][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:29:16,966][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:29:16,971][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:29:46,977][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:30:16,985][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:30:16,987][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:30:46,772][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:31:16,820][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:31:46,894][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:31:46,898][INFO ][cluster.routing.allocation.decider] [Stygyro] high disk watermark exceeded on one or more nodes, rerouting shards
+[2016-02-15 18:32:16,773][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:32:46,836][WARN ][cluster.routing.allocation.decider] [Stygyro] high disk watermark [10%] exceeded on [Re7ZgCZAQYyVHgl1wUK8RA][Stygyro] free: 47.6gb[9.5%], shards will be relocated away from this node
+[2016-02-15 18:32:53,974][INFO ][bootstrap                ] running graceful exit on windows
+[2016-02-15 18:32:53,978][INFO ][node                     ] [Stygyro] stopping ...
+[2016-02-15 18:32:57,755][INFO ][node                     ] [Stygyro] stopped
+[2016-02-15 18:32:57,757][INFO ][node                     ] [Stygyro] closing ...
+[2016-02-15 18:32:57,952][INFO ][node                     ] [Stygyro] closed

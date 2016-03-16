@@ -1,0 +1,14 @@
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"responses": "774", "respondent": "twin", "tablename": "data_4_hs_t", "scales": [{"abbreviation": "di", "description": "distress in instrument provocations"}, {"abbreviation": "rs", "description": "intent attri for relation provocations"}, {"abbreviation": "dr", "description": "distress in relational provocations"}, {"abbreviation": "is", "description": "intent attri for instrument provocations"}], "type": "data", "instrument_abbreviation": "hs", "phase": "Phase 4", "instrument_name": "Hostile Attributions"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "data_4_dates", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"tablename": "arch_1_de_m", "responses": "2228", "type": "misc"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"responses": "770", "respondent": "age", "tablename": "calc_4_visit_age", "type": "calc", "instrument_abbreviation": "visit", "phase": "Phase 4"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"responses": "399", "respondent": "father", "tablename": "calc_2_cd_f", "type": "calc", "instrument_abbreviation": "cd", "phase": "Phase 2", "instrument_name": "CDI Depression"}
+{"index": {"_index": "metadata", "_type": "tables"}}
+{"responses": "283", "respondent": "mother", "tablename": "calc_sd_tb_m", "scales": [{"abbreviation": "in", "description": "interest"}, {"abbreviation": "sd", "description": "sadness"}, {"abbreviation": "sf", "description": "social fear"}, {"abbreviation": "pl", "description": "pleasure"}, {"abbreviation": "ic", "description": "inhibitory control"}, {"abbreviation": "al", "description": "activity level"}, {"abbreviation": "an", "description": "anger"}], "type": "calc", "instrument_abbreviation": "tb", "phase": "sd", "instrument_name": "TBAQ"}

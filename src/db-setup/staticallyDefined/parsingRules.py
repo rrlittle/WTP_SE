@@ -45,6 +45,7 @@ def ensureTheseWordsArentThere(table_split, wordList):
         if w in table_split: return False
     return True
 
+
 parsing_maps = {
                  'data':{
                      'tablename':'table_split[0:]',

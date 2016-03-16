@@ -1,0 +1,2 @@
+RUN THIS COMMAND FROM ADMIN CMD WINDOW 
+netstat -a -b  

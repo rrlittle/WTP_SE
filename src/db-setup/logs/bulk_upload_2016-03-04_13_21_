@@ -1,0 +1,102 @@
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"tablename": "aaatable", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "2228", "tablename": "arch_1_de_m", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "393", "tablename": "arch_3_de_f", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "515", "tablename": "arch_3_de_m", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "682", "tablename": "arch_cbqm", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1116", "tablename": "arch_dates", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "320", "tablename": "arch_demographics", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "6260", "tablename": "arch_familyid", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "542", "tablename": "arch_ibq_respondent1", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "442", "tablename": "arch_ibq_respondent2", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "4", "tablename": "arch_ibq_respondent3", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "541", "tablename": "arch_int1_bci", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "702", "tablename": "arch_int1_bfi_respondent1", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "601", "tablename": "arch_int1_bfi_respondent2", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "601", "tablename": "arch_int1_bfi_respondent3", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "678", "tablename": "arch_int1_cbq_respondent1", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "583", "tablename": "arch_int1_cbq_respondent2", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1133", "tablename": "arch_int1_ccare", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "656", "tablename": "arch_int1_d_cbq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1096", "tablename": "arch_int1_d_icq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1086", "tablename": "arch_int1_d_pcq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "186", "tablename": "arch_int1_d_tbaq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "695", "tablename": "arch_int1_feq_respondent1", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "599", "tablename": "arch_int1_feq_respondent2", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "3", "tablename": "arch_int1_feq_respondent3", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1123", "tablename": "arch_int1_icq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "700", "tablename": "arch_int1_paq_respondent1", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "604", "tablename": "arch_int1_paq_respondent2", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "3", "tablename": "arch_int1_paq_respondent3", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1106", "tablename": "arch_int1_pcq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "557", "tablename": "arch_int1_psi", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "560", "tablename": "arch_int1_s_bci", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "678", "tablename": "arch_int1_s_bfi", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1042", "tablename": "arch_int1_s_ccare", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "682", "tablename": "arch_int1_s_feq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "680", "tablename": "arch_int1_s_paq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "561", "tablename": "arch_int1_s_scq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1112", "tablename": "arch_int1_s_ses", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "498", "tablename": "arch_int1_s_zyg", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "548", "tablename": "arch_int1_scq", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "191", "tablename": "arch_int1_tbaq_respondent1", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "156", "tablename": "arch_int1_tbaq_respondent2", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1116", "tablename": "arch_interview 1 response tracker", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "117", "tablename": "arch_interview 3 response tracker", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "310", "tablename": "arch_interview 4 response tracker", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "550", "tablename": "arch_ph2", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "916", "tablename": "arch_s_de_m", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1342", "tablename": "arch_siblings", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "14282", "tablename": "arch_twins", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "1136", "tablename": "arch_zyg", "type": "misc"}
+{"index": {"_type": "tables", "_index": "metadata"}}
+{"responses": "3", "tablename": "arch_zyg_follow up", "type": "misc"}

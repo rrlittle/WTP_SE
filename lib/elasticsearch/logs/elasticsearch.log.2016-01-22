@@ -1,0 +1,1497 @@
+[2016-01-22 10:51:44,919][INFO ][node                     ] [Jean Grey] version[1.5.0], pid[5928], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-22 10:51:45,060][INFO ][node                     ] [Jean Grey] initializing ...
+[2016-01-22 10:51:47,090][INFO ][plugins                  ] [Jean Grey] loaded [], sites []
+[2016-01-22 10:53:48,242][ERROR][gateway.local.state.shards] [Jean Grey] failed to read local state (started shards), exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+[2016-01-22 10:53:49,346][ERROR][gateway.local.state.meta ] [Jean Grey] failed to read local state, exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadGlobalState(LocalGatewayMetaState.java:406)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:379)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+[2016-01-22 10:53:50,036][ERROR][gateway.local.state.shards] [Jean Grey] failed to read local state (started shards), exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+[2016-01-22 10:53:50,496][ERROR][gateway.local.state.meta ] [Jean Grey] failed to read local state, exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadGlobalState(LocalGatewayMetaState.java:406)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:379)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+[2016-01-22 10:53:51,065][ERROR][gateway.local.state.shards] [Jean Grey] failed to read local state (started shards), exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+[2016-01-22 10:53:51,534][ERROR][gateway.local.state.meta ] [Jean Grey] failed to read local state, exiting...
+org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadGlobalState(LocalGatewayMetaState.java:406)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:379)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+[2016-01-22 10:53:51,846][ERROR][bootstrap                ] Exception
+org.elasticsearch.common.inject.CreationException: Guice creation errors:
+
+1) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+  at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState
+    for parameter 4 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+    for parameter 1 at org.elasticsearch.gateway.GatewayService.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.GatewayService
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadGlobalState(LocalGatewayMetaState.java:406)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:379)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+
+2) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+  at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState
+    for parameter 4 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadGlobalState(LocalGatewayMetaState.java:406)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:379)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+
+3) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+  at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadGlobalState(LocalGatewayMetaState.java:406)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.loadState(LocalGatewayMetaState.java:379)
+	at org.elasticsearch.gateway.local.state.meta.LocalGatewayMetaState.<init>(LocalGatewayMetaState.java:162)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 3 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+
+4) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+  at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState
+    for parameter 3 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+    for parameter 1 at org.elasticsearch.gateway.GatewayService.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.GatewayService
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 48 more
+
+5) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+  at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState
+    for parameter 3 at org.elasticsearch.gateway.local.LocalGateway.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.LocalGateway
+  while locating org.elasticsearch.gateway.Gateway
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.SingleParameterInjector.inject(SingleParameterInjector.java:42)
+	at org.elasticsearch.common.inject.SingleParameterInjector.getAll(SingleParameterInjector.java:66)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:85)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 39 more
+
+6) Error injecting constructor, org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+  at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(Unknown Source)
+  while locating org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState
+Caused by: org.elasticsearch.ElasticsearchException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:153)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:291)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardStateInfo(LocalGatewayShardsState.java:189)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.loadShardsStateInfo(LocalGatewayShardsState.java:174)
+	at org.elasticsearch.gateway.local.state.shards.LocalGatewayShardsState.<init>(LocalGatewayShardsState.java:67)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: org.elasticsearch.gateway.local.state.meta.CorruptStateException: State version mismatch expected: 1 but was: 4
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.read(MetaDataStateFormat.java:178)
+	at org.elasticsearch.gateway.local.state.meta.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:281)
+	... 29 more
+
+6 errors
+	at org.elasticsearch.common.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:344)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:178)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:203)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:213)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+[2016-01-22 10:59:48,888][INFO ][node                     ] [Atleza] version[1.5.0], pid[5344], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-22 10:59:48,896][INFO ][node                     ] [Atleza] initializing ...
+[2016-01-22 10:59:50,656][INFO ][plugins                  ] [Atleza] loaded [], sites []
+[2016-01-22 11:01:50,252][INFO ][node                     ] [Atleza] initialized
+[2016-01-22 11:01:52,280][INFO ][node                     ] [Atleza] starting ...
+[2016-01-22 11:01:55,871][INFO ][transport                ] [Atleza] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-22 11:01:56,482][INFO ][discovery                ] [Atleza] elasticsearch/9a8Pi57BQDqwnkuLV2z1Vg
+[2016-01-22 11:02:01,561][INFO ][cluster.service          ] [Atleza] new_master [Atleza][9a8Pi57BQDqwnkuLV2z1Vg][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-22 11:02:02,671][INFO ][http                     ] [Atleza] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2016-01-22 11:02:02,679][INFO ][node                     ] [Atleza] started
+[2016-01-22 11:02:03,803][INFO ][gateway                  ] [Atleza] recovered [0] indices into cluster_state
+[2016-01-22 11:02:31,982][INFO ][cluster.routing.allocation.decider] [Atleza] low disk watermark [15%] exceeded on [9a8Pi57BQDqwnkuLV2z1Vg][Atleza] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:02:47,961][INFO ][node                     ] [Atleza] stopping ...
+[2016-01-22 11:02:48,244][INFO ][node                     ] [Atleza] stopped
+[2016-01-22 11:02:48,246][INFO ][node                     ] [Atleza] closing ...
+[2016-01-22 11:02:48,549][INFO ][node                     ] [Atleza] closed
+[2016-01-22 11:06:36,018][INFO ][node                     ] [Tony Stark] version[1.5.0], pid[5984], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-22 11:06:36,023][INFO ][node                     ] [Tony Stark] initializing ...
+[2016-01-22 11:06:40,190][INFO ][plugins                  ] [Tony Stark] loaded [mapper-attachments], sites []
+[2016-01-22 11:07:19,316][INFO ][node                     ] [Tony Stark] initialized
+[2016-01-22 11:07:19,915][INFO ][node                     ] [Tony Stark] starting ...
+[2016-01-22 11:07:20,919][INFO ][transport                ] [Tony Stark] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-22 11:07:21,128][INFO ][discovery                ] [Tony Stark] elasticsearch/ch1n8CTkSa6DwFXPuw1mUQ
+[2016-01-22 11:07:25,174][INFO ][cluster.service          ] [Tony Stark] new_master [Tony Stark][ch1n8CTkSa6DwFXPuw1mUQ][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-22 11:07:25,660][INFO ][http                     ] [Tony Stark] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2016-01-22 11:07:25,664][INFO ][node                     ] [Tony Stark] started
+[2016-01-22 11:07:25,847][INFO ][gateway                  ] [Tony Stark] recovered [0] indices into cluster_state
+[2016-01-22 11:07:55,273][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:08:25,245][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:08:55,246][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:09:25,251][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:09:55,344][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:10:25,353][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:10:55,353][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:11:25,364][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:11:55,356][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:12:25,359][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:12:55,359][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:13:25,362][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:13:55,383][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:14:25,384][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:14:55,394][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:15:00,883][INFO ][cluster.metadata         ] [Tony Stark] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [person]
+[2016-01-22 11:15:12,999][WARN ][indices.cluster          ] [Tony Stark] [test][4] sending failed shard after recovery failure
+org.elasticsearch.index.gateway.IndexShardGatewayRecoveryException: [test][4] failed recovery
+	at org.elasticsearch.index.gateway.IndexShardGatewayService$1.run(IndexShardGatewayService.java:162)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.engine.EngineCreationFailureException: [test][4] failed to create engine
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:140)
+	at org.elasticsearch.index.engine.InternalEngineFactory.newReadWriteEngine(InternalEngineFactory.java:24)
+	at org.elasticsearch.index.shard.IndexShard.newEngine(IndexShard.java:1251)
+	at org.elasticsearch.index.shard.IndexShard.createNewEngine(IndexShard.java:1246)
+	at org.elasticsearch.index.shard.IndexShard.prepareForTranslogRecovery(IndexShard.java:767)
+	at org.elasticsearch.index.gateway.local.LocalIndexShardGateway.recover(LocalIndexShardGateway.java:226)
+	at org.elasticsearch.index.gateway.IndexShardGatewayService$1.run(IndexShardGatewayService.java:112)
+	... 3 more
+Caused by: java.io.IOException: The parameter is incorrect
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at org.apache.lucene.store.NativeFSLock.obtain(NativeFSLockFactory.java:150)
+	at org.apache.lucene.store.Lock.obtain(Lock.java:77)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:755)
+	at org.elasticsearch.index.engine.InternalEngine.createWriter(InternalEngine.java:1055)
+	at org.elasticsearch.index.engine.InternalEngine.<init>(InternalEngine.java:138)
+	... 9 more
+[2016-01-22 11:15:13,142][WARN ][cluster.action.shard     ] [Tony Stark] [test][4] sending failed shard for [test][4], node[ch1n8CTkSa6DwFXPuw1mUQ], [P], s[INITIALIZING], indexUUID [7LgRaXA1RbixWz3EwdX21g], reason [Failed to start shard, message [IndexShardGatewayRecoveryException[[test][4] failed recovery]; nested: EngineCreationFailureException[[test][4] failed to create engine]; nested: IOException[The parameter is incorrect]; ]]
+[2016-01-22 11:15:13,147][WARN ][cluster.action.shard     ] [Tony Stark] [test][4] received shard failed for [test][4], node[ch1n8CTkSa6DwFXPuw1mUQ], [P], s[INITIALIZING], indexUUID [7LgRaXA1RbixWz3EwdX21g], reason [Failed to start shard, message [IndexShardGatewayRecoveryException[[test][4] failed recovery]; nested: EngineCreationFailureException[[test][4] failed to create engine]; nested: IOException[The parameter is incorrect]; ]]
+[2016-01-22 11:15:13,206][DEBUG][action.index             ] [Tony Stark] [test][2], node[ch1n8CTkSa6DwFXPuw1mUQ], [P], s[STARTED]: Failed to execute [index {[test][person][1], source[_na_]}]
+org.elasticsearch.index.mapper.MapperParsingException: failed to parse, document is empty
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:562)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:493)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:465)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:192)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction.performOnPrimary(TransportShardReplicationOperationAction.java:515)
+	at org.elasticsearch.action.support.replication.TransportShardReplicationOperationAction$AsyncShardOperationAction$1.run(TransportShardReplicationOperationAction.java:422)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-22 11:15:25,942][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:15:31,820][INFO ][cluster.metadata         ] [Tony Stark] [test] update_mapping [person] (dynamic)
+[2016-01-22 11:15:43,189][INFO ][cluster.metadata         ] [Tony Stark] [test] deleting index
+[2016-01-22 11:15:55,388][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:16:15,779][INFO ][cluster.metadata         ] [Tony Stark] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 11:16:25,701][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:16:28,028][INFO ][cluster.metadata         ] [Tony Stark] [test] create_mapping [person]
+[2016-01-22 11:16:55,743][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:17:25,713][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:17:55,688][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:18:25,878][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:18:55,702][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:19:25,714][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:19:55,731][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:20:25,750][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:20:55,712][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:21:25,849][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:21:55,851][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:22:25,823][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:22:55,825][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:25:25,527][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:24:36,081][INFO ][cluster.metadata         ] [Tony Stark] [test] deleting index
+[2016-01-22 11:24:26,041][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:23:55,847][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:23:25,830][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:33:50,453][DEBUG][action.admin.indices.delete] [Tony Stark] [test] failed to delete index
+org.elasticsearch.indices.IndexMissingException: [test] missing
+	at org.elasticsearch.cluster.metadata.MetaDataDeleteIndexService$2.execute(MetaDataDeleteIndexService.java:119)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:365)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-22 11:33:50,458][DEBUG][action.admin.indices.delete] [Tony Stark] [test] failed to delete index
+org.elasticsearch.indices.IndexMissingException: [test] missing
+	at org.elasticsearch.cluster.metadata.MetaDataDeleteIndexService$2.execute(MetaDataDeleteIndexService.java:119)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:365)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-22 11:33:50,462][INFO ][cluster.routing.allocation.decider] [Tony Stark] low disk watermark [15%] exceeded on [ch1n8CTkSa6DwFXPuw1mUQ][Tony Stark] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:33:50,464][DEBUG][action.admin.indices.delete] [Tony Stark] [test] failed to delete index
+org.elasticsearch.indices.IndexMissingException: [test] missing
+	at org.elasticsearch.cluster.metadata.MetaDataDeleteIndexService$2.execute(MetaDataDeleteIndexService.java:119)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:365)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-22 11:33:50,469][DEBUG][action.admin.indices.delete] [Tony Stark] [test] failed to delete index
+org.elasticsearch.indices.IndexMissingException: [test] missing
+	at org.elasticsearch.cluster.metadata.MetaDataDeleteIndexService$2.execute(MetaDataDeleteIndexService.java:119)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:365)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-22 11:33:50,476][DEBUG][action.admin.indices.delete] [Tony Stark] [test] failed to delete index
+org.elasticsearch.indices.IndexMissingException: [test] missing
+	at org.elasticsearch.cluster.metadata.MetaDataDeleteIndexService$2.execute(MetaDataDeleteIndexService.java:119)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:365)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-22 11:33:50,487][DEBUG][action.admin.indices.delete] [Tony Stark] [test] failed to delete index
+org.elasticsearch.indices.IndexMissingException: [test] missing
+	at org.elasticsearch.cluster.metadata.MetaDataDeleteIndexService$2.execute(MetaDataDeleteIndexService.java:119)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:365)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:188)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:158)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2016-01-22 11:33:55,452][INFO ][node                     ] [Tony Stark] stopping ...
+[2016-01-22 11:33:55,523][INFO ][node                     ] [Tony Stark] stopped
+[2016-01-22 11:33:55,526][INFO ][node                     ] [Tony Stark] closing ...
+[2016-01-22 11:33:55,673][INFO ][node                     ] [Tony Stark] closed
+[2016-01-22 11:34:10,412][INFO ][node                     ] [Blackheath] version[1.5.0], pid[5676], build[5448160/2015-03-23T14:30:58Z]
+[2016-01-22 11:34:10,437][INFO ][node                     ] [Blackheath] initializing ...
+[2016-01-22 11:34:13,373][INFO ][plugins                  ] [Blackheath] loaded [mapper-attachments], sites []
+[2016-01-22 11:34:46,249][INFO ][node                     ] [Blackheath] initialized
+[2016-01-22 11:34:46,828][INFO ][node                     ] [Blackheath] starting ...
+[2016-01-22 11:34:47,821][INFO ][transport                ] [Blackheath] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/144.92.143.172:9300]}
+[2016-01-22 11:34:48,024][INFO ][discovery                ] [Blackheath] elasticsearch/0BXgvFOGTSm_He8A1pXBfw
+[2016-01-22 11:34:52,067][INFO ][cluster.service          ] [Blackheath] new_master [Blackheath][0BXgvFOGTSm_He8A1pXBfw][Thurios][inet[/144.92.143.172:9300]], reason: zen-disco-join (elected_as_master)
+[2016-01-22 11:34:52,572][INFO ][http                     ] [Blackheath] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/144.92.143.172:9200]}
+[2016-01-22 11:34:52,575][INFO ][node                     ] [Blackheath] started
+[2016-01-22 11:34:52,796][INFO ][gateway                  ] [Blackheath] recovered [0] indices into cluster_state
+[2016-01-22 11:35:22,169][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:35:52,141][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:36:22,141][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:36:52,145][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:37:03,756][INFO ][cluster.metadata         ] [Blackheath] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 11:37:19,034][INFO ][cluster.metadata         ] [Blackheath] [test] create_mapping [person]
+[2016-01-22 11:37:52,586][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:37:22,688][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:38:22,617][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:38:52,619][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:39:22,647][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:39:52,483][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:40:22,469][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:40:52,521][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:41:22,493][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:41:52,776][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:42:22,558][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:42:52,558][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:43:07,072][INFO ][cluster.metadata         ] [Blackheath] [test] deleting index
+[2016-01-22 11:43:17,367][INFO ][cluster.metadata         ] [Blackheath] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 11:43:22,854][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:43:39,834][INFO ][cluster.metadata         ] [Blackheath] [test] create_mapping [person]
+[2016-01-22 11:43:52,765][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:44:22,699][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:44:33,812][INFO ][cluster.metadata         ] [Blackheath] [test] update_mapping [person] (dynamic)
+[2016-01-22 11:44:52,876][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:44:55,788][INFO ][cluster.metadata         ] [Blackheath] [test] deleting index
+[2016-01-22 11:45:01,103][INFO ][cluster.metadata         ] [Blackheath] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 11:45:09,429][INFO ][cluster.metadata         ] [Blackheath] [test] create_mapping [person]
+[2016-01-22 11:45:22,519][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:45:52,581][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:46:22,513][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:46:52,539][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:47:22,701][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:47:52,698][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:48:22,649][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:48:52,903][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:49:22,797][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:49:52,713][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:50:22,694][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:50:52,675][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:51:22,732][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:51:52,802][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:52:22,843][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:52:52,808][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:53:22,687][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:53:52,720][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:54:22,646][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:54:52,698][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:55:22,661][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:55:54,352][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:56:22,729][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:56:52,746][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:57:22,660][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:57:52,728][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:58:22,685][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:58:52,772][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:59:22,818][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 11:59:52,786][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:00:22,821][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:00:52,667][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:01:22,644][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:01:52,635][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:02:22,490][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:02:52,486][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:03:22,553][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:03:52,519][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:04:22,540][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:04:52,638][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:05:22,492][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:05:52,667][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:06:22,501][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:06:52,642][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:07:22,635][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:07:52,507][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:08:23,477][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:08:52,548][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:09:22,600][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:09:52,589][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:10:22,548][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:10:52,574][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:11:22,603][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:11:52,744][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:12:22,680][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:12:52,836][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:13:22,813][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:13:52,737][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:14:22,690][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:14:52,772][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:15:22,720][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:15:52,606][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:16:22,714][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:16:52,575][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:17:22,597][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:17:52,577][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:18:22,578][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:18:52,642][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:19:22,608][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:19:52,653][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:20:22,647][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:20:52,595][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:21:22,596][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:21:52,590][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:22:22,614][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:22:52,581][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:23:22,630][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:23:52,584][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:24:22,626][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:24:52,657][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:25:22,764][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:25:52,903][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:26:22,743][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:26:52,754][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:27:22,753][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:27:52,871][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:28:22,922][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:28:52,808][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:29:22,758][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:29:52,656][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:30:22,696][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:30:52,651][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:31:22,801][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:31:53,008][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:32:23,078][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:32:52,897][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:33:22,930][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:33:52,978][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:34:23,040][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:34:52,962][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:35:22,853][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:35:52,827][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:36:22,668][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:36:53,060][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:37:22,691][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:37:52,890][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:38:23,004][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:38:52,874][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.2gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:39:23,039][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.1gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:39:52,886][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.1gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:40:22,834][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.1gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:40:52,826][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.1gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:41:22,796][INFO ][node                     ] [Blackheath] stopping ...
+[2016-01-22 12:41:22,917][INFO ][cluster.routing.allocation.decider] [Blackheath] low disk watermark [15%] exceeded on [0BXgvFOGTSm_He8A1pXBfw][Blackheath] free: 51.1gb[10.2%], replicas will not be assigned to this node
+[2016-01-22 12:41:25,946][INFO ][node                     ] [Blackheath] stopped
+[2016-01-22 12:41:25,950][INFO ][node                     ] [Blackheath] closing ...
+[2016-01-22 12:41:26,162][INFO ][node                     ] [Blackheath] closed
+[2016-01-22 16:58:42,298][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:43:42,214][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:44:12,222][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:44:42,236][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:45:12,196][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:45:42,205][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:46:12,368][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:46:42,220][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:47:12,227][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:47:42,204][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:48:12,174][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:48:42,261][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:49:12,246][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:49:42,234][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:50:12,200][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:50:42,247][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:51:12,230][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:51:42,269][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:52:12,197][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:52:42,174][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:53:12,203][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:53:42,194][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:54:12,244][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:54:42,218][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:55:12,255][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:55:42,185][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:56:12,286][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:56:42,189][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:57:12,164][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:57:42,168][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:58:12,159][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:12:12,271][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:12:42,136][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:13:12,113][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:13:42,086][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:14:12,150][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:14:42,301][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:15:12,287][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:15:42,304][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:16:12,355][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:16:42,298][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:17:12,365][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:17:42,089][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:18:12,159][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:18:42,155][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:19:12,111][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:19:42,155][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:20:12,100][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:20:42,148][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:21:12,103][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:21:42,111][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:22:12,120][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:22:42,413][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:23:12,117][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:23:42,117][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:24:12,103][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:24:42,141][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:25:12,137][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:25:42,258][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:26:12,251][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:26:42,140][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:27:12,120][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:27:42,229][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:28:12,184][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:28:42,198][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:29:12,161][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:29:42,208][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:30:12,158][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:30:42,187][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:31:12,230][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:31:42,148][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:32:12,215][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:32:42,375][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:33:12,158][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:33:42,155][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:34:12,157][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:34:42,149][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:35:12,463][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:35:42,306][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:36:12,441][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:36:42,371][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:37:12,286][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:37:42,317][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:38:12,396][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:38:42,374][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:39:12,269][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:39:42,351][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:40:12,359][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:40:42,430][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:41:12,338][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:41:42,223][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:42:12,277][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 16:42:42,201][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+       "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:36,901][DEBUG][action.search.type       ] [Eson the Searcher] [test][2], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65b832e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content",]
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:36,904][DEBUG][action.search.type       ] [Eson the Searcher] [test][1], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65b832e1]
+org.elasticsearch.search.SearchParseException: [test][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content",]
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:36,903][DEBUG][action.search.type       ] [Eson the Searcher] [test][0], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65b832e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content",]
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:36,902][DEBUG][action.search.type       ] [Eson the Searcher] [test][4], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65b832e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content",]
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:36,901][DEBUG][action.search.type       ] [Eson the Searcher] [test][3], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@65b832e1] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content",]
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:36,934][DEBUG][action.search.type       ] [Eson the Searcher] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [test][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content",]
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:41,729][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:36:41,931][DEBUG][action.search.type       ] [Eson the Searcher] [test][0], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@493aadf3] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content"],
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:41,931][DEBUG][action.search.type       ] [Eson the Searcher] [test][4], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@493aadf3]
+org.elasticsearch.search.SearchParseException: [test][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content"],
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:41,931][DEBUG][action.search.type       ] [Eson the Searcher] [test][3], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@493aadf3] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content"],
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:41,931][DEBUG][action.search.type       ] [Eson the Searcher] [test][1], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@493aadf3] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content"],
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:41,931][DEBUG][action.search.type       ] [Eson the Searcher] [test][2], node[YDLoWVybQy2kYvPG0fX94g], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@493aadf3] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content"],
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:36:41,975][DEBUG][action.search.type       ] [Eson the Searcher] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [test][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query": {
+        "fields":["file.content"],
+        "query_string": {
+           "query": "*"
+        }
+    }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:721)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:557)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:529)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:291)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [test] No query registered for [fields]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:705)
+	... 9 more
+[2016-01-22 14:37:11,778][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:37:41,788][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:38:11,724][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:38:41,751][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:38:57,130][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 14:39:10,994][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 14:39:11,571][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:39:23,825][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 14:39:41,765][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:40:11,783][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:40:41,743][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:41:11,858][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:41:41,768][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:42:03,137][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 14:42:07,360][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 14:42:12,199][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:42:12,593][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 14:42:41,824][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:43:11,843][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:43:41,740][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:44:11,743][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:44:42,066][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:45:11,811][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:45:41,811][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:46:12,085][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:46:41,801][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:46:51,596][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 14:46:56,421][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 14:46:59,416][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 14:47:11,833][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:47:41,853][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:48:04,863][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 14:48:11,455][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:48:16,547][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 14:48:22,673][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 14:48:41,807][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:49:11,925][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:49:42,142][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:50:11,813][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:50:41,774][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:51:02,358][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 14:51:11,449][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:51:20,039][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 14:51:22,742][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 14:51:41,830][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:52:10,337][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 14:52:11,446][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:52:33,018][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 14:52:35,484][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 14:52:41,787][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:53:02,862][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 14:53:07,230][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 14:53:09,700][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 14:53:12,104][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:53:41,785][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:53:43,107][INFO ][cluster.metadata         ] [Eson the Searcher] [test] update_mapping [person] (dynamic)
+[2016-01-22 14:54:11,779][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:54:41,833][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:55:11,777][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:55:41,838][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:56:11,834][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:56:41,891][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:57:11,958][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:57:41,785][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:58:11,785][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:58:41,764][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:59:11,758][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 14:59:41,761][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:00:11,788][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:00:41,778][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:01:11,812][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:01:41,749][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:02:11,966][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:02:41,940][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:03:12,000][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:03:41,921][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:04:11,893][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:04:42,172][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:05:11,897][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:05:41,744][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:06:11,812][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:06:41,779][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:07:11,736][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:07:42,710][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:08:11,737][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:08:41,798][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:09:11,736][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:09:41,774][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:10:11,929][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:10:41,759][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:11:11,771][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:11:41,948][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:12:11,829][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:12:24,546][INFO ][cluster.metadata         ] [Eson the Searcher] [test] deleting index
+[2016-01-22 15:12:31,784][INFO ][cluster.metadata         ] [Eson the Searcher] [test] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-01-22 15:12:41,760][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:13:11,833][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:13:26,035][INFO ][cluster.metadata         ] [Eson the Searcher] [test] create_mapping [person]
+[2016-01-22 15:13:41,753][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:14:11,776][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:14:41,778][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:15:11,781][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:15:41,795][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:16:11,808][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:16:41,757][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:17:11,793][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:17:41,770][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:18:11,794][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node
+[2016-01-22 15:18:41,770][INFO ][cluster.routing.allocation.decider] [Eson the Searcher] low disk watermark [15%] exceeded on [YDLoWVybQy2kYvPG0fX94g][Eson the Searcher] free: 50.9gb[10.1%], replicas will not be assigned to this node

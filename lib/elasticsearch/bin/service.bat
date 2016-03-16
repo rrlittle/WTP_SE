@@ -104,7 +104,8 @@ set JVM_DLL=%JAVA_HOME%\jre\bin\server\jvm.dll
 if exist "%JVM_DLL%" goto foundJVM
 
 rem Check 'server' JRE (JRE installed on Windows Server)
-set JVM_DLL=%JAVA_HOME%\bin\server\jvm.dll
+rem THIS DIDINT WORK CAUSAE DAMNED LINKS IN WINDOWS!!!  set JVM_DLL=%JAVA_HOME%\bin\server\jvm.dll
+set JVM_DLL=C:\Program Files\Java\jre1.8.0_73\bin\server\jvm.dll
 if exist "%JVM_DLL%" goto foundJVM
 
 rem Fallback to 'client' JRE
